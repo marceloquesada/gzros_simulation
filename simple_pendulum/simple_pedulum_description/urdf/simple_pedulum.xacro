@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<robot name="simple_pedulum" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find simple_pedulum_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find simple_pedulum_description)/urdf/simple_pedulum.trans" />
+<xacro:include filename="$(find simple_pedulum_description)/urdf/simple_pedulum.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.012500000038143316 0.045846826121013436 -0.024183593613065192" rpy="0 0 0"/>
+    <mass value="0.9254518780839054"/>
+    <inertia ixx="0.00585" iyy="0.004914" izz="0.001627" ixy="-0.0" iyz="-0.000767" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://simple_pedulum_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://simple_pedulum_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pendulum_1">
+  <inertial>
+    <origin xyz="1.8632134030083236e-10 1.7881393241103716e-10 -0.13956521697300156" rpy="0 0 0"/>
+    <mass value="0.10635272949009089"/>
+    <inertia ixx="0.000173" iyy="0.000173" izz="9e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0125 -0.012 -0.175" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://simple_pedulum_description/meshes/pendulum_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0125 -0.012 -0.175" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://simple_pedulum_description/meshes/pendulum_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Ball2" type="Ball">
+  <origin xyz="0.0125 0.012 0.175" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="pendulum_1"/>
+</joint>
+
+</robot>
