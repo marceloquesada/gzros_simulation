@@ -1,0 +1,124 @@
+<sdf version='1.7'>
+  <model name='simple_pedulum'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.0125 0.045847 -0.024184 0 -0 0</pose>
+        <mass>0.925452</mass>
+        <inertia>
+          <ixx>0.00585</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.004914</iyy>
+          <iyz>-0.000767</iyz>
+          <izz>0.001627</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://simple_pedulum_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://simple_pedulum_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Silver</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+      <gravity>1</gravity>
+    </link>
+    <joint name='Ball2' type='revolute'>
+      <pose relative_to='base_link'>0.0125 0.012 0.175 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>pendulum_1</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0.5</spring_reference>
+          <spring_stiffness>0.5</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='pendulum_1'>
+      <pose relative_to='Ball2'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 -0.139565 0 -0 0</pose>
+        <mass>0.106353</mass>
+        <inertia>
+          <ixx>0.000173</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000173</iyy>
+          <iyz>0</iyz>
+          <izz>9e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='pendulum_1_collision'>
+        <pose>-0.0125 -0.012 -0.175 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://simple_pedulum_description/meshes/pendulum_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.2</mu>
+              <mu2>0.2</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='pendulum_1_visual'>
+        <pose>-0.0125 -0.012 -0.175 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://simple_pedulum_description/meshes/pendulum_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Silver</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <static>0</static>
+    <plugin name='control' filename='libgazebo_ros_control.so'/>
+  </model>
+</sdf>

@@ -46,7 +46,7 @@
   </collision>
 </link>
 
-<joint name="Ball2" type="Ball">
+<joint name="Ball2" type="continuous">
   <origin xyz="0.0125 0.012 0.175" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="pendulum_1"/>
