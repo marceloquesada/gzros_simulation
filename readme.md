@@ -2,7 +2,7 @@
 
 ## Use
 
-This repo contains models, scripts and every file i created when emulating and contrling simple dynamic systems in gazebo + ROS.
+This repo contains models, scripts and every file i created when emulating and controlling simple dynamic systems in gazebo + ROS.
 
 If you are studying this area, feel free to use any assets provided here in your learning experience :)
 
