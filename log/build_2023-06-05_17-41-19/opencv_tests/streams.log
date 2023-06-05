@@ -1,0 +1,34 @@
+[1.630s] Invoking command in '/home/marceloqm/gzros_sim/build/opencv_tests': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data
+[2.239s] running develop
+[2.259s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.259s]   warnings.warn(
+[2.276s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.276s]   warnings.warn(
+[2.411s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.411s]   warnings.warn(
+[2.420s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.420s]   warnings.warn(
+[2.601s] running egg_info
+[2.601s] creating opencv_tests.egg-info
+[2.601s] writing opencv_tests.egg-info/PKG-INFO
+[2.602s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[2.602s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[2.602s] writing requirements to opencv_tests.egg-info/requires.txt
+[2.603s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[2.603s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.606s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.607s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.609s] running build_ext
+[2.609s] Creating /home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[2.611s] Installing broadcast script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[2.611s] Installing rosfacedetect script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[2.612s] Installing source script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[2.612s] 
+[2.612s] Installed /home/marceloqm/gzros_sim/build/opencv_tests
+[2.613s] running install_data
+[2.613s] creating /home/marceloqm/gzros_sim/install/opencv_tests/share/ament_index
+[2.613s] creating /home/marceloqm/gzros_sim/install/opencv_tests/share/ament_index/resource_index
+[2.613s] creating /home/marceloqm/gzros_sim/install/opencv_tests/share/ament_index/resource_index/packages
+[2.614s] copying resource/opencv_tests -> /home/marceloqm/gzros_sim/install/opencv_tests/share/ament_index/resource_index/packages
+[2.614s] copying package.xml -> /home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests
+[2.733s] Invoked command in '/home/marceloqm/gzros_sim/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data

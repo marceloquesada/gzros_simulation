@@ -1,0 +1,1 @@
+/home/marceloqm/gzros_simulation/build/vision_opencv/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,107 @@
+[0.149s] Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_ros': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_ros -- -j8 -l8
+[0.851s] [  0%] Built target ament_cmake_python_symlink_scripts
+[0.896s] [  3%] Built target gtest_main
+[0.898s] [  6%] Built target gtest
+[1.163s] running egg_info
+[1.163s] writing scripts.egg-info/PKG-INFO
+[1.164s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.164s] writing top-level names to scripts.egg-info/top_level.txt
+[1.166s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.190s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.215s] [  6%] Built target ament_cmake_python_build_scripts_egg
+[1.275s] [ 10%] Built target mock_robot_state_publisher
+[1.338s] [ 13%] Built target mock_gazebo_ros_factory
+[1.533s] [ 23%] Built target gazebo_ros_utils
+[1.533s] [ 23%] Built target gazebo_ros_node
+[1.720s] [ 26%] Built target args_init
+[1.723s] [ 30%] Built target create_node_without_init
+[1.727s] [ 33%] Built target gazebo_ros_force_system
+[1.729s] [ 36%] Built target multiple_nodes
+[1.759s] [ 40%] Built target gazebo_ros_state
+[1.795s] [ 43%] Built target ros_world_plugin
+[1.878s] [ 46%] Built target test_conversions
+[1.890s] [ 50%] Built target sdf_node
+[2.101s] [ 53%] Built target gazebo_ros_properties
+[2.110s] [ 56%] Built target gazebo_ros_factory
+[2.132s] [ 60%] Built target test_gazebo_ros_factory
+[2.132s] [ 63%] Built target test_gazebo_ros_joint_effort
+[2.134s] [ 66%] Built target test_gazebo_ros_properties
+[2.135s] [ 70%] Built target test_gazebo_ros_link_wrench
+[2.146s] [ 76%] Built target gazebo_ros_init
+[2.146s] [ 76%] Built target test_gazebo_ros_init
+[2.216s] [ 80%] Built target test_node
+[2.216s] [ 83%] Built target test_reject_duplicate_nodes
+[2.226s] [ 86%] Built target test_plugins
+[2.235s] [ 90%] Built target test_qos
+[2.253s] [ 93%] Built target test_utils
+[2.274s] [ 96%] Built target test_sim_time
+[2.323s] [100%] Built target test_gazebo_ros_state
+[2.335s] Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_ros -- -j8 -l8
+[2.397s] Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_ros': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_ros
+[2.422s] -- Install configuration: ""
+[2.429s] -- Execute custom install script
+[2.439s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.sh
+[2.439s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.dsv
+[2.440s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.7.0-py3.10.egg-info/PKG-INFO
+[2.440s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.7.0-py3.10.egg-info/SOURCES.txt
+[2.441s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.7.0-py3.10.egg-info/dependency_links.txt
+[2.441s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.7.0-py3.10.egg-info/top_level.txt
+[2.441s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/__init__.py
+[2.442s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/gazebo_ros_paths.py
+[2.442s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/spawn_entity.py
+[2.442s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/library_path.sh
+[2.442s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/library_path.dsv
+[2.443s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_ros
+[2.443s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_ros
+[2.443s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.sh
+[2.444s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.dsv
+[2.444s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/path.sh
+[2.444s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/environment/path.dsv
+[2.445s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/local_setup.bash
+[2.445s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/local_setup.sh
+[2.445s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/local_setup.zsh
+[2.445s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/local_setup.dsv
+[2.446s] -- Symlinking: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.dsv
+[2.454s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/ament_index/resource_index/packages/gazebo_ros
+[2.454s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[2.454s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.455s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.455s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+[2.455s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+[2.455s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.xml
+[2.456s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/conversions/builtin_interfaces.hpp
+[2.456s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/conversions/gazebo_msgs.hpp
+[2.457s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/conversions/generic.hpp
+[2.457s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/conversions/geometry_msgs.hpp
+[2.457s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/conversions/sensor_msgs.hpp
+[2.457s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/executor.hpp
+[2.457s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp
+[2.458s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/gazebo_ros_force_system.hpp
+[2.458s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp
+[2.458s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/gazebo_ros_properties.hpp
+[2.458s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/gazebo_ros_state.hpp
+[2.459s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/node.hpp
+[2.459s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/node_visibility_control.h
+[2.459s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/qos.hpp
+[2.460s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/testing_utils.hpp
+[2.460s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/utils.hpp
+[2.460s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/include/gazebo_ros/utils_visibility_control.h
+[2.461s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/gazebo_ros//gazebo_ros_paths.py
+[2.478s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_factory.so
+[2.478s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_force_system.so
+[2.479s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_init.so
+[2.479s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_node.so
+[2.479s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_properties.so
+[2.480s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_state.so
+[2.480s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/libgazebo_ros_utils.so
+[2.480s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/lib/gazebo_ros//spawn_entity.py
+[2.485s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//launch/gazebo.launch.py
+[2.485s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//launch/gzclient.launch.py
+[2.485s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//launch/gzserver.launch.py
+[2.486s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//launch/spawn_entity_demo.launch.py
+[2.486s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//worlds/empty.world
+[2.487s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_force_system_demo.world
+[2.487s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_properties_demo.world
+[2.487s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_state_demo.world
+[2.516s] Listing '/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts'...
+[2.526s] Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_ros

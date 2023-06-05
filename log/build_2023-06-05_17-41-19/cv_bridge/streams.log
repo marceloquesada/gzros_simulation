@@ -1,0 +1,116 @@
+[0.029s] Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_sim/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_sim/install/cv_bridge
+[0.475s] -- The C compiler identification is GNU 11.3.0
+[0.776s] -- The CXX compiler identification is GNU 11.3.0
+[0.798s] -- Detecting C compiler ABI info
+[0.952s] -- Detecting C compiler ABI info - done
+[0.961s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.962s] -- Detecting C compile features
+[1.037s] -- Detecting C compile features - done
+[1.042s] -- Detecting CXX compiler ABI info
+[1.194s] -- Detecting CXX compiler ABI info - done
+[1.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.201s] -- Detecting CXX compile features
+[1.202s] -- Detecting CXX compile features - done
+[1.261s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.713s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.855s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.233s] -- Found Python3: /usr/include/python3.10 (found version "3.10.6") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[4.403s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[4.405s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/share/rcpputils/cmake)
+[4.420s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.448s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.453s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.461s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.930s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[5.006s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[5.007s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[5.091s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[5.091s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[5.240s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[5.302s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.637s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.640s] -- Looking for pthread.h
+[5.715s] -- Looking for pthread.h - found
+[5.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.785s] -- Found Threads: TRUE  
+[8.643s] -- Configuring done
+[8.710s] -- Generating done
+[8.713s] -- Build files have been written to: /home/marceloqm/gzros_sim/build/cv_bridge
+[8.727s] Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_sim/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_sim/install/cv_bridge
+[8.728s] Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[8.794s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.796s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[8.797s] [ 18%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[8.805s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[8.806s] [ 25%] Built target ament_cmake_python_symlink_cv_bridge
+[9.234s] running egg_info
+[9.234s] creating cv_bridge.egg-info
+[9.234s] writing cv_bridge.egg-info/PKG-INFO
+[9.235s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[9.235s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[9.235s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[9.238s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[9.239s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[9.277s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[9.742s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[9.832s] [ 31%] Built target gtest_main
+[13.861s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.955s] [ 37%] Built target gtest
+[14.108s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[14.290s] [ 43%] Built target cv_bridge
+[14.313s] [ 50%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[14.314s] [ 56%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[14.316s] [ 62%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[14.317s] [ 68%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[14.318s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[14.323s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[14.325s] [ 87%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[17.612s] [ 93%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[21.071s] [ 93%] Built target cv_bridge-utest
+[24.015s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[24.244s] [100%] Built target cv_bridge_boost
+[24.258s] Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[24.301s] Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge
+[24.312s] -- Install configuration: ""
+[24.312s] -- Execute custom install script
+[24.312s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[24.326s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[24.335s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[24.345s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[24.356s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[24.368s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[24.380s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[24.390s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[24.401s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[24.412s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[24.426s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[24.440s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[24.474s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/lib/libcv_bridge.so
+[24.492s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[24.520s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[24.534s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[24.552s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[24.570s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/path.sh
+[24.594s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[24.609s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.bash
+[24.631s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.sh
+[24.642s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[24.661s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[24.674s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.dsv
+[24.687s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[24.699s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[24.711s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.723s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[24.735s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[24.747s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[24.760s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.xml
+[24.818s] Listing '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[24.818s] Compiling '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[24.818s] Listing '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[24.818s] Compiling '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[24.826s] -- Installing: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[24.826s] -- Installing: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[24.838s] Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge

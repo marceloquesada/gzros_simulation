@@ -1,0 +1,54 @@
+[0.070s] Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[0.994s] [  0%] Built target ament_cmake_python_symlink_cv_bridge
+[1.262s] [ 12%] Built target gtest_main
+[1.320s] [ 25%] Built target gtest
+[1.370s] running egg_info
+[1.371s] writing cv_bridge.egg-info/PKG-INFO
+[1.371s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.371s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.438s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.453s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.478s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.570s] [ 43%] Built target cv_bridge
+[1.660s] [ 81%] Built target cv_bridge-utest
+[1.882s] [100%] Built target cv_bridge_boost
+[1.893s] Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[1.932s] Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge
+[1.981s] -- Install configuration: ""
+[2.046s] -- Execute custom install script
+[2.067s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[2.068s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[2.068s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[2.069s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[2.069s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[2.069s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[2.070s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[2.071s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[2.071s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[2.077s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[2.078s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[2.078s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[2.080s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/lib/libcv_bridge.so
+[2.080s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[2.089s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[2.090s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[2.090s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[2.090s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/path.sh
+[2.091s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[2.091s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.bash
+[2.091s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.sh
+[2.092s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[2.092s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[2.092s] -- Symlinking: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.dsv
+[2.100s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[2.101s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[2.101s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.101s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[2.102s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[2.102s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[2.102s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.xml
+[2.181s] Listing '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[2.181s] Listing '/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[2.208s] -- Up-to-date: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[2.208s] -- Up-to-date: /home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[2.210s] Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge

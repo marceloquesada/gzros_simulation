@@ -1,0 +1,66 @@
+[0.025s] Invoking command in '/home/marceloqm/gzros_simulation/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_simulation/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_simulation/install/cv_bridge
+[0.088s] -- The C compiler identification is GNU 11.3.0
+[0.150s] -- The CXX compiler identification is GNU 11.3.0
+[0.160s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.658s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.725s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.453s] -- Found Python3: /usr/include/python3.10 (found version "3.10.6") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[1.530s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[1.539s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/share/rcpputils/cmake)
+[1.577s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.733s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.769s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.810s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.926s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.659s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.741s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.742s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.830s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.831s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.923s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.947s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.136s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.167s] -- Looking for pthread.h
+[3.300s] -- Looking for pthread.h - found
+[3.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.404s] -- Found Threads: TRUE  
+[5.589s] -- Configuring done
+[5.645s] -- Generating done
+[5.648s] -- Build files have been written to: /home/marceloqm/gzros_simulation/build/cv_bridge
+[5.660s] Invoked command in '/home/marceloqm/gzros_simulation/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_simulation/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_simulation/install/cv_bridge
+[5.661s] Invoking command in '/home/marceloqm/gzros_simulation/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_simulation/build/cv_bridge -- -j8 -l8
+[5.724s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.730s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.734s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[5.735s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[5.745s] [ 25%] Built target ament_cmake_python_symlink_cv_bridge
+[6.347s] running egg_info
+[6.352s] creating cv_bridge.egg-info
+[6.352s] writing cv_bridge.egg-info/PKG-INFO
+[6.352s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[6.354s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[6.354s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[6.356s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[6.356s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[6.395s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[6.488s] gmake[2]: *** [gtest/CMakeFiles/gtest_main.dir/build.make:76: gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o] Interrupt
+[6.488s] gmake[1]: *** [CMakeFiles/Makefile2:351: gtest/CMakeFiles/gtest_main.dir/all] Interrupt
+[6.488s] gmake[2]: *** [src/CMakeFiles/cv_bridge.dir/build.make:90: src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o] Interrupt
+[6.488s] gmake[2]: *** [src/CMakeFiles/cv_bridge.dir/build.make:76: src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o] Interrupt
+[6.489s] gmake[1]: *** [CMakeFiles/Makefile2:245: src/CMakeFiles/cv_bridge.dir/all] Interrupt
+[6.489s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[6.489s] gmake[1]: *** [CMakeFiles/Makefile2:325: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[6.489s] gmake: *** [Makefile:146: all] Interrupt
+[6.494s] Invoked command in '/home/marceloqm/gzros_simulation/build/cv_bridge' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_simulation/build/cv_bridge -- -j8 -l8

@@ -1,0 +1,15 @@
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_pkgs
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_pkgs
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/environment/ament_prefix_path.sh
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/environment/ament_prefix_path.dsv
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/environment/path.sh
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/environment/path.dsv
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/local_setup.bash
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/local_setup.sh
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/local_setup.zsh
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/local_setup.dsv
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.dsv
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/ament_index/resource_index/packages/gazebo_ros_pkgs
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/cmake/gazebo_ros_pkgsConfig.cmake
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/cmake/gazebo_ros_pkgsConfig-version.cmake
+/home/marceloqm/gzros_simulation/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.xml

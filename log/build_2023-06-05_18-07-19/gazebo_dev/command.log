@@ -1,0 +1,4 @@
+Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev
+Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev

@@ -1,0 +1,54 @@
+[0.225s] Invoking command in '/home/marceloqm/gzros_sim/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/image_geometry -- -j8 -l8
+[1.818s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.818s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.831s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[1.836s] [  0%] Built target ament_cmake_python_symlink_image_geometry
+[2.198s] running egg_info
+[2.198s] writing image_geometry.egg-info/PKG-INFO
+[2.198s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[2.199s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.240s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.262s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.410s] [  0%] Built target ament_cmake_python_build_image_geometry_egg
+[2.978s] [ 22%] Built target gtest_main
+[3.208s] [ 44%] Built target gtest
+[3.759s] [ 77%] Built target image_geometry
+[3.872s] [35m[1mConsolidate compiler generated dependencies of target image_geometry-utest[0m
+[3.915s] [100%] Built target image_geometry-utest
+[3.925s] Invoked command in '/home/marceloqm/gzros_sim/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/image_geometry -- -j8 -l8
+[3.957s] Invoking command in '/home/marceloqm/gzros_sim/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/image_geometry
+[3.964s] -- Install configuration: ""
+[4.053s] -- Execute custom install script
+[4.147s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[4.147s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[4.151s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[4.151s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[4.152s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[4.152s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[4.162s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[4.164s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[4.212s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[4.212s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[4.215s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[4.230s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[4.231s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[4.232s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[4.248s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[4.249s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/path.sh
+[4.250s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/environment/path.dsv
+[4.251s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/local_setup.bash
+[4.251s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/local_setup.sh
+[4.252s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/local_setup.zsh
+[4.252s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/local_setup.dsv
+[4.252s] -- Symlinking: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.dsv
+[4.371s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[4.373s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[4.373s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.374s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[4.437s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[4.439s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.xml
+[4.673s] Listing '/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[4.827s] -- Up-to-date: /home/marceloqm/gzros_sim/install/image_geometry/lib/libimage_geometry.so
+[4.866s] -- Up-to-date: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[4.866s] -- Up-to-date: /home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[4.880s] Invoked command in '/home/marceloqm/gzros_sim/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/image_geometry

@@ -1,0 +1,3353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000563] (-) JobUnselected: {'identifier': 'gazebo_dev'}
+[0.000727] (-) JobUnselected: {'identifier': 'gazebo_msgs'}
+[0.001012] (-) JobUnselected: {'identifier': 'gazebo_ros'}
+[0.001079] (-) JobUnselected: {'identifier': 'gazebo_ros_pkgs'}
+[0.001109] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001137] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001175] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.001207] (gazebo_plugins) JobQueued: {'identifier': 'gazebo_plugins', 'dependencies': OrderedDict([('cv_bridge', '/home/marceloqm/gzros_simulation/install/cv_bridge'), ('gazebo_dev', '/home/marceloqm/gzros_simulation/install/gazebo_dev'), ('gazebo_msgs', '/home/marceloqm/gzros_simulation/install/gazebo_msgs'), ('gazebo_ros', '/home/marceloqm/gzros_simulation/install/gazebo_ros')])}
+[0.002150] (gazebo_plugins) JobStarted: {'identifier': 'gazebo_plugins'}
+[0.016660] (gazebo_plugins) JobProgress: {'identifier': 'gazebo_plugins', 'progress': 'cmake'}
+[0.016849] (gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/marceloqm/gzros_simulation/src/gazebo_ros_pkgs/gazebo_plugins', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_simulation/install/gazebo_plugins'], 'cwd': '/home/marceloqm/gzros_simulation/build/gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marceloqm'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/marceloqm'), ('OLDPWD', '/home/marceloqm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '25031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/marceloqm/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/marceloqm/gzros_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'marceloqm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marceloqm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blacksabath:@/tmp/.ICE-unix/25012,unix/blacksabath:/tmp/.ICE-unix/25012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82c93e92_bb7a_4a46_963d_383a9405c9ef'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/opencv_tests:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marceloqm/gzros_simulation/build/gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/marceloqm/gzros_sim/build/opencv_tests:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[0.083327] (gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.099747] (-) TimerEvent: {}
+[0.151104] (gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.159120] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199841] (-) TimerEvent: {}
+[0.228956] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.238708] (gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.239031] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.239591] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.244384] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299937] (-) TimerEvent: {}
+[0.325300] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.332923] (gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.333185] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.333637] (gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.337075] (gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400072] (-) TimerEvent: {}
+[0.500376] (-) TimerEvent: {}
+[0.534414] (gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.597076] (gazebo_plugins) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600454] (-) TimerEvent: {}
+[0.655231] (gazebo_plugins) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[0.700558] (-) TimerEvent: {}
+[0.800855] (-) TimerEvent: {}
+[0.822163] (gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.829783] (gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.840306] (gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.856886] (gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.879954] (gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900958] (-) TimerEvent: {}
+[1.001274] (-) TimerEvent: {}
+[1.032516] (gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.066444] (gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101394] (-) TimerEvent: {}
+[1.201679] (-) TimerEvent: {}
+[1.301965] (-) TimerEvent: {}
+[1.402246] (-) TimerEvent: {}
+[1.502507] (-) TimerEvent: {}
+[1.537355] (gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.602580] (-) TimerEvent: {}
+[1.615013] (gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.677486] (gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.702671] (-) TimerEvent: {}
+[1.763950] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.802777] (-) TimerEvent: {}
+[1.839512] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.839905] (gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.902886] (-) TimerEvent: {}
+[1.916056] (gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.917542] (gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.002976] (-) TimerEvent: {}
+[2.103264] (-) TimerEvent: {}
+[2.203510] (-) TimerEvent: {}
+[2.303844] (-) TimerEvent: {}
+[2.404107] (-) TimerEvent: {}
+[2.465342] (gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/home/marceloqm/gzros_simulation/install/gazebo_dev/share/gazebo_dev/cmake)\n'}
+[2.481878] (gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.483609] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[2.504221] (-) TimerEvent: {}
+[2.506018] (gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.604331] (-) TimerEvent: {}
+[2.704644] (-) TimerEvent: {}
+[2.801755] (gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.804707] (-) TimerEvent: {}
+[2.882435] (gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.904825] (-) TimerEvent: {}
+[2.968730] (gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[3.004914] (-) TimerEvent: {}
+[3.102893] (gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[3.105009] (-) TimerEvent: {}
+[3.193013] (gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.205126] (-) TimerEvent: {}
+[3.207542] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.14.0\n'}
+[3.264251] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.267294] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.268142] (gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[3.275857] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[3.293954] (gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[3.305229] (-) TimerEvent: {}
+[3.334764] (gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.351476] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.361591] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.367792] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.368051] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.374212] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.374531] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.380102] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.380359] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.385481] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.385812] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.391003] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.391236] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.397001] (gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.405329] (-) TimerEvent: {}
+[3.505720] (-) TimerEvent: {}
+[3.557569] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.14.0\n'}
+[3.584562] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[3.585127] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.604417] (gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.605791] (-) TimerEvent: {}
+[3.617358] (gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.622760] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.705911] (-) TimerEvent: {}
+[3.741159] (gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.781970] (gazebo_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.789703] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.806003] (-) TimerEvent: {}
+[3.825675] (gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[3.860839] (gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.871653] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.872293] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.894215] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.14.0\n'}
+[3.901441] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.906090] (-) TimerEvent: {}
+[3.921012] (gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[3.958881] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.969613] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.970179] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.970787] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.971636] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.973078] (gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.004885] (gazebo_plugins) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[4.005846] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.006146] (-) TimerEvent: {}
+[4.009099] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.009800] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.010242] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.14.0\n'}
+[4.040886] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.041473] (gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.106268] (-) TimerEvent: {}
+[4.174074] (gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[4.192754] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.206384] (-) TimerEvent: {}
+[4.207300] (gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[4.247989] (gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[4.254690] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.269780] (gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[4.306510] (-) TimerEvent: {}
+[4.307401] (gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[4.307860] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.308299] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.14.0\n'}
+[4.308720] (gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.339550] (gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[4.339867] (gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[4.355589] (gazebo_plugins) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[4.392305] (gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/cmake)\n'}
+[4.406579] (-) TimerEvent: {}
+[4.506950] (-) TimerEvent: {}
+[4.607333] (-) TimerEvent: {}
+[4.635139] (gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/cmake)\n'}
+[4.673191] (gazebo_plugins) StdoutLine: {'line': b'-- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[4.707441] (-) TimerEvent: {}
+[4.807854] (-) TimerEvent: {}
+[4.818074] (gazebo_plugins) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[4.857851] (gazebo_plugins) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.907962] (-) TimerEvent: {}
+[4.976207] (gazebo_plugins) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[5.008080] (-) TimerEvent: {}
+[5.094099] (gazebo_plugins) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.108185] (-) TimerEvent: {}
+[5.115762] (gazebo_plugins) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.176337] (gazebo_plugins) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.178188] (gazebo_plugins) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.178374] (gazebo_plugins) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.208289] (-) TimerEvent: {}
+[5.308589] (-) TimerEvent: {}
+[5.408871] (-) TimerEvent: {}
+[5.509178] (-) TimerEvent: {}
+[5.609503] (-) TimerEvent: {}
+[5.709832] (-) TimerEvent: {}
+[5.810146] (-) TimerEvent: {}
+[5.910463] (-) TimerEvent: {}
+[6.010819] (-) TimerEvent: {}
+[6.111118] (-) TimerEvent: {}
+[6.150619] (gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[6.158670] (gazebo_plugins) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[6.211228] (-) TimerEvent: {}
+[6.311521] (-) TimerEvent: {}
+[6.411798] (-) TimerEvent: {}
+[6.512093] (-) TimerEvent: {}
+[6.610699] (gazebo_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.612179] (-) TimerEvent: {}
+[6.712426] (-) TimerEvent: {}
+[6.743158] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.751379] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.754792] (gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/marceloqm/gzros_simulation/src/gazebo_ros_pkgs/gazebo_plugins/include\n'}
+[6.754956] (gazebo_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.756713] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.759101] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.779023] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.786152] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.786341] (gazebo_plugins) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.787798] (gazebo_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.792440] (gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.812518] (-) TimerEvent: {}
+[6.912807] (-) TimerEvent: {}
+[7.013092] (-) TimerEvent: {}
+[7.113398] (-) TimerEvent: {}
+[7.213707] (-) TimerEvent: {}
+[7.314026] (-) TimerEvent: {}
+[7.414314] (-) TimerEvent: {}
+[7.514579] (-) TimerEvent: {}
+[7.614885] (-) TimerEvent: {}
+[7.715204] (-) TimerEvent: {}
+[7.815511] (-) TimerEvent: {}
+[7.861285] (gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[7.868248] (gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/marceloqm/gzros_simulation/build/gazebo_plugins\n'}
+[7.891752] (gazebo_plugins) CommandEnded: {'returncode': 0}
+[7.892720] (gazebo_plugins) JobProgress: {'identifier': 'gazebo_plugins', 'progress': 'build'}
+[7.894088] (gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/marceloqm/gzros_simulation/build/gazebo_plugins', '--', '-j8', '-l8'], 'cwd': '/home/marceloqm/gzros_simulation/build/gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marceloqm'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/marceloqm'), ('OLDPWD', '/home/marceloqm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '25031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/marceloqm/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/marceloqm/gzros_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'marceloqm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marceloqm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blacksabath:@/tmp/.ICE-unix/25012,unix/blacksabath:/tmp/.ICE-unix/25012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82c93e92_bb7a_4a46_963d_383a9405c9ef'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/opencv_tests:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marceloqm/gzros_simulation/build/gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/marceloqm/gzros_sim/build/opencv_tests:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[7.915622] (-) TimerEvent: {}
+[7.960560] (gazebo_plugins) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_joint_state_publisher.dir/src/gazebo_ros_joint_state_publisher.cpp.o\x1b[0m\n'}
+[7.965796] (gazebo_plugins) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_diff_drive.dir/src/gazebo_ros_diff_drive.cpp.o\x1b[0m\n'}
+[7.967274] (gazebo_plugins) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_imu_sensor.dir/src/gazebo_ros_imu_sensor.cpp.o\x1b[0m\n'}
+[7.970176] (gazebo_plugins) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o\x1b[0m\n'}
+[7.974885] (gazebo_plugins) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_force.dir/src/gazebo_ros_force.cpp.o\x1b[0m\n'}
+[7.975122] (gazebo_plugins) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_gps_sensor.dir/src/gazebo_ros_gps_sensor.cpp.o\x1b[0m\n'}
+[7.982361] (gazebo_plugins) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o\x1b[0m\n'}
+[7.993402] (gazebo_plugins) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_ray_sensor.dir/src/gazebo_ros_ray_sensor.cpp.o\x1b[0m\n'}
+[8.015725] (-) TimerEvent: {}
+[8.116659] (-) TimerEvent: {}
+[8.216984] (-) TimerEvent: {}
+[8.317307] (-) TimerEvent: {}
+[8.418817] (-) TimerEvent: {}
+[8.519148] (-) TimerEvent: {}
+[8.619542] (-) TimerEvent: {}
+[8.719877] (-) TimerEvent: {}
+[8.820197] (-) TimerEvent: {}
+[8.920520] (-) TimerEvent: {}
+[9.020810] (-) TimerEvent: {}
+[9.121105] (-) TimerEvent: {}
+[9.221438] (-) TimerEvent: {}
+[9.321996] (-) TimerEvent: {}
+[9.422503] (-) TimerEvent: {}
+[9.523102] (-) TimerEvent: {}
+[9.623872] (-) TimerEvent: {}
+[9.724229] (-) TimerEvent: {}
+[9.824576] (-) TimerEvent: {}
+[9.924967] (-) TimerEvent: {}
+[10.025275] (-) TimerEvent: {}
+[10.125781] (-) TimerEvent: {}
+[10.226320] (-) TimerEvent: {}
+[10.326857] (-) TimerEvent: {}
+[10.427441] (-) TimerEvent: {}
+[10.527952] (-) TimerEvent: {}
+[10.628482] (-) TimerEvent: {}
+[10.728995] (-) TimerEvent: {}
+[10.829776] (-) TimerEvent: {}
+[10.930576] (-) TimerEvent: {}
+[11.031247] (-) TimerEvent: {}
+[11.131836] (-) TimerEvent: {}
+[11.232513] (-) TimerEvent: {}
+[11.333145] (-) TimerEvent: {}
+[11.433821] (-) TimerEvent: {}
+[11.534388] (-) TimerEvent: {}
+[11.635209] (-) TimerEvent: {}
+[11.735895] (-) TimerEvent: {}
+[11.836424] (-) TimerEvent: {}
+[11.936954] (-) TimerEvent: {}
+[12.037586] (-) TimerEvent: {}
+[12.138108] (-) TimerEvent: {}
+[12.238661] (-) TimerEvent: {}
+[12.339238] (-) TimerEvent: {}
+[12.439834] (-) TimerEvent: {}
+[12.540450] (-) TimerEvent: {}
+[12.641496] (-) TimerEvent: {}
+[12.742015] (-) TimerEvent: {}
+[12.842558] (-) TimerEvent: {}
+[12.943029] (-) TimerEvent: {}
+[13.043566] (-) TimerEvent: {}
+[13.144143] (-) TimerEvent: {}
+[13.244712] (-) TimerEvent: {}
+[13.345264] (-) TimerEvent: {}
+[13.445811] (-) TimerEvent: {}
+[13.546425] (-) TimerEvent: {}
+[13.647112] (-) TimerEvent: {}
+[13.747652] (-) TimerEvent: {}
+[13.848140] (-) TimerEvent: {}
+[13.948751] (-) TimerEvent: {}
+[14.049637] (-) TimerEvent: {}
+[14.149971] (-) TimerEvent: {}
+[14.250298] (-) TimerEvent: {}
+[14.350774] (-) TimerEvent: {}
+[14.451630] (-) TimerEvent: {}
+[14.551943] (-) TimerEvent: {}
+[14.652563] (-) TimerEvent: {}
+[14.753259] (-) TimerEvent: {}
+[14.853738] (-) TimerEvent: {}
+[14.954258] (-) TimerEvent: {}
+[15.054797] (-) TimerEvent: {}
+[15.155367] (-) TimerEvent: {}
+[15.255967] (-) TimerEvent: {}
+[15.356513] (-) TimerEvent: {}
+[15.457147] (-) TimerEvent: {}
+[15.557713] (-) TimerEvent: {}
+[15.658262] (-) TimerEvent: {}
+[15.758894] (-) TimerEvent: {}
+[15.859452] (-) TimerEvent: {}
+[15.960005] (-) TimerEvent: {}
+[16.060481] (-) TimerEvent: {}
+[16.160962] (-) TimerEvent: {}
+[16.261491] (-) TimerEvent: {}
+[16.362047] (-) TimerEvent: {}
+[16.462524] (-) TimerEvent: {}
+[16.563000] (-) TimerEvent: {}
+[16.663520] (-) TimerEvent: {}
+[16.764043] (-) TimerEvent: {}
+[16.864378] (-) TimerEvent: {}
+[16.964904] (-) TimerEvent: {}
+[17.065377] (-) TimerEvent: {}
+[17.165891] (-) TimerEvent: {}
+[17.266484] (-) TimerEvent: {}
+[17.366983] (-) TimerEvent: {}
+[17.467430] (-) TimerEvent: {}
+[17.571818] (-) TimerEvent: {}
+[17.672350] (-) TimerEvent: {}
+[17.772868] (-) TimerEvent: {}
+[17.873341] (-) TimerEvent: {}
+[17.973840] (-) TimerEvent: {}
+[18.074419] (-) TimerEvent: {}
+[18.174951] (-) TimerEvent: {}
+[18.275514] (-) TimerEvent: {}
+[18.376072] (-) TimerEvent: {}
+[18.476572] (-) TimerEvent: {}
+[18.577043] (-) TimerEvent: {}
+[18.677525] (-) TimerEvent: {}
+[18.777999] (-) TimerEvent: {}
+[18.878481] (-) TimerEvent: {}
+[18.978815] (-) TimerEvent: {}
+[19.079125] (-) TimerEvent: {}
+[19.179433] (-) TimerEvent: {}
+[19.279740] (-) TimerEvent: {}
+[19.380188] (-) TimerEvent: {}
+[19.480500] (-) TimerEvent: {}
+[19.580951] (-) TimerEvent: {}
+[19.681682] (-) TimerEvent: {}
+[19.782191] (-) TimerEvent: {}
+[19.882719] (-) TimerEvent: {}
+[19.983186] (-) TimerEvent: {}
+[20.083733] (-) TimerEvent: {}
+[20.184253] (-) TimerEvent: {}
+[20.284730] (-) TimerEvent: {}
+[20.385223] (-) TimerEvent: {}
+[20.485692] (-) TimerEvent: {}
+[20.586255] (-) TimerEvent: {}
+[20.686822] (-) TimerEvent: {}
+[20.787384] (-) TimerEvent: {}
+[20.887942] (-) TimerEvent: {}
+[20.988511] (-) TimerEvent: {}
+[21.089227] (-) TimerEvent: {}
+[21.189818] (-) TimerEvent: {}
+[21.290359] (-) TimerEvent: {}
+[21.390964] (-) TimerEvent: {}
+[21.491537] (-) TimerEvent: {}
+[21.592257] (-) TimerEvent: {}
+[21.692883] (-) TimerEvent: {}
+[21.793518] (-) TimerEvent: {}
+[21.894015] (-) TimerEvent: {}
+[21.994534] (-) TimerEvent: {}
+[22.095092] (-) TimerEvent: {}
+[22.195653] (-) TimerEvent: {}
+[22.296234] (-) TimerEvent: {}
+[22.396577] (-) TimerEvent: {}
+[22.497198] (-) TimerEvent: {}
+[22.597766] (-) TimerEvent: {}
+[22.698088] (-) TimerEvent: {}
+[22.798454] (-) TimerEvent: {}
+[22.898784] (-) TimerEvent: {}
+[22.999347] (-) TimerEvent: {}
+[23.099880] (-) TimerEvent: {}
+[23.200439] (-) TimerEvent: {}
+[23.301001] (-) TimerEvent: {}
+[23.401583] (-) TimerEvent: {}
+[23.502185] (-) TimerEvent: {}
+[23.602772] (-) TimerEvent: {}
+[23.703265] (-) TimerEvent: {}
+[23.803970] (-) TimerEvent: {}
+[23.904470] (-) TimerEvent: {}
+[24.004943] (-) TimerEvent: {}
+[24.105420] (-) TimerEvent: {}
+[24.205913] (-) TimerEvent: {}
+[24.306388] (-) TimerEvent: {}
+[24.406973] (-) TimerEvent: {}
+[24.507538] (-) TimerEvent: {}
+[24.608087] (-) TimerEvent: {}
+[24.708662] (-) TimerEvent: {}
+[24.809232] (-) TimerEvent: {}
+[24.909713] (-) TimerEvent: {}
+[25.010308] (-) TimerEvent: {}
+[25.110895] (-) TimerEvent: {}
+[25.211255] (-) TimerEvent: {}
+[25.311752] (-) TimerEvent: {}
+[25.412241] (-) TimerEvent: {}
+[25.512730] (-) TimerEvent: {}
+[25.613211] (-) TimerEvent: {}
+[25.713687] (-) TimerEvent: {}
+[25.814221] (-) TimerEvent: {}
+[25.914716] (-) TimerEvent: {}
+[26.015226] (-) TimerEvent: {}
+[26.115748] (-) TimerEvent: {}
+[26.216319] (-) TimerEvent: {}
+[26.316895] (-) TimerEvent: {}
+[26.417229] (-) TimerEvent: {}
+[26.517575] (-) TimerEvent: {}
+[26.617886] (-) TimerEvent: {}
+[26.718433] (-) TimerEvent: {}
+[26.819013] (-) TimerEvent: {}
+[26.919669] (-) TimerEvent: {}
+[27.020276] (-) TimerEvent: {}
+[27.120758] (-) TimerEvent: {}
+[27.221303] (-) TimerEvent: {}
+[27.321887] (-) TimerEvent: {}
+[27.422461] (-) TimerEvent: {}
+[27.522807] (-) TimerEvent: {}
+[27.623131] (-) TimerEvent: {}
+[27.723449] (-) TimerEvent: {}
+[27.823922] (-) TimerEvent: {}
+[27.924452] (-) TimerEvent: {}
+[28.024938] (-) TimerEvent: {}
+[28.125435] (-) TimerEvent: {}
+[28.225921] (-) TimerEvent: {}
+[28.326413] (-) TimerEvent: {}
+[28.426734] (-) TimerEvent: {}
+[28.527045] (-) TimerEvent: {}
+[28.627382] (-) TimerEvent: {}
+[28.727710] (-) TimerEvent: {}
+[28.828038] (-) TimerEvent: {}
+[28.928356] (-) TimerEvent: {}
+[29.028688] (-) TimerEvent: {}
+[29.129027] (-) TimerEvent: {}
+[29.229520] (-) TimerEvent: {}
+[29.330037] (-) TimerEvent: {}
+[29.430540] (-) TimerEvent: {}
+[29.531077] (-) TimerEvent: {}
+[29.631659] (-) TimerEvent: {}
+[29.732237] (-) TimerEvent: {}
+[29.832579] (-) TimerEvent: {}
+[29.933175] (-) TimerEvent: {}
+[30.034374] (-) TimerEvent: {}
+[30.134837] (-) TimerEvent: {}
+[30.235354] (-) TimerEvent: {}
+[30.335888] (-) TimerEvent: {}
+[30.436376] (-) TimerEvent: {}
+[30.536871] (-) TimerEvent: {}
+[30.637410] (-) TimerEvent: {}
+[30.737919] (-) TimerEvent: {}
+[30.838563] (-) TimerEvent: {}
+[30.939109] (-) TimerEvent: {}
+[31.039674] (-) TimerEvent: {}
+[31.140291] (-) TimerEvent: {}
+[31.240886] (-) TimerEvent: {}
+[31.341445] (-) TimerEvent: {}
+[31.409046] (gazebo_plugins) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_template.so\x1b[0m\n'}
+[31.441552] (-) TimerEvent: {}
+[31.541884] (-) TimerEvent: {}
+[31.642239] (-) TimerEvent: {}
+[31.742804] (-) TimerEvent: {}
+[31.843429] (-) TimerEvent: {}
+[31.944042] (-) TimerEvent: {}
+[32.045535] (-) TimerEvent: {}
+[32.145863] (-) TimerEvent: {}
+[32.246210] (-) TimerEvent: {}
+[32.346544] (-) TimerEvent: {}
+[32.446881] (-) TimerEvent: {}
+[32.547190] (-) TimerEvent: {}
+[32.647618] (-) TimerEvent: {}
+[32.650631] (gazebo_plugins) StdoutLine: {'line': b'[ 10%] Built target gazebo_ros_template\n'}
+[32.750567] (-) TimerEvent: {}
+[32.792541] (gazebo_plugins) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_p3d.dir/src/gazebo_ros_p3d.cpp.o\x1b[0m\n'}
+[32.850667] (-) TimerEvent: {}
+[32.950973] (-) TimerEvent: {}
+[33.051287] (-) TimerEvent: {}
+[33.151612] (-) TimerEvent: {}
+[33.251943] (-) TimerEvent: {}
+[33.352253] (-) TimerEvent: {}
+[33.452556] (-) TimerEvent: {}
+[33.552868] (-) TimerEvent: {}
+[33.653188] (-) TimerEvent: {}
+[33.753515] (-) TimerEvent: {}
+[33.853824] (-) TimerEvent: {}
+[33.954137] (-) TimerEvent: {}
+[34.054451] (-) TimerEvent: {}
+[34.154767] (-) TimerEvent: {}
+[34.255229] (-) TimerEvent: {}
+[34.355785] (-) TimerEvent: {}
+[34.456228] (-) TimerEvent: {}
+[34.556552] (-) TimerEvent: {}
+[34.656878] (-) TimerEvent: {}
+[34.757182] (-) TimerEvent: {}
+[34.857506] (-) TimerEvent: {}
+[34.957946] (-) TimerEvent: {}
+[35.013830] (gazebo_plugins) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_gps_sensor.so\x1b[0m\n'}
+[35.058055] (-) TimerEvent: {}
+[35.158368] (-) TimerEvent: {}
+[35.192671] (gazebo_plugins) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_imu_sensor.so\x1b[0m\n'}
+[35.258483] (-) TimerEvent: {}
+[35.358849] (-) TimerEvent: {}
+[35.459314] (-) TimerEvent: {}
+[35.559761] (-) TimerEvent: {}
+[35.660110] (-) TimerEvent: {}
+[35.760547] (-) TimerEvent: {}
+[35.861136] (-) TimerEvent: {}
+[35.961705] (-) TimerEvent: {}
+[36.062263] (-) TimerEvent: {}
+[36.162556] (-) TimerEvent: {}
+[36.262877] (-) TimerEvent: {}
+[36.363219] (-) TimerEvent: {}
+[36.463521] (-) TimerEvent: {}
+[36.542765] (gazebo_plugins) StdoutLine: {'line': b'[ 13%] Built target gazebo_ros_gps_sensor\n'}
+[36.547393] (gazebo_plugins) StdoutLine: {'line': b'[ 13%] Built target gazebo_ros_imu_sensor\n'}
+[36.563628] (-) TimerEvent: {}
+[36.590218] (gazebo_plugins) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_tricycle_drive.dir/src/gazebo_ros_tricycle_drive.cpp.o\x1b[0m\n'}
+[36.663738] (-) TimerEvent: {}
+[36.675471] (gazebo_plugins) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_video.dir/src/gazebo_ros_video.cpp.o\x1b[0m\n'}
+[36.763844] (-) TimerEvent: {}
+[36.860084] (gazebo_plugins) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_joint_state_publisher.so\x1b[0m\n'}
+[36.863947] (-) TimerEvent: {}
+[36.964406] (-) TimerEvent: {}
+[37.064875] (-) TimerEvent: {}
+[37.165366] (-) TimerEvent: {}
+[37.265857] (-) TimerEvent: {}
+[37.366343] (-) TimerEvent: {}
+[37.466869] (-) TimerEvent: {}
+[37.567331] (-) TimerEvent: {}
+[37.667776] (-) TimerEvent: {}
+[37.768103] (-) TimerEvent: {}
+[37.868423] (-) TimerEvent: {}
+[37.968938] (-) TimerEvent: {}
+[38.069419] (-) TimerEvent: {}
+[38.160785] (gazebo_plugins) StdoutLine: {'line': b'[ 17%] Built target gazebo_ros_joint_state_publisher\n'}
+[38.169533] (-) TimerEvent: {}
+[38.269895] (-) TimerEvent: {}
+[38.328711] (gazebo_plugins) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_ft_sensor.dir/src/gazebo_ros_ft_sensor.cpp.o\x1b[0m\n'}
+[38.370005] (-) TimerEvent: {}
+[38.470720] (-) TimerEvent: {}
+[38.571379] (-) TimerEvent: {}
+[38.672023] (-) TimerEvent: {}
+[38.772570] (-) TimerEvent: {}
+[38.873138] (-) TimerEvent: {}
+[38.973454] (-) TimerEvent: {}
+[39.074079] (-) TimerEvent: {}
+[39.174397] (-) TimerEvent: {}
+[39.274886] (-) TimerEvent: {}
+[39.375447] (-) TimerEvent: {}
+[39.475896] (-) TimerEvent: {}
+[39.576423] (-) TimerEvent: {}
+[39.676879] (-) TimerEvent: {}
+[39.777506] (-) TimerEvent: {}
+[39.878308] (-) TimerEvent: {}
+[39.979350] (-) TimerEvent: {}
+[40.079939] (-) TimerEvent: {}
+[40.180403] (-) TimerEvent: {}
+[40.280891] (-) TimerEvent: {}
+[40.381566] (-) TimerEvent: {}
+[40.482107] (-) TimerEvent: {}
+[40.582616] (-) TimerEvent: {}
+[40.683153] (-) TimerEvent: {}
+[40.783617] (-) TimerEvent: {}
+[40.884228] (-) TimerEvent: {}
+[40.984721] (-) TimerEvent: {}
+[41.085177] (-) TimerEvent: {}
+[41.185642] (-) TimerEvent: {}
+[41.285943] (-) TimerEvent: {}
+[41.386465] (-) TimerEvent: {}
+[41.486799] (-) TimerEvent: {}
+[41.587146] (-) TimerEvent: {}
+[41.687708] (-) TimerEvent: {}
+[41.788582] (-) TimerEvent: {}
+[41.889101] (-) TimerEvent: {}
+[41.989657] (-) TimerEvent: {}
+[42.090223] (-) TimerEvent: {}
+[42.190775] (-) TimerEvent: {}
+[42.291323] (-) TimerEvent: {}
+[42.391927] (-) TimerEvent: {}
+[42.457696] (gazebo_plugins) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_camera_plugin.so\x1b[0m\n'}
+[42.492050] (-) TimerEvent: {}
+[42.592396] (-) TimerEvent: {}
+[42.692885] (-) TimerEvent: {}
+[42.793337] (-) TimerEvent: {}
+[42.893641] (-) TimerEvent: {}
+[42.993960] (-) TimerEvent: {}
+[43.094291] (-) TimerEvent: {}
+[43.120958] (gazebo_plugins) StdoutLine: {'line': b'[ 19%] Built target multi_camera_plugin\n'}
+[43.194387] (-) TimerEvent: {}
+[43.267994] (gazebo_plugins) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_bumper.dir/src/gazebo_ros_bumper.cpp.o\x1b[0m\n'}
+[43.294502] (-) TimerEvent: {}
+[43.394818] (-) TimerEvent: {}
+[43.495147] (-) TimerEvent: {}
+[43.595467] (-) TimerEvent: {}
+[43.695774] (-) TimerEvent: {}
+[43.796079] (-) TimerEvent: {}
+[43.896399] (-) TimerEvent: {}
+[43.996738] (-) TimerEvent: {}
+[44.088484] (gazebo_plugins) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_force.so\x1b[0m\n'}
+[44.096838] (-) TimerEvent: {}
+[44.197247] (-) TimerEvent: {}
+[44.297675] (-) TimerEvent: {}
+[44.398111] (-) TimerEvent: {}
+[44.498557] (-) TimerEvent: {}
+[44.598992] (-) TimerEvent: {}
+[44.699337] (-) TimerEvent: {}
+[44.799666] (-) TimerEvent: {}
+[44.899974] (-) TimerEvent: {}
+[45.000293] (-) TimerEvent: {}
+[45.100877] (-) TimerEvent: {}
+[45.170641] (gazebo_plugins) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_ray_sensor.so\x1b[0m\n'}
+[45.201122] (-) TimerEvent: {}
+[45.301439] (-) TimerEvent: {}
+[45.401773] (-) TimerEvent: {}
+[45.502111] (-) TimerEvent: {}
+[45.602457] (-) TimerEvent: {}
+[45.702798] (-) TimerEvent: {}
+[45.803133] (-) TimerEvent: {}
+[45.903432] (-) TimerEvent: {}
+[46.003746] (-) TimerEvent: {}
+[46.104218] (-) TimerEvent: {}
+[46.204692] (-) TimerEvent: {}
+[46.305176] (-) TimerEvent: {}
+[46.405745] (-) TimerEvent: {}
+[46.491316] (gazebo_plugins) StdoutLine: {'line': b'[ 23%] Built target gazebo_ros_force\n'}
+[46.505846] (-) TimerEvent: {}
+[46.606405] (-) TimerEvent: {}
+[46.620565] (gazebo_plugins) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_harness.dir/src/gazebo_ros_harness.cpp.o\x1b[0m\n'}
+[46.705581] (gazebo_plugins) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_diff_drive.so\x1b[0m\n'}
+[46.706472] (-) TimerEvent: {}
+[46.806878] (-) TimerEvent: {}
+[46.907212] (-) TimerEvent: {}
+[47.007661] (-) TimerEvent: {}
+[47.108154] (-) TimerEvent: {}
+[47.208528] (-) TimerEvent: {}
+[47.246663] (gazebo_plugins) StdoutLine: {'line': b'[ 25%] Built target gazebo_ros_ray_sensor\n'}
+[47.308625] (-) TimerEvent: {}
+[47.385195] (gazebo_plugins) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_hand_of_god.dir/src/gazebo_ros_hand_of_god.cpp.o\x1b[0m\n'}
+[47.408766] (-) TimerEvent: {}
+[47.509150] (-) TimerEvent: {}
+[47.609532] (-) TimerEvent: {}
+[47.710145] (-) TimerEvent: {}
+[47.810670] (-) TimerEvent: {}
+[47.911208] (-) TimerEvent: {}
+[48.011843] (-) TimerEvent: {}
+[48.112638] (-) TimerEvent: {}
+[48.213337] (-) TimerEvent: {}
+[48.313921] (-) TimerEvent: {}
+[48.414509] (-) TimerEvent: {}
+[48.514976] (-) TimerEvent: {}
+[48.615622] (-) TimerEvent: {}
+[48.716139] (-) TimerEvent: {}
+[48.816766] (-) TimerEvent: {}
+[48.917257] (-) TimerEvent: {}
+[49.017740] (-) TimerEvent: {}
+[49.118244] (-) TimerEvent: {}
+[49.218742] (-) TimerEvent: {}
+[49.319065] (-) TimerEvent: {}
+[49.400814] (gazebo_plugins) StdoutLine: {'line': b'[ 26%] Built target gazebo_ros_diff_drive\n'}
+[49.419167] (-) TimerEvent: {}
+[49.519482] (-) TimerEvent: {}
+[49.521134] (gazebo_plugins) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_ackermann_drive.dir/src/gazebo_ros_ackermann_drive.cpp.o\x1b[0m\n'}
+[49.619584] (-) TimerEvent: {}
+[49.719913] (-) TimerEvent: {}
+[49.820279] (-) TimerEvent: {}
+[49.920653] (-) TimerEvent: {}
+[50.021015] (-) TimerEvent: {}
+[50.121333] (-) TimerEvent: {}
+[50.221646] (-) TimerEvent: {}
+[50.321963] (-) TimerEvent: {}
+[50.422432] (-) TimerEvent: {}
+[50.523022] (-) TimerEvent: {}
+[50.623533] (-) TimerEvent: {}
+[50.724015] (-) TimerEvent: {}
+[50.824612] (-) TimerEvent: {}
+[50.925190] (-) TimerEvent: {}
+[51.025790] (-) TimerEvent: {}
+[51.126405] (-) TimerEvent: {}
+[51.227060] (-) TimerEvent: {}
+[51.327721] (-) TimerEvent: {}
+[51.428203] (-) TimerEvent: {}
+[51.528789] (-) TimerEvent: {}
+[51.629243] (-) TimerEvent: {}
+[51.729712] (-) TimerEvent: {}
+[51.830312] (-) TimerEvent: {}
+[51.931115] (-) TimerEvent: {}
+[52.031683] (-) TimerEvent: {}
+[52.132175] (-) TimerEvent: {}
+[52.232640] (-) TimerEvent: {}
+[52.333120] (-) TimerEvent: {}
+[52.433677] (-) TimerEvent: {}
+[52.534144] (-) TimerEvent: {}
+[52.634636] (-) TimerEvent: {}
+[52.735098] (-) TimerEvent: {}
+[52.835588] (-) TimerEvent: {}
+[52.936143] (-) TimerEvent: {}
+[53.036754] (-) TimerEvent: {}
+[53.137072] (-) TimerEvent: {}
+[53.237399] (-) TimerEvent: {}
+[53.337719] (-) TimerEvent: {}
+[53.438051] (-) TimerEvent: {}
+[53.538378] (-) TimerEvent: {}
+[53.638716] (-) TimerEvent: {}
+[53.739037] (-) TimerEvent: {}
+[53.839390] (-) TimerEvent: {}
+[53.939723] (-) TimerEvent: {}
+[54.040038] (-) TimerEvent: {}
+[54.140370] (-) TimerEvent: {}
+[54.240702] (-) TimerEvent: {}
+[54.341023] (-) TimerEvent: {}
+[54.441509] (-) TimerEvent: {}
+[54.542030] (-) TimerEvent: {}
+[54.642484] (-) TimerEvent: {}
+[54.742958] (-) TimerEvent: {}
+[54.843438] (-) TimerEvent: {}
+[54.943925] (-) TimerEvent: {}
+[55.044245] (-) TimerEvent: {}
+[55.144571] (-) TimerEvent: {}
+[55.244895] (-) TimerEvent: {}
+[55.345211] (-) TimerEvent: {}
+[55.445540] (-) TimerEvent: {}
+[55.545871] (-) TimerEvent: {}
+[55.646191] (-) TimerEvent: {}
+[55.746534] (-) TimerEvent: {}
+[55.846840] (-) TimerEvent: {}
+[55.947158] (-) TimerEvent: {}
+[56.047735] (-) TimerEvent: {}
+[56.148221] (-) TimerEvent: {}
+[56.248732] (-) TimerEvent: {}
+[56.349225] (-) TimerEvent: {}
+[56.449713] (-) TimerEvent: {}
+[56.550188] (-) TimerEvent: {}
+[56.650666] (-) TimerEvent: {}
+[56.751153] (-) TimerEvent: {}
+[56.851628] (-) TimerEvent: {}
+[56.951938] (-) TimerEvent: {}
+[57.052258] (-) TimerEvent: {}
+[57.152578] (-) TimerEvent: {}
+[57.252908] (-) TimerEvent: {}
+[57.353236] (-) TimerEvent: {}
+[57.453570] (-) TimerEvent: {}
+[57.553905] (-) TimerEvent: {}
+[57.654227] (-) TimerEvent: {}
+[57.754566] (-) TimerEvent: {}
+[57.854884] (-) TimerEvent: {}
+[57.955195] (-) TimerEvent: {}
+[58.055515] (-) TimerEvent: {}
+[58.155844] (-) TimerEvent: {}
+[58.256159] (-) TimerEvent: {}
+[58.356474] (-) TimerEvent: {}
+[58.456791] (-) TimerEvent: {}
+[58.557121] (-) TimerEvent: {}
+[58.657436] (-) TimerEvent: {}
+[58.757755] (-) TimerEvent: {}
+[58.858259] (-) TimerEvent: {}
+[58.958565] (-) TimerEvent: {}
+[59.058885] (-) TimerEvent: {}
+[59.159207] (-) TimerEvent: {}
+[59.259560] (-) TimerEvent: {}
+[59.359875] (-) TimerEvent: {}
+[59.460324] (-) TimerEvent: {}
+[59.560830] (-) TimerEvent: {}
+[59.661153] (-) TimerEvent: {}
+[59.761631] (-) TimerEvent: {}
+[59.862094] (-) TimerEvent: {}
+[59.962555] (-) TimerEvent: {}
+[60.063026] (-) TimerEvent: {}
+[60.163339] (-) TimerEvent: {}
+[60.263911] (-) TimerEvent: {}
+[60.364489] (-) TimerEvent: {}
+[60.465082] (-) TimerEvent: {}
+[60.565405] (-) TimerEvent: {}
+[60.665727] (-) TimerEvent: {}
+[60.766049] (-) TimerEvent: {}
+[60.866375] (-) TimerEvent: {}
+[60.966696] (-) TimerEvent: {}
+[61.067022] (-) TimerEvent: {}
+[61.167329] (-) TimerEvent: {}
+[61.267649] (-) TimerEvent: {}
+[61.367984] (-) TimerEvent: {}
+[61.468312] (-) TimerEvent: {}
+[61.568636] (-) TimerEvent: {}
+[61.668948] (-) TimerEvent: {}
+[61.769275] (-) TimerEvent: {}
+[61.869736] (-) TimerEvent: {}
+[61.970076] (-) TimerEvent: {}
+[62.070524] (-) TimerEvent: {}
+[62.138641] (gazebo_plugins) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_p3d.so\x1b[0m\n'}
+[62.170629] (-) TimerEvent: {}
+[62.270950] (-) TimerEvent: {}
+[62.371255] (-) TimerEvent: {}
+[62.471575] (-) TimerEvent: {}
+[62.571898] (-) TimerEvent: {}
+[62.672335] (-) TimerEvent: {}
+[62.772766] (-) TimerEvent: {}
+[62.873157] (-) TimerEvent: {}
+[62.973519] (-) TimerEvent: {}
+[63.073892] (-) TimerEvent: {}
+[63.174379] (-) TimerEvent: {}
+[63.274730] (-) TimerEvent: {}
+[63.375170] (-) TimerEvent: {}
+[63.475487] (-) TimerEvent: {}
+[63.575811] (-) TimerEvent: {}
+[63.676234] (-) TimerEvent: {}
+[63.715428] (gazebo_plugins) StdoutLine: {'line': b'[ 29%] Built target gazebo_ros_p3d\n'}
+[63.776350] (-) TimerEvent: {}
+[63.854630] (gazebo_plugins) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_elevator.dir/src/gazebo_ros_elevator.cpp.o\x1b[0m\n'}
+[63.876455] (-) TimerEvent: {}
+[63.944930] (gazebo_plugins) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_ft_sensor.so\x1b[0m\n'}
+[63.976560] (-) TimerEvent: {}
+[64.076882] (-) TimerEvent: {}
+[64.177230] (-) TimerEvent: {}
+[64.277583] (-) TimerEvent: {}
+[64.378093] (-) TimerEvent: {}
+[64.478752] (-) TimerEvent: {}
+[64.579333] (-) TimerEvent: {}
+[64.679924] (-) TimerEvent: {}
+[64.780526] (-) TimerEvent: {}
+[64.881087] (-) TimerEvent: {}
+[64.981595] (-) TimerEvent: {}
+[65.082077] (-) TimerEvent: {}
+[65.182540] (-) TimerEvent: {}
+[65.283016] (-) TimerEvent: {}
+[65.383338] (-) TimerEvent: {}
+[65.389751] (gazebo_plugins) StdoutLine: {'line': b'[ 31%] Built target gazebo_ros_ft_sensor\n'}
+[65.483475] (-) TimerEvent: {}
+[65.584179] (-) TimerEvent: {}
+[65.684825] (-) TimerEvent: {}
+[65.785458] (-) TimerEvent: {}
+[65.886073] (-) TimerEvent: {}
+[65.986687] (-) TimerEvent: {}
+[66.087275] (-) TimerEvent: {}
+[66.187912] (-) TimerEvent: {}
+[66.288566] (-) TimerEvent: {}
+[66.389208] (-) TimerEvent: {}
+[66.489854] (-) TimerEvent: {}
+[66.590278] (-) TimerEvent: {}
+[66.690994] (-) TimerEvent: {}
+[66.791628] (-) TimerEvent: {}
+[66.892013] (-) TimerEvent: {}
+[66.992403] (-) TimerEvent: {}
+[67.092815] (-) TimerEvent: {}
+[67.194009] (-) TimerEvent: {}
+[67.294630] (-) TimerEvent: {}
+[67.395189] (-) TimerEvent: {}
+[67.495902] (-) TimerEvent: {}
+[67.596604] (-) TimerEvent: {}
+[67.697346] (-) TimerEvent: {}
+[67.798149] (-) TimerEvent: {}
+[67.898888] (-) TimerEvent: {}
+[67.999702] (-) TimerEvent: {}
+[68.100442] (-) TimerEvent: {}
+[68.201183] (-) TimerEvent: {}
+[68.301924] (-) TimerEvent: {}
+[68.402670] (-) TimerEvent: {}
+[68.502996] (-) TimerEvent: {}
+[68.603586] (-) TimerEvent: {}
+[68.704322] (-) TimerEvent: {}
+[68.805083] (-) TimerEvent: {}
+[68.905820] (-) TimerEvent: {}
+[69.006450] (-) TimerEvent: {}
+[69.107148] (-) TimerEvent: {}
+[69.207539] (-) TimerEvent: {}
+[69.308159] (-) TimerEvent: {}
+[69.408780] (-) TimerEvent: {}
+[69.509536] (-) TimerEvent: {}
+[69.612179] (-) TimerEvent: {}
+[69.712951] (-) TimerEvent: {}
+[69.813588] (-) TimerEvent: {}
+[69.914217] (-) TimerEvent: {}
+[70.014865] (-) TimerEvent: {}
+[70.115475] (-) TimerEvent: {}
+[70.216099] (-) TimerEvent: {}
+[70.316718] (-) TimerEvent: {}
+[70.417100] (-) TimerEvent: {}
+[70.517476] (-) TimerEvent: {}
+[70.617851] (-) TimerEvent: {}
+[70.718464] (-) TimerEvent: {}
+[70.819076] (-) TimerEvent: {}
+[70.919456] (-) TimerEvent: {}
+[71.019842] (-) TimerEvent: {}
+[71.120222] (-) TimerEvent: {}
+[71.220595] (-) TimerEvent: {}
+[71.320966] (-) TimerEvent: {}
+[71.421343] (-) TimerEvent: {}
+[71.521726] (-) TimerEvent: {}
+[71.622116] (-) TimerEvent: {}
+[71.722485] (-) TimerEvent: {}
+[71.822809] (-) TimerEvent: {}
+[71.923159] (-) TimerEvent: {}
+[72.023573] (-) TimerEvent: {}
+[72.068387] (gazebo_plugins) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_bumper.so\x1b[0m\n'}
+[72.123674] (-) TimerEvent: {}
+[72.224219] (-) TimerEvent: {}
+[72.324699] (-) TimerEvent: {}
+[72.425184] (-) TimerEvent: {}
+[72.525662] (-) TimerEvent: {}
+[72.626129] (-) TimerEvent: {}
+[72.726654] (-) TimerEvent: {}
+[72.827139] (-) TimerEvent: {}
+[72.927619] (-) TimerEvent: {}
+[73.027933] (-) TimerEvent: {}
+[73.128274] (-) TimerEvent: {}
+[73.228636] (-) TimerEvent: {}
+[73.328968] (-) TimerEvent: {}
+[73.429292] (-) TimerEvent: {}
+[73.529596] (-) TimerEvent: {}
+[73.629903] (-) TimerEvent: {}
+[73.672970] (gazebo_plugins) StdoutLine: {'line': b'[ 32%] Built target gazebo_ros_bumper\n'}
+[73.730062] (-) TimerEvent: {}
+[73.830723] (-) TimerEvent: {}
+[73.931256] (-) TimerEvent: {}
+[74.031803] (-) TimerEvent: {}
+[74.132548] (-) TimerEvent: {}
+[74.233270] (-) TimerEvent: {}
+[74.333988] (-) TimerEvent: {}
+[74.415282] (gazebo_plugins) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_hand_of_god.so\x1b[0m\n'}
+[74.434096] (-) TimerEvent: {}
+[74.534506] (-) TimerEvent: {}
+[74.634873] (-) TimerEvent: {}
+[74.735296] (-) TimerEvent: {}
+[74.835756] (-) TimerEvent: {}
+[74.936196] (-) TimerEvent: {}
+[75.036634] (-) TimerEvent: {}
+[75.137065] (-) TimerEvent: {}
+[75.181967] (gazebo_plugins) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_tricycle_drive.so\x1b[0m\n'}
+[75.237201] (-) TimerEvent: {}
+[75.337684] (-) TimerEvent: {}
+[75.438114] (-) TimerEvent: {}
+[75.529429] (gazebo_plugins) StdoutLine: {'line': b'[ 34%] Built target gazebo_ros_hand_of_god\n'}
+[75.538220] (-) TimerEvent: {}
+[75.638636] (-) TimerEvent: {}
+[75.738967] (-) TimerEvent: {}
+[75.839297] (-) TimerEvent: {}
+[75.939907] (-) TimerEvent: {}
+[76.040409] (-) TimerEvent: {}
+[76.141123] (-) TimerEvent: {}
+[76.241742] (-) TimerEvent: {}
+[76.342343] (-) TimerEvent: {}
+[76.442979] (-) TimerEvent: {}
+[76.543586] (-) TimerEvent: {}
+[76.644286] (-) TimerEvent: {}
+[76.744780] (-) TimerEvent: {}
+[76.845393] (-) TimerEvent: {}
+[76.946057] (-) TimerEvent: {}
+[77.046683] (-) TimerEvent: {}
+[77.147242] (-) TimerEvent: {}
+[77.247811] (-) TimerEvent: {}
+[77.348388] (-) TimerEvent: {}
+[77.448980] (-) TimerEvent: {}
+[77.549565] (-) TimerEvent: {}
+[77.644153] (gazebo_plugins) StdoutLine: {'line': b'[ 34%] Built target gazebo_ros_tricycle_drive\n'}
+[77.649674] (-) TimerEvent: {}
+[77.750091] (-) TimerEvent: {}
+[77.850417] (-) TimerEvent: {}
+[77.950763] (-) TimerEvent: {}
+[78.051094] (-) TimerEvent: {}
+[78.151422] (-) TimerEvent: {}
+[78.251764] (-) TimerEvent: {}
+[78.352090] (-) TimerEvent: {}
+[78.452411] (-) TimerEvent: {}
+[78.552855] (-) TimerEvent: {}
+[78.653283] (-) TimerEvent: {}
+[78.753717] (-) TimerEvent: {}
+[78.854146] (-) TimerEvent: {}
+[78.954566] (-) TimerEvent: {}
+[79.054954] (-) TimerEvent: {}
+[79.155327] (-) TimerEvent: {}
+[79.255703] (-) TimerEvent: {}
+[79.356091] (-) TimerEvent: {}
+[79.456407] (-) TimerEvent: {}
+[79.556762] (-) TimerEvent: {}
+[79.657160] (-) TimerEvent: {}
+[79.757546] (-) TimerEvent: {}
+[79.857927] (-) TimerEvent: {}
+[79.958320] (-) TimerEvent: {}
+[80.058712] (-) TimerEvent: {}
+[80.159074] (-) TimerEvent: {}
+[80.259400] (-) TimerEvent: {}
+[80.359775] (-) TimerEvent: {}
+[80.460493] (-) TimerEvent: {}
+[80.561057] (-) TimerEvent: {}
+[80.661609] (-) TimerEvent: {}
+[80.762070] (-) TimerEvent: {}
+[80.862553] (-) TimerEvent: {}
+[80.962849] (-) TimerEvent: {}
+[80.969567] (gazebo_plugins) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_harness.so\x1b[0m\n'}
+[81.062949] (-) TimerEvent: {}
+[81.163287] (-) TimerEvent: {}
+[81.263629] (-) TimerEvent: {}
+[81.363969] (-) TimerEvent: {}
+[81.464296] (-) TimerEvent: {}
+[81.564622] (-) TimerEvent: {}
+[81.665038] (-) TimerEvent: {}
+[81.765571] (-) TimerEvent: {}
+[81.865915] (-) TimerEvent: {}
+[81.966231] (-) TimerEvent: {}
+[82.066533] (-) TimerEvent: {}
+[82.166853] (-) TimerEvent: {}
+[82.267335] (-) TimerEvent: {}
+[82.370559] (-) TimerEvent: {}
+[82.470860] (-) TimerEvent: {}
+[82.485760] (gazebo_plugins) StdoutLine: {'line': b'[ 36%] Built target gazebo_ros_harness\n'}
+[82.570956] (-) TimerEvent: {}
+[82.671250] (-) TimerEvent: {}
+[82.771533] (-) TimerEvent: {}
+[82.871819] (-) TimerEvent: {}
+[82.972151] (-) TimerEvent: {}
+[83.072502] (-) TimerEvent: {}
+[83.172813] (-) TimerEvent: {}
+[83.273105] (-) TimerEvent: {}
+[83.373397] (-) TimerEvent: {}
+[83.473710] (-) TimerEvent: {}
+[83.573993] (-) TimerEvent: {}
+[83.674278] (-) TimerEvent: {}
+[83.688540] (gazebo_plugins) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_ackermann_drive.so\x1b[0m\n'}
+[83.774390] (-) TimerEvent: {}
+[83.874805] (-) TimerEvent: {}
+[83.975098] (-) TimerEvent: {}
+[84.075393] (-) TimerEvent: {}
+[84.175709] (-) TimerEvent: {}
+[84.276039] (-) TimerEvent: {}
+[84.376369] (-) TimerEvent: {}
+[84.476674] (-) TimerEvent: {}
+[84.577033] (-) TimerEvent: {}
+[84.677373] (-) TimerEvent: {}
+[84.777699] (-) TimerEvent: {}
+[84.877995] (-) TimerEvent: {}
+[84.978288] (-) TimerEvent: {}
+[85.078563] (-) TimerEvent: {}
+[85.178866] (-) TimerEvent: {}
+[85.272337] (gazebo_plugins) StdoutLine: {'line': b'[ 37%] Built target gazebo_ros_ackermann_drive\n'}
+[85.278973] (-) TimerEvent: {}
+[85.379258] (-) TimerEvent: {}
+[85.479513] (-) TimerEvent: {}
+[85.579776] (-) TimerEvent: {}
+[85.680024] (-) TimerEvent: {}
+[85.780320] (-) TimerEvent: {}
+[85.806297] (gazebo_plugins) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_elevator.so\x1b[0m\n'}
+[85.880426] (-) TimerEvent: {}
+[85.980712] (-) TimerEvent: {}
+[86.080994] (-) TimerEvent: {}
+[86.181271] (-) TimerEvent: {}
+[86.281625] (-) TimerEvent: {}
+[86.381953] (-) TimerEvent: {}
+[86.482245] (-) TimerEvent: {}
+[86.582547] (-) TimerEvent: {}
+[86.682845] (-) TimerEvent: {}
+[86.687535] (gazebo_plugins) StdoutLine: {'line': b'[ 38%] Built target gazebo_ros_elevator\n'}
+[86.782950] (-) TimerEvent: {}
+[86.883273] (-) TimerEvent: {}
+[86.924278] (gazebo_plugins) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_video.so\x1b[0m\n'}
+[86.983367] (-) TimerEvent: {}
+[87.083676] (-) TimerEvent: {}
+[87.183994] (-) TimerEvent: {}
+[87.284344] (-) TimerEvent: {}
+[87.384683] (-) TimerEvent: {}
+[87.485022] (-) TimerEvent: {}
+[87.585340] (-) TimerEvent: {}
+[87.685653] (-) TimerEvent: {}
+[87.785940] (-) TimerEvent: {}
+[87.886251] (-) TimerEvent: {}
+[87.932107] (gazebo_plugins) StdoutLine: {'line': b'[ 39%] Built target gazebo_ros_video\n'}
+[87.952360] (gazebo_plugins) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[87.986349] (-) TimerEvent: {}
+[88.086660] (-) TimerEvent: {}
+[88.186956] (-) TimerEvent: {}
+[88.287241] (-) TimerEvent: {}
+[88.387543] (-) TimerEvent: {}
+[88.487831] (-) TimerEvent: {}
+[88.588139] (-) TimerEvent: {}
+[88.688436] (-) TimerEvent: {}
+[88.788730] (-) TimerEvent: {}
+[88.888989] (-) TimerEvent: {}
+[88.989245] (-) TimerEvent: {}
+[89.089504] (-) TimerEvent: {}
+[89.189770] (-) TimerEvent: {}
+[89.290034] (-) TimerEvent: {}
+[89.390294] (-) TimerEvent: {}
+[89.490561] (-) TimerEvent: {}
+[89.590790] (-) TimerEvent: {}
+[89.691044] (-) TimerEvent: {}
+[89.791293] (-) TimerEvent: {}
+[89.891570] (-) TimerEvent: {}
+[89.991823] (-) TimerEvent: {}
+[90.092082] (-) TimerEvent: {}
+[90.192329] (-) TimerEvent: {}
+[90.292583] (-) TimerEvent: {}
+[90.392815] (-) TimerEvent: {}
+[90.493086] (-) TimerEvent: {}
+[90.593347] (-) TimerEvent: {}
+[90.693641] (-) TimerEvent: {}
+[90.730995] (gazebo_plugins) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[90.793763] (-) TimerEvent: {}
+[90.894098] (-) TimerEvent: {}
+[90.944799] (gazebo_plugins) StdoutLine: {'line': b'[ 41%] Built target gtest\n'}
+[90.965924] (gazebo_plugins) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o\x1b[0m\n'}
+[90.966251] (gazebo_plugins) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[90.973828] (gazebo_plugins) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_wheel_slip.dir/src/gazebo_ros_wheel_slip.cpp.o\x1b[0m\n'}
+[90.994184] (-) TimerEvent: {}
+[91.094460] (-) TimerEvent: {}
+[91.194754] (-) TimerEvent: {}
+[91.295039] (-) TimerEvent: {}
+[91.395331] (-) TimerEvent: {}
+[91.495627] (-) TimerEvent: {}
+[91.595931] (-) TimerEvent: {}
+[91.696230] (-) TimerEvent: {}
+[91.796496] (-) TimerEvent: {}
+[91.896775] (-) TimerEvent: {}
+[91.979464] (gazebo_plugins) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[91.996872] (-) TimerEvent: {}
+[92.072120] (gazebo_plugins) StdoutLine: {'line': b'[ 46%] Built target gtest_main\n'}
+[92.096970] (-) TimerEvent: {}
+[92.102837] (gazebo_plugins) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_planar_move.dir/src/gazebo_ros_planar_move.cpp.o\x1b[0m\n'}
+[92.103119] (gazebo_plugins) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_projector.dir/src/gazebo_ros_projector.cpp.o\x1b[0m\n'}
+[92.197071] (-) TimerEvent: {}
+[92.297411] (-) TimerEvent: {}
+[92.397798] (-) TimerEvent: {}
+[92.498168] (-) TimerEvent: {}
+[92.598584] (-) TimerEvent: {}
+[92.698931] (-) TimerEvent: {}
+[92.799243] (-) TimerEvent: {}
+[92.899574] (-) TimerEvent: {}
+[92.999907] (-) TimerEvent: {}
+[93.100418] (-) TimerEvent: {}
+[93.130225] (gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_bumper.dir/test_gazebo_ros_bumper.cpp.o\x1b[0m\n'}
+[93.163397] (gazebo_plugins) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ackermann_drive.dir/test_gazebo_ros_ackermann_drive.cpp.o\x1b[0m\n'}
+[93.175685] (gazebo_plugins) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/src/gazebo_ros_joint_pose_trajectory.cpp.o\x1b[0m\n'}
+[93.200515] (-) TimerEvent: {}
+[93.301073] (-) TimerEvent: {}
+[93.401616] (-) TimerEvent: {}
+[93.502237] (-) TimerEvent: {}
+[93.602841] (-) TimerEvent: {}
+[93.703476] (-) TimerEvent: {}
+[93.804023] (-) TimerEvent: {}
+[93.904568] (-) TimerEvent: {}
+[94.005122] (-) TimerEvent: {}
+[94.105693] (-) TimerEvent: {}
+[94.206387] (-) TimerEvent: {}
+[94.307077] (-) TimerEvent: {}
+[94.407770] (-) TimerEvent: {}
+[94.508254] (-) TimerEvent: {}
+[94.608771] (-) TimerEvent: {}
+[94.709345] (-) TimerEvent: {}
+[94.809799] (-) TimerEvent: {}
+[94.910290] (-) TimerEvent: {}
+[95.010860] (-) TimerEvent: {}
+[95.111328] (-) TimerEvent: {}
+[95.211867] (-) TimerEvent: {}
+[95.283001] (gazebo_plugins) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros_vacuum_gripper.dir/src/gazebo_ros_vacuum_gripper.cpp.o\x1b[0m\n'}
+[95.311976] (-) TimerEvent: {}
+[95.412598] (-) TimerEvent: {}
+[95.513189] (-) TimerEvent: {}
+[95.613729] (-) TimerEvent: {}
+[95.714282] (-) TimerEvent: {}
+[95.814747] (-) TimerEvent: {}
+[95.915303] (-) TimerEvent: {}
+[96.015770] (-) TimerEvent: {}
+[96.116247] (-) TimerEvent: {}
+[96.216732] (-) TimerEvent: {}
+[96.317407] (-) TimerEvent: {}
+[96.417938] (-) TimerEvent: {}
+[96.518434] (-) TimerEvent: {}
+[96.619071] (-) TimerEvent: {}
+[96.719626] (-) TimerEvent: {}
+[96.820123] (-) TimerEvent: {}
+[96.920651] (-) TimerEvent: {}
+[97.021118] (-) TimerEvent: {}
+[97.121448] (-) TimerEvent: {}
+[97.221956] (-) TimerEvent: {}
+[97.322461] (-) TimerEvent: {}
+[97.423142] (-) TimerEvent: {}
+[97.523752] (-) TimerEvent: {}
+[97.624217] (-) TimerEvent: {}
+[97.724671] (-) TimerEvent: {}
+[97.825272] (-) TimerEvent: {}
+[97.925792] (-) TimerEvent: {}
+[98.026468] (-) TimerEvent: {}
+[98.126958] (-) TimerEvent: {}
+[98.227467] (-) TimerEvent: {}
+[98.327933] (-) TimerEvent: {}
+[98.428393] (-) TimerEvent: {}
+[98.528853] (-) TimerEvent: {}
+[98.629436] (-) TimerEvent: {}
+[98.730029] (-) TimerEvent: {}
+[98.830525] (-) TimerEvent: {}
+[98.931015] (-) TimerEvent: {}
+[99.031329] (-) TimerEvent: {}
+[99.131675] (-) TimerEvent: {}
+[99.232002] (-) TimerEvent: {}
+[99.332327] (-) TimerEvent: {}
+[99.432651] (-) TimerEvent: {}
+[99.532988] (-) TimerEvent: {}
+[99.633314] (-) TimerEvent: {}
+[99.733645] (-) TimerEvent: {}
+[99.833966] (-) TimerEvent: {}
+[99.934279] (-) TimerEvent: {}
+[100.034573] (-) TimerEvent: {}
+[100.135089] (-) TimerEvent: {}
+[100.235568] (-) TimerEvent: {}
+[100.336053] (-) TimerEvent: {}
+[100.436537] (-) TimerEvent: {}
+[100.537107] (-) TimerEvent: {}
+[100.637580] (-) TimerEvent: {}
+[100.738067] (-) TimerEvent: {}
+[100.838563] (-) TimerEvent: {}
+[100.939147] (-) TimerEvent: {}
+[101.042709] (-) TimerEvent: {}
+[101.143294] (-) TimerEvent: {}
+[101.243768] (-) TimerEvent: {}
+[101.344367] (-) TimerEvent: {}
+[101.444839] (-) TimerEvent: {}
+[101.545286] (-) TimerEvent: {}
+[101.645854] (-) TimerEvent: {}
+[101.746412] (-) TimerEvent: {}
+[101.846910] (-) TimerEvent: {}
+[101.947224] (-) TimerEvent: {}
+[102.047503] (-) TimerEvent: {}
+[102.147809] (-) TimerEvent: {}
+[102.248119] (-) TimerEvent: {}
+[102.348437] (-) TimerEvent: {}
+[102.448940] (-) TimerEvent: {}
+[102.549435] (-) TimerEvent: {}
+[102.652306] (-) TimerEvent: {}
+[102.752803] (-) TimerEvent: {}
+[102.853132] (-) TimerEvent: {}
+[102.953624] (-) TimerEvent: {}
+[103.053932] (-) TimerEvent: {}
+[103.154401] (-) TimerEvent: {}
+[103.254881] (-) TimerEvent: {}
+[103.357339] (-) TimerEvent: {}
+[103.457902] (-) TimerEvent: {}
+[103.558456] (-) TimerEvent: {}
+[103.659019] (-) TimerEvent: {}
+[103.759630] (-) TimerEvent: {}
+[103.860174] (-) TimerEvent: {}
+[103.960768] (-) TimerEvent: {}
+[104.061221] (-) TimerEvent: {}
+[104.161696] (-) TimerEvent: {}
+[104.262228] (-) TimerEvent: {}
+[104.362727] (-) TimerEvent: {}
+[104.463159] (-) TimerEvent: {}
+[104.563645] (-) TimerEvent: {}
+[104.664122] (-) TimerEvent: {}
+[104.764590] (-) TimerEvent: {}
+[104.864920] (-) TimerEvent: {}
+[104.965391] (-) TimerEvent: {}
+[105.065889] (-) TimerEvent: {}
+[105.166361] (-) TimerEvent: {}
+[105.266805] (-) TimerEvent: {}
+[105.367273] (-) TimerEvent: {}
+[105.467594] (-) TimerEvent: {}
+[105.567908] (-) TimerEvent: {}
+[105.668346] (-) TimerEvent: {}
+[105.768660] (-) TimerEvent: {}
+[105.877492] (-) TimerEvent: {}
+[105.977827] (-) TimerEvent: {}
+[106.078170] (-) TimerEvent: {}
+[106.178513] (-) TimerEvent: {}
+[106.278856] (-) TimerEvent: {}
+[106.379216] (-) TimerEvent: {}
+[106.479603] (-) TimerEvent: {}
+[106.580131] (-) TimerEvent: {}
+[106.680654] (-) TimerEvent: {}
+[106.781197] (-) TimerEvent: {}
+[106.881753] (-) TimerEvent: {}
+[106.982344] (-) TimerEvent: {}
+[107.082708] (-) TimerEvent: {}
+[107.183240] (-) TimerEvent: {}
+[107.283752] (-) TimerEvent: {}
+[107.384242] (-) TimerEvent: {}
+[107.484580] (-) TimerEvent: {}
+[107.585044] (-) TimerEvent: {}
+[107.685346] (-) TimerEvent: {}
+[107.785647] (-) TimerEvent: {}
+[107.885963] (-) TimerEvent: {}
+[107.986279] (-) TimerEvent: {}
+[108.086756] (-) TimerEvent: {}
+[108.187297] (-) TimerEvent: {}
+[108.287614] (-) TimerEvent: {}
+[108.387924] (-) TimerEvent: {}
+[108.488235] (-) TimerEvent: {}
+[108.588532] (-) TimerEvent: {}
+[108.688836] (-) TimerEvent: {}
+[108.789152] (-) TimerEvent: {}
+[108.889457] (-) TimerEvent: {}
+[108.989785] (-) TimerEvent: {}
+[109.090087] (-) TimerEvent: {}
+[109.190589] (-) TimerEvent: {}
+[109.291094] (-) TimerEvent: {}
+[109.391622] (-) TimerEvent: {}
+[109.491936] (-) TimerEvent: {}
+[109.592489] (-) TimerEvent: {}
+[109.693014] (-) TimerEvent: {}
+[109.793630] (-) TimerEvent: {}
+[109.894180] (-) TimerEvent: {}
+[109.998991] (-) TimerEvent: {}
+[110.099414] (-) TimerEvent: {}
+[110.199818] (-) TimerEvent: {}
+[110.301590] (-) TimerEvent: {}
+[110.402553] (-) TimerEvent: {}
+[110.503121] (-) TimerEvent: {}
+[110.603738] (-) TimerEvent: {}
+[110.704445] (-) TimerEvent: {}
+[110.804938] (-) TimerEvent: {}
+[110.905262] (-) TimerEvent: {}
+[111.005597] (-) TimerEvent: {}
+[111.105916] (-) TimerEvent: {}
+[111.206224] (-) TimerEvent: {}
+[111.306534] (-) TimerEvent: {}
+[111.406926] (-) TimerEvent: {}
+[111.507349] (-) TimerEvent: {}
+[111.607784] (-) TimerEvent: {}
+[111.708174] (-) TimerEvent: {}
+[111.808607] (-) TimerEvent: {}
+[111.909028] (-) TimerEvent: {}
+[112.009343] (-) TimerEvent: {}
+[112.109652] (-) TimerEvent: {}
+[112.209978] (-) TimerEvent: {}
+[112.310644] (-) TimerEvent: {}
+[112.411019] (-) TimerEvent: {}
+[112.511494] (-) TimerEvent: {}
+[112.611858] (-) TimerEvent: {}
+[112.712190] (-) TimerEvent: {}
+[112.812483] (-) TimerEvent: {}
+[112.912813] (-) TimerEvent: {}
+[113.013134] (-) TimerEvent: {}
+[113.113454] (-) TimerEvent: {}
+[113.213764] (-) TimerEvent: {}
+[113.314377] (-) TimerEvent: {}
+[113.414965] (-) TimerEvent: {}
+[113.515448] (-) TimerEvent: {}
+[113.615754] (-) TimerEvent: {}
+[113.716073] (-) TimerEvent: {}
+[113.816554] (-) TimerEvent: {}
+[113.916857] (-) TimerEvent: {}
+[114.017165] (-) TimerEvent: {}
+[114.117506] (-) TimerEvent: {}
+[114.217822] (-) TimerEvent: {}
+[114.318137] (-) TimerEvent: {}
+[114.418458] (-) TimerEvent: {}
+[114.518787] (-) TimerEvent: {}
+[114.619090] (-) TimerEvent: {}
+[114.719546] (-) TimerEvent: {}
+[114.819979] (-) TimerEvent: {}
+[114.920412] (-) TimerEvent: {}
+[115.020720] (-) TimerEvent: {}
+[115.121038] (-) TimerEvent: {}
+[115.221365] (-) TimerEvent: {}
+[115.321664] (-) TimerEvent: {}
+[115.421999] (-) TimerEvent: {}
+[115.522644] (-) TimerEvent: {}
+[115.623107] (-) TimerEvent: {}
+[115.723545] (-) TimerEvent: {}
+[115.823969] (-) TimerEvent: {}
+[115.924393] (-) TimerEvent: {}
+[116.024810] (-) TimerEvent: {}
+[116.125233] (-) TimerEvent: {}
+[116.225653] (-) TimerEvent: {}
+[116.326048] (-) TimerEvent: {}
+[116.426375] (-) TimerEvent: {}
+[116.526695] (-) TimerEvent: {}
+[116.627011] (-) TimerEvent: {}
+[116.727333] (-) TimerEvent: {}
+[116.827670] (-) TimerEvent: {}
+[116.927981] (-) TimerEvent: {}
+[117.028291] (-) TimerEvent: {}
+[117.128607] (-) TimerEvent: {}
+[117.228925] (-) TimerEvent: {}
+[117.329263] (-) TimerEvent: {}
+[117.429593] (-) TimerEvent: {}
+[117.529920] (-) TimerEvent: {}
+[117.630266] (-) TimerEvent: {}
+[117.730568] (-) TimerEvent: {}
+[117.830873] (-) TimerEvent: {}
+[117.931188] (-) TimerEvent: {}
+[118.031522] (-) TimerEvent: {}
+[118.131809] (-) TimerEvent: {}
+[118.232143] (-) TimerEvent: {}
+[118.332443] (-) TimerEvent: {}
+[118.432767] (-) TimerEvent: {}
+[118.533063] (-) TimerEvent: {}
+[118.633389] (-) TimerEvent: {}
+[118.733699] (-) TimerEvent: {}
+[118.834018] (-) TimerEvent: {}
+[118.934317] (-) TimerEvent: {}
+[119.034627] (-) TimerEvent: {}
+[119.134928] (-) TimerEvent: {}
+[119.235214] (-) TimerEvent: {}
+[119.335538] (-) TimerEvent: {}
+[119.435854] (-) TimerEvent: {}
+[119.536171] (-) TimerEvent: {}
+[119.636474] (-) TimerEvent: {}
+[119.736773] (-) TimerEvent: {}
+[119.837074] (-) TimerEvent: {}
+[119.937385] (-) TimerEvent: {}
+[120.037688] (-) TimerEvent: {}
+[120.137986] (-) TimerEvent: {}
+[120.238274] (-) TimerEvent: {}
+[120.338566] (-) TimerEvent: {}
+[120.438882] (-) TimerEvent: {}
+[120.539198] (-) TimerEvent: {}
+[120.639518] (-) TimerEvent: {}
+[120.739817] (-) TimerEvent: {}
+[120.840151] (-) TimerEvent: {}
+[120.940470] (-) TimerEvent: {}
+[121.040767] (-) TimerEvent: {}
+[121.141078] (-) TimerEvent: {}
+[121.241388] (-) TimerEvent: {}
+[121.341714] (-) TimerEvent: {}
+[121.442135] (-) TimerEvent: {}
+[121.542546] (-) TimerEvent: {}
+[121.642838] (-) TimerEvent: {}
+[121.743133] (-) TimerEvent: {}
+[121.843416] (-) TimerEvent: {}
+[121.943723] (-) TimerEvent: {}
+[122.044019] (-) TimerEvent: {}
+[122.144303] (-) TimerEvent: {}
+[122.244621] (-) TimerEvent: {}
+[122.344921] (-) TimerEvent: {}
+[122.445214] (-) TimerEvent: {}
+[122.545794] (-) TimerEvent: {}
+[122.646095] (-) TimerEvent: {}
+[122.746396] (-) TimerEvent: {}
+[122.846722] (-) TimerEvent: {}
+[122.947029] (-) TimerEvent: {}
+[123.047318] (-) TimerEvent: {}
+[123.147615] (-) TimerEvent: {}
+[123.247923] (-) TimerEvent: {}
+[123.288444] (gazebo_plugins) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_vacuum_gripper.so\x1b[0m\n'}
+[123.348024] (-) TimerEvent: {}
+[123.448418] (-) TimerEvent: {}
+[123.548826] (-) TimerEvent: {}
+[123.649137] (-) TimerEvent: {}
+[123.749431] (-) TimerEvent: {}
+[123.849750] (-) TimerEvent: {}
+[123.950067] (-) TimerEvent: {}
+[124.050395] (-) TimerEvent: {}
+[124.150775] (-) TimerEvent: {}
+[124.251106] (-) TimerEvent: {}
+[124.351409] (-) TimerEvent: {}
+[124.451704] (-) TimerEvent: {}
+[124.552006] (-) TimerEvent: {}
+[124.652441] (-) TimerEvent: {}
+[124.707731] (gazebo_plugins) StdoutLine: {'line': b'[ 54%] Built target gazebo_ros_vacuum_gripper\n'}
+[124.752544] (-) TimerEvent: {}
+[124.852846] (-) TimerEvent: {}
+[124.953141] (-) TimerEvent: {}
+[125.053434] (-) TimerEvent: {}
+[125.153733] (-) TimerEvent: {}
+[125.254021] (-) TimerEvent: {}
+[125.354336] (-) TimerEvent: {}
+[125.454677] (-) TimerEvent: {}
+[125.554987] (-) TimerEvent: {}
+[125.655315] (-) TimerEvent: {}
+[125.755620] (-) TimerEvent: {}
+[125.855924] (-) TimerEvent: {}
+[125.956219] (-) TimerEvent: {}
+[126.056500] (-) TimerEvent: {}
+[126.156797] (-) TimerEvent: {}
+[126.257107] (-) TimerEvent: {}
+[126.357427] (-) TimerEvent: {}
+[126.363619] (gazebo_plugins) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_planar_move.so\x1b[0m\n'}
+[126.457525] (-) TimerEvent: {}
+[126.557929] (-) TimerEvent: {}
+[126.658335] (-) TimerEvent: {}
+[126.758809] (-) TimerEvent: {}
+[126.859291] (-) TimerEvent: {}
+[126.959757] (-) TimerEvent: {}
+[127.060103] (-) TimerEvent: {}
+[127.160426] (-) TimerEvent: {}
+[127.260762] (-) TimerEvent: {}
+[127.361071] (-) TimerEvent: {}
+[127.461412] (-) TimerEvent: {}
+[127.561733] (-) TimerEvent: {}
+[127.662047] (-) TimerEvent: {}
+[127.762311] (-) TimerEvent: {}
+[127.862559] (-) TimerEvent: {}
+[127.962836] (-) TimerEvent: {}
+[128.063142] (-) TimerEvent: {}
+[128.163476] (-) TimerEvent: {}
+[128.172887] (gazebo_plugins) StdoutLine: {'line': b'[ 55%] Built target gazebo_ros_planar_move\n'}
+[128.263574] (-) TimerEvent: {}
+[128.363863] (-) TimerEvent: {}
+[128.464136] (-) TimerEvent: {}
+[128.564471] (-) TimerEvent: {}
+[128.664783] (-) TimerEvent: {}
+[128.765103] (-) TimerEvent: {}
+[128.865421] (-) TimerEvent: {}
+[128.935270] (gazebo_plugins) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_joint_pose_trajectory.so\x1b[0m\n'}
+[128.965530] (-) TimerEvent: {}
+[129.065962] (-) TimerEvent: {}
+[129.166448] (-) TimerEvent: {}
+[129.167131] (gazebo_plugins) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_wheel_slip.so\x1b[0m\n'}
+[129.266631] (-) TimerEvent: {}
+[129.367168] (-) TimerEvent: {}
+[129.467611] (-) TimerEvent: {}
+[129.568104] (-) TimerEvent: {}
+[129.668714] (-) TimerEvent: {}
+[129.769432] (-) TimerEvent: {}
+[129.870083] (-) TimerEvent: {}
+[129.970733] (-) TimerEvent: {}
+[130.071555] (-) TimerEvent: {}
+[130.165057] (gazebo_plugins) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_projector.so\x1b[0m\n'}
+[130.171685] (-) TimerEvent: {}
+[130.272248] (-) TimerEvent: {}
+[130.372848] (-) TimerEvent: {}
+[130.473296] (-) TimerEvent: {}
+[130.573738] (-) TimerEvent: {}
+[130.641242] (gazebo_plugins) StdoutLine: {'line': b'[ 59%] Built target gazebo_ros_joint_pose_trajectory\n'}
+[130.673864] (-) TimerEvent: {}
+[130.774403] (-) TimerEvent: {}
+[130.875013] (-) TimerEvent: {}
+[130.974356] (gazebo_plugins) StdoutLine: {'line': b'[ 59%] Built target gazebo_ros_wheel_slip\n'}
+[130.975097] (-) TimerEvent: {}
+[131.075437] (-) TimerEvent: {}
+[131.175798] (-) TimerEvent: {}
+[131.276145] (-) TimerEvent: {}
+[131.376486] (-) TimerEvent: {}
+[131.477959] (-) TimerEvent: {}
+[131.491350] (gazebo_plugins) StdoutLine: {'line': b'[ 59%] Built target gazebo_ros_projector\n'}
+[131.578076] (-) TimerEvent: {}
+[131.678431] (-) TimerEvent: {}
+[131.778795] (-) TimerEvent: {}
+[131.879144] (-) TimerEvent: {}
+[131.979499] (-) TimerEvent: {}
+[132.079835] (-) TimerEvent: {}
+[132.180185] (-) TimerEvent: {}
+[132.280543] (-) TimerEvent: {}
+[132.380910] (-) TimerEvent: {}
+[132.481250] (-) TimerEvent: {}
+[132.581600] (-) TimerEvent: {}
+[132.681950] (-) TimerEvent: {}
+[132.782292] (-) TimerEvent: {}
+[132.882679] (-) TimerEvent: {}
+[132.983022] (-) TimerEvent: {}
+[133.083369] (-) TimerEvent: {}
+[133.183714] (-) TimerEvent: {}
+[133.284058] (-) TimerEvent: {}
+[133.384447] (-) TimerEvent: {}
+[133.484807] (-) TimerEvent: {}
+[133.585142] (-) TimerEvent: {}
+[133.685483] (-) TimerEvent: {}
+[133.785850] (-) TimerEvent: {}
+[133.886194] (-) TimerEvent: {}
+[133.986545] (-) TimerEvent: {}
+[134.086871] (-) TimerEvent: {}
+[134.187189] (-) TimerEvent: {}
+[134.287521] (-) TimerEvent: {}
+[134.387855] (-) TimerEvent: {}
+[134.488209] (-) TimerEvent: {}
+[134.588556] (-) TimerEvent: {}
+[134.688906] (-) TimerEvent: {}
+[134.789248] (-) TimerEvent: {}
+[134.889581] (-) TimerEvent: {}
+[134.989930] (-) TimerEvent: {}
+[135.090275] (-) TimerEvent: {}
+[135.190572] (-) TimerEvent: {}
+[135.290875] (-) TimerEvent: {}
+[135.391201] (-) TimerEvent: {}
+[135.491534] (-) TimerEvent: {}
+[135.591873] (-) TimerEvent: {}
+[135.692215] (-) TimerEvent: {}
+[135.792551] (-) TimerEvent: {}
+[135.892898] (-) TimerEvent: {}
+[135.993244] (-) TimerEvent: {}
+[136.093581] (-) TimerEvent: {}
+[136.193907] (-) TimerEvent: {}
+[136.294236] (-) TimerEvent: {}
+[136.394608] (-) TimerEvent: {}
+[136.494964] (-) TimerEvent: {}
+[136.595285] (-) TimerEvent: {}
+[136.695613] (-) TimerEvent: {}
+[136.795950] (-) TimerEvent: {}
+[136.896273] (-) TimerEvent: {}
+[136.996601] (-) TimerEvent: {}
+[137.096939] (-) TimerEvent: {}
+[137.197269] (-) TimerEvent: {}
+[137.297604] (-) TimerEvent: {}
+[137.397918] (-) TimerEvent: {}
+[137.498241] (-) TimerEvent: {}
+[137.598565] (-) TimerEvent: {}
+[137.698811] (-) TimerEvent: {}
+[137.799137] (-) TimerEvent: {}
+[137.899456] (-) TimerEvent: {}
+[137.999791] (-) TimerEvent: {}
+[138.100115] (-) TimerEvent: {}
+[138.200432] (-) TimerEvent: {}
+[138.300755] (-) TimerEvent: {}
+[138.401076] (-) TimerEvent: {}
+[138.501400] (-) TimerEvent: {}
+[138.601728] (-) TimerEvent: {}
+[138.702072] (-) TimerEvent: {}
+[138.802398] (-) TimerEvent: {}
+[138.902716] (-) TimerEvent: {}
+[138.910646] (gazebo_plugins) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros_camera.so\x1b[0m\n'}
+[139.002805] (-) TimerEvent: {}
+[139.103120] (-) TimerEvent: {}
+[139.203454] (-) TimerEvent: {}
+[139.303806] (-) TimerEvent: {}
+[139.404209] (-) TimerEvent: {}
+[139.504614] (-) TimerEvent: {}
+[139.530771] (gazebo_plugins) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_hand_of_god.dir/test_gazebo_ros_hand_of_god.cpp.o\x1b[0m\n'}
+[139.604751] (-) TimerEvent: {}
+[139.705160] (-) TimerEvent: {}
+[139.805488] (-) TimerEvent: {}
+[139.905842] (-) TimerEvent: {}
+[140.006191] (-) TimerEvent: {}
+[140.106569] (-) TimerEvent: {}
+[140.198721] (gazebo_plugins) StdoutLine: {'line': b'[ 61%] Built target gazebo_ros_camera\n'}
+[140.206674] (-) TimerEvent: {}
+[140.213781] (gazebo_plugins) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ft_sensor.dir/test_gazebo_ros_ft_sensor.cpp.o\x1b[0m\n'}
+[140.222211] (gazebo_plugins) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_force.dir/test_gazebo_ros_force.cpp.o\x1b[0m\n'}
+[140.306781] (-) TimerEvent: {}
+[140.407106] (-) TimerEvent: {}
+[140.507402] (-) TimerEvent: {}
+[140.607741] (-) TimerEvent: {}
+[140.708069] (-) TimerEvent: {}
+[140.808401] (-) TimerEvent: {}
+[140.908748] (-) TimerEvent: {}
+[141.009104] (-) TimerEvent: {}
+[141.109433] (-) TimerEvent: {}
+[141.209842] (-) TimerEvent: {}
+[141.246183] (gazebo_plugins) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_harness.dir/test_gazebo_ros_harness.cpp.o\x1b[0m\n'}
+[141.279731] (gazebo_plugins) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_ackermann_drive\x1b[0m\n'}
+[141.309947] (-) TimerEvent: {}
+[141.410349] (-) TimerEvent: {}
+[141.510689] (-) TimerEvent: {}
+[141.611023] (-) TimerEvent: {}
+[141.711328] (-) TimerEvent: {}
+[141.811669] (-) TimerEvent: {}
+[141.912049] (-) TimerEvent: {}
+[142.012410] (-) TimerEvent: {}
+[142.112779] (-) TimerEvent: {}
+[142.213101] (-) TimerEvent: {}
+[142.282325] (gazebo_plugins) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_elevator.dir/test_gazebo_ros_elevator.cpp.o\x1b[0m\n'}
+[142.313218] (-) TimerEvent: {}
+[142.413562] (-) TimerEvent: {}
+[142.513947] (-) TimerEvent: {}
+[142.614332] (-) TimerEvent: {}
+[142.644807] (gazebo_plugins) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_bumper\x1b[0m\n'}
+[142.714436] (-) TimerEvent: {}
+[142.814854] (-) TimerEvent: {}
+[142.915270] (-) TimerEvent: {}
+[143.015720] (-) TimerEvent: {}
+[143.116195] (-) TimerEvent: {}
+[143.216505] (-) TimerEvent: {}
+[143.316841] (-) TimerEvent: {}
+[143.401027] (gazebo_plugins) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_diff_drive.dir/test_gazebo_ros_diff_drive.cpp.o\x1b[0m\n'}
+[143.416950] (-) TimerEvent: {}
+[143.517271] (-) TimerEvent: {}
+[143.617581] (-) TimerEvent: {}
+[143.717933] (-) TimerEvent: {}
+[143.818258] (-) TimerEvent: {}
+[143.918632] (-) TimerEvent: {}
+[144.019010] (-) TimerEvent: {}
+[144.119380] (-) TimerEvent: {}
+[144.219820] (-) TimerEvent: {}
+[144.320200] (-) TimerEvent: {}
+[144.420543] (-) TimerEvent: {}
+[144.520884] (-) TimerEvent: {}
+[144.561895] (gazebo_plugins) StdoutLine: {'line': b'[ 69%] Built target test_gazebo_ros_ackermann_drive\n'}
+[144.621016] (-) TimerEvent: {}
+[144.721390] (-) TimerEvent: {}
+[144.821751] (-) TimerEvent: {}
+[144.922094] (-) TimerEvent: {}
+[145.022392] (-) TimerEvent: {}
+[145.122734] (-) TimerEvent: {}
+[145.223055] (-) TimerEvent: {}
+[145.323366] (-) TimerEvent: {}
+[145.423711] (-) TimerEvent: {}
+[145.524045] (-) TimerEvent: {}
+[145.624389] (-) TimerEvent: {}
+[145.724690] (-) TimerEvent: {}
+[145.825005] (-) TimerEvent: {}
+[145.925318] (-) TimerEvent: {}
+[146.025642] (-) TimerEvent: {}
+[146.125993] (-) TimerEvent: {}
+[146.226319] (-) TimerEvent: {}
+[146.326635] (-) TimerEvent: {}
+[146.337658] (gazebo_plugins) StdoutLine: {'line': b'[ 69%] Built target test_gazebo_ros_bumper\n'}
+[146.426749] (-) TimerEvent: {}
+[146.528044] (-) TimerEvent: {}
+[146.628434] (-) TimerEvent: {}
+[146.728883] (-) TimerEvent: {}
+[146.829271] (-) TimerEvent: {}
+[146.929639] (-) TimerEvent: {}
+[147.030102] (-) TimerEvent: {}
+[147.130541] (-) TimerEvent: {}
+[147.230978] (-) TimerEvent: {}
+[147.331419] (-) TimerEvent: {}
+[147.431881] (-) TimerEvent: {}
+[147.532334] (-) TimerEvent: {}
+[147.632659] (-) TimerEvent: {}
+[147.733068] (-) TimerEvent: {}
+[147.833861] (-) TimerEvent: {}
+[147.934191] (-) TimerEvent: {}
+[148.034520] (-) TimerEvent: {}
+[148.134866] (-) TimerEvent: {}
+[148.235250] (-) TimerEvent: {}
+[148.335665] (-) TimerEvent: {}
+[148.436133] (-) TimerEvent: {}
+[148.536577] (-) TimerEvent: {}
+[148.637058] (-) TimerEvent: {}
+[148.737432] (-) TimerEvent: {}
+[148.837761] (-) TimerEvent: {}
+[148.938108] (-) TimerEvent: {}
+[149.038444] (-) TimerEvent: {}
+[149.138968] (-) TimerEvent: {}
+[149.239400] (-) TimerEvent: {}
+[149.339827] (-) TimerEvent: {}
+[149.379306] (gazebo_plugins) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_gps_sensor.dir/test_gazebo_ros_gps_sensor.cpp.o\x1b[0m\n'}
+[149.439936] (-) TimerEvent: {}
+[149.540261] (-) TimerEvent: {}
+[149.640599] (-) TimerEvent: {}
+[149.740947] (-) TimerEvent: {}
+[149.841266] (-) TimerEvent: {}
+[149.941694] (-) TimerEvent: {}
+[150.042131] (-) TimerEvent: {}
+[150.142636] (-) TimerEvent: {}
+[150.242946] (-) TimerEvent: {}
+[150.343265] (-) TimerEvent: {}
+[150.443564] (-) TimerEvent: {}
+[150.492486] (gazebo_plugins) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_imu_sensor.dir/test_gazebo_ros_imu_sensor.cpp.o\x1b[0m\n'}
+[150.543666] (-) TimerEvent: {}
+[150.643972] (-) TimerEvent: {}
+[150.744287] (-) TimerEvent: {}
+[150.844611] (-) TimerEvent: {}
+[150.944926] (-) TimerEvent: {}
+[151.045263] (-) TimerEvent: {}
+[151.145584] (-) TimerEvent: {}
+[151.245911] (-) TimerEvent: {}
+[151.346236] (-) TimerEvent: {}
+[151.446550] (-) TimerEvent: {}
+[151.546851] (-) TimerEvent: {}
+[151.647167] (-) TimerEvent: {}
+[151.747471] (-) TimerEvent: {}
+[151.847786] (-) TimerEvent: {}
+[151.948110] (-) TimerEvent: {}
+[152.048427] (-) TimerEvent: {}
+[152.148756] (-) TimerEvent: {}
+[152.249092] (-) TimerEvent: {}
+[152.349423] (-) TimerEvent: {}
+[152.449743] (-) TimerEvent: {}
+[152.550070] (-) TimerEvent: {}
+[152.650538] (-) TimerEvent: {}
+[152.750954] (-) TimerEvent: {}
+[152.851283] (-) TimerEvent: {}
+[152.951620] (-) TimerEvent: {}
+[153.052012] (-) TimerEvent: {}
+[153.152330] (-) TimerEvent: {}
+[153.252656] (-) TimerEvent: {}
+[153.352985] (-) TimerEvent: {}
+[153.453290] (-) TimerEvent: {}
+[153.553596] (-) TimerEvent: {}
+[153.653902] (-) TimerEvent: {}
+[153.754338] (-) TimerEvent: {}
+[153.854785] (-) TimerEvent: {}
+[153.955107] (-) TimerEvent: {}
+[154.055424] (-) TimerEvent: {}
+[154.155752] (-) TimerEvent: {}
+[154.256066] (-) TimerEvent: {}
+[154.356498] (-) TimerEvent: {}
+[154.456799] (-) TimerEvent: {}
+[154.557110] (-) TimerEvent: {}
+[154.657414] (-) TimerEvent: {}
+[154.757743] (-) TimerEvent: {}
+[154.858063] (-) TimerEvent: {}
+[154.958370] (-) TimerEvent: {}
+[155.058699] (-) TimerEvent: {}
+[155.158999] (-) TimerEvent: {}
+[155.259300] (-) TimerEvent: {}
+[155.359624] (-) TimerEvent: {}
+[155.459955] (-) TimerEvent: {}
+[155.560246] (-) TimerEvent: {}
+[155.660547] (-) TimerEvent: {}
+[155.760860] (-) TimerEvent: {}
+[155.861193] (-) TimerEvent: {}
+[155.961534] (-) TimerEvent: {}
+[156.061860] (-) TimerEvent: {}
+[156.162195] (-) TimerEvent: {}
+[156.262537] (-) TimerEvent: {}
+[156.362893] (-) TimerEvent: {}
+[156.463208] (-) TimerEvent: {}
+[156.563551] (-) TimerEvent: {}
+[156.663888] (-) TimerEvent: {}
+[156.764209] (-) TimerEvent: {}
+[156.864678] (-) TimerEvent: {}
+[156.965102] (-) TimerEvent: {}
+[157.065418] (-) TimerEvent: {}
+[157.165723] (-) TimerEvent: {}
+[157.266040] (-) TimerEvent: {}
+[157.366358] (-) TimerEvent: {}
+[157.466676] (-) TimerEvent: {}
+[157.566984] (-) TimerEvent: {}
+[157.667292] (-) TimerEvent: {}
+[157.768703] (-) TimerEvent: {}
+[157.869018] (-) TimerEvent: {}
+[157.969327] (-) TimerEvent: {}
+[158.069635] (-) TimerEvent: {}
+[158.169947] (-) TimerEvent: {}
+[158.270255] (-) TimerEvent: {}
+[158.370557] (-) TimerEvent: {}
+[158.470857] (-) TimerEvent: {}
+[158.571192] (-) TimerEvent: {}
+[158.671509] (-) TimerEvent: {}
+[158.771841] (-) TimerEvent: {}
+[158.872169] (-) TimerEvent: {}
+[158.972520] (-) TimerEvent: {}
+[159.072836] (-) TimerEvent: {}
+[159.173252] (-) TimerEvent: {}
+[159.273548] (-) TimerEvent: {}
+[159.373956] (-) TimerEvent: {}
+[159.474376] (-) TimerEvent: {}
+[159.574687] (-) TimerEvent: {}
+[159.675083] (-) TimerEvent: {}
+[159.775503] (-) TimerEvent: {}
+[159.875823] (-) TimerEvent: {}
+[159.976144] (-) TimerEvent: {}
+[160.076577] (-) TimerEvent: {}
+[160.177017] (-) TimerEvent: {}
+[160.277317] (-) TimerEvent: {}
+[160.377627] (-) TimerEvent: {}
+[160.477946] (-) TimerEvent: {}
+[160.578270] (-) TimerEvent: {}
+[160.678557] (-) TimerEvent: {}
+[160.778864] (-) TimerEvent: {}
+[160.879162] (-) TimerEvent: {}
+[160.979455] (-) TimerEvent: {}
+[161.079747] (-) TimerEvent: {}
+[161.180042] (-) TimerEvent: {}
+[161.280338] (-) TimerEvent: {}
+[161.380650] (-) TimerEvent: {}
+[161.480956] (-) TimerEvent: {}
+[161.581257] (-) TimerEvent: {}
+[161.681561] (-) TimerEvent: {}
+[161.781962] (-) TimerEvent: {}
+[161.882288] (-) TimerEvent: {}
+[161.982635] (-) TimerEvent: {}
+[162.082956] (-) TimerEvent: {}
+[162.183282] (-) TimerEvent: {}
+[162.283610] (-) TimerEvent: {}
+[162.383937] (-) TimerEvent: {}
+[162.484260] (-) TimerEvent: {}
+[162.584595] (-) TimerEvent: {}
+[162.684929] (-) TimerEvent: {}
+[162.785250] (-) TimerEvent: {}
+[162.885661] (-) TimerEvent: {}
+[162.986081] (-) TimerEvent: {}
+[163.086518] (-) TimerEvent: {}
+[163.186945] (-) TimerEvent: {}
+[163.287252] (-) TimerEvent: {}
+[163.387556] (-) TimerEvent: {}
+[163.487852] (-) TimerEvent: {}
+[163.588159] (-) TimerEvent: {}
+[163.688474] (-) TimerEvent: {}
+[163.788798] (-) TimerEvent: {}
+[163.889125] (-) TimerEvent: {}
+[163.989430] (-) TimerEvent: {}
+[164.089744] (-) TimerEvent: {}
+[164.190181] (-) TimerEvent: {}
+[164.290634] (-) TimerEvent: {}
+[164.391066] (-) TimerEvent: {}
+[164.491491] (-) TimerEvent: {}
+[164.591932] (-) TimerEvent: {}
+[164.692367] (-) TimerEvent: {}
+[164.792810] (-) TimerEvent: {}
+[164.893135] (-) TimerEvent: {}
+[164.993477] (-) TimerEvent: {}
+[165.093822] (-) TimerEvent: {}
+[165.194150] (-) TimerEvent: {}
+[165.294571] (-) TimerEvent: {}
+[165.394888] (-) TimerEvent: {}
+[165.495206] (-) TimerEvent: {}
+[165.595542] (-) TimerEvent: {}
+[165.695859] (-) TimerEvent: {}
+[165.796303] (-) TimerEvent: {}
+[165.896730] (-) TimerEvent: {}
+[165.997059] (-) TimerEvent: {}
+[166.097512] (-) TimerEvent: {}
+[166.197944] (-) TimerEvent: {}
+[166.298354] (-) TimerEvent: {}
+[166.398694] (-) TimerEvent: {}
+[166.499031] (-) TimerEvent: {}
+[166.599342] (-) TimerEvent: {}
+[166.699653] (-) TimerEvent: {}
+[166.799981] (-) TimerEvent: {}
+[166.900314] (-) TimerEvent: {}
+[167.000645] (-) TimerEvent: {}
+[167.100974] (-) TimerEvent: {}
+[167.201281] (-) TimerEvent: {}
+[167.301591] (-) TimerEvent: {}
+[167.401908] (-) TimerEvent: {}
+[167.502215] (-) TimerEvent: {}
+[167.602540] (-) TimerEvent: {}
+[167.702855] (-) TimerEvent: {}
+[167.803153] (-) TimerEvent: {}
+[167.903458] (-) TimerEvent: {}
+[168.003796] (-) TimerEvent: {}
+[168.104117] (-) TimerEvent: {}
+[168.204447] (-) TimerEvent: {}
+[168.304874] (-) TimerEvent: {}
+[168.405296] (-) TimerEvent: {}
+[168.505704] (-) TimerEvent: {}
+[168.606136] (-) TimerEvent: {}
+[168.706564] (-) TimerEvent: {}
+[168.806990] (-) TimerEvent: {}
+[168.907401] (-) TimerEvent: {}
+[169.007724] (-) TimerEvent: {}
+[169.108019] (-) TimerEvent: {}
+[169.208342] (-) TimerEvent: {}
+[169.308644] (-) TimerEvent: {}
+[169.408964] (-) TimerEvent: {}
+[169.509282] (-) TimerEvent: {}
+[169.609608] (-) TimerEvent: {}
+[169.709942] (-) TimerEvent: {}
+[169.810369] (-) TimerEvent: {}
+[169.910802] (-) TimerEvent: {}
+[170.011113] (-) TimerEvent: {}
+[170.111463] (-) TimerEvent: {}
+[170.211906] (-) TimerEvent: {}
+[170.312358] (-) TimerEvent: {}
+[170.412795] (-) TimerEvent: {}
+[170.513134] (-) TimerEvent: {}
+[170.613460] (-) TimerEvent: {}
+[170.713792] (-) TimerEvent: {}
+[170.814100] (-) TimerEvent: {}
+[170.914413] (-) TimerEvent: {}
+[171.014738] (-) TimerEvent: {}
+[171.115050] (-) TimerEvent: {}
+[171.215355] (-) TimerEvent: {}
+[171.315670] (-) TimerEvent: {}
+[171.416001] (-) TimerEvent: {}
+[171.516311] (-) TimerEvent: {}
+[171.616624] (-) TimerEvent: {}
+[171.716971] (-) TimerEvent: {}
+[171.817310] (-) TimerEvent: {}
+[171.917609] (-) TimerEvent: {}
+[172.017927] (-) TimerEvent: {}
+[172.118255] (-) TimerEvent: {}
+[172.218564] (-) TimerEvent: {}
+[172.318893] (-) TimerEvent: {}
+[172.419200] (-) TimerEvent: {}
+[172.519612] (-) TimerEvent: {}
+[172.619934] (-) TimerEvent: {}
+[172.720260] (-) TimerEvent: {}
+[172.820586] (-) TimerEvent: {}
+[172.920909] (-) TimerEvent: {}
+[173.021224] (-) TimerEvent: {}
+[173.121533] (-) TimerEvent: {}
+[173.221836] (-) TimerEvent: {}
+[173.322145] (-) TimerEvent: {}
+[173.422443] (-) TimerEvent: {}
+[173.522761] (-) TimerEvent: {}
+[173.623079] (-) TimerEvent: {}
+[173.723383] (-) TimerEvent: {}
+[173.823699] (-) TimerEvent: {}
+[173.924010] (-) TimerEvent: {}
+[174.024302] (-) TimerEvent: {}
+[174.124711] (-) TimerEvent: {}
+[174.225039] (-) TimerEvent: {}
+[174.325359] (-) TimerEvent: {}
+[174.425674] (-) TimerEvent: {}
+[174.526004] (-) TimerEvent: {}
+[174.626320] (-) TimerEvent: {}
+[174.726633] (-) TimerEvent: {}
+[174.826935] (-) TimerEvent: {}
+[174.927240] (-) TimerEvent: {}
+[175.027538] (-) TimerEvent: {}
+[175.127832] (-) TimerEvent: {}
+[175.228147] (-) TimerEvent: {}
+[175.328468] (-) TimerEvent: {}
+[175.428793] (-) TimerEvent: {}
+[175.529137] (-) TimerEvent: {}
+[175.629572] (-) TimerEvent: {}
+[175.729865] (-) TimerEvent: {}
+[175.830159] (-) TimerEvent: {}
+[175.930466] (-) TimerEvent: {}
+[176.030776] (-) TimerEvent: {}
+[176.131101] (-) TimerEvent: {}
+[176.231417] (-) TimerEvent: {}
+[176.331731] (-) TimerEvent: {}
+[176.432041] (-) TimerEvent: {}
+[176.532330] (-) TimerEvent: {}
+[176.632631] (-) TimerEvent: {}
+[176.732943] (-) TimerEvent: {}
+[176.833245] (-) TimerEvent: {}
+[176.933552] (-) TimerEvent: {}
+[177.033847] (-) TimerEvent: {}
+[177.134159] (-) TimerEvent: {}
+[177.234458] (-) TimerEvent: {}
+[177.334893] (-) TimerEvent: {}
+[177.435202] (-) TimerEvent: {}
+[177.535642] (-) TimerEvent: {}
+[177.636059] (-) TimerEvent: {}
+[177.736463] (-) TimerEvent: {}
+[177.836890] (-) TimerEvent: {}
+[177.937199] (-) TimerEvent: {}
+[178.037645] (-) TimerEvent: {}
+[178.138085] (-) TimerEvent: {}
+[178.238406] (-) TimerEvent: {}
+[178.338901] (-) TimerEvent: {}
+[178.439184] (-) TimerEvent: {}
+[178.539590] (-) TimerEvent: {}
+[178.639933] (-) TimerEvent: {}
+[178.740314] (-) TimerEvent: {}
+[178.840640] (-) TimerEvent: {}
+[178.940924] (-) TimerEvent: {}
+[179.041233] (-) TimerEvent: {}
+[179.141555] (-) TimerEvent: {}
+[179.241864] (-) TimerEvent: {}
+[179.342287] (-) TimerEvent: {}
+[179.442723] (-) TimerEvent: {}
+[179.543024] (-) TimerEvent: {}
+[179.643351] (-) TimerEvent: {}
+[179.743727] (-) TimerEvent: {}
+[179.844186] (-) TimerEvent: {}
+[179.944607] (-) TimerEvent: {}
+[180.044920] (-) TimerEvent: {}
+[180.145231] (-) TimerEvent: {}
+[180.245647] (-) TimerEvent: {}
+[180.345958] (-) TimerEvent: {}
+[180.446261] (-) TimerEvent: {}
+[180.546567] (-) TimerEvent: {}
+[180.646869] (-) TimerEvent: {}
+[180.747162] (-) TimerEvent: {}
+[180.847464] (-) TimerEvent: {}
+[180.947776] (-) TimerEvent: {}
+[181.048104] (-) TimerEvent: {}
+[181.148424] (-) TimerEvent: {}
+[181.248760] (-) TimerEvent: {}
+[181.349091] (-) TimerEvent: {}
+[181.449516] (-) TimerEvent: {}
+[181.549945] (-) TimerEvent: {}
+[181.650375] (-) TimerEvent: {}
+[181.750805] (-) TimerEvent: {}
+[181.851113] (-) TimerEvent: {}
+[181.951539] (-) TimerEvent: {}
+[182.051852] (-) TimerEvent: {}
+[182.152160] (-) TimerEvent: {}
+[182.252480] (-) TimerEvent: {}
+[182.352773] (-) TimerEvent: {}
+[182.462346] (-) TimerEvent: {}
+[182.562669] (-) TimerEvent: {}
+[182.662971] (-) TimerEvent: {}
+[182.765571] (-) TimerEvent: {}
+[182.866034] (-) TimerEvent: {}
+[182.966540] (-) TimerEvent: {}
+[183.066832] (-) TimerEvent: {}
+[183.198567] (-) TimerEvent: {}
+[183.298870] (-) TimerEvent: {}
+[183.399151] (-) TimerEvent: {}
+[183.499453] (-) TimerEvent: {}
+[183.599755] (-) TimerEvent: {}
+[183.700035] (-) TimerEvent: {}
+[183.821150] (-) TimerEvent: {}
+[183.921437] (-) TimerEvent: {}
+[184.021742] (-) TimerEvent: {}
+[184.122042] (-) TimerEvent: {}
+[184.222354] (-) TimerEvent: {}
+[184.322675] (-) TimerEvent: {}
+[184.422978] (-) TimerEvent: {}
+[184.523275] (-) TimerEvent: {}
+[184.623704] (-) TimerEvent: {}
+[184.724007] (-) TimerEvent: {}
+[184.824287] (-) TimerEvent: {}
+[184.924569] (-) TimerEvent: {}
+[185.024896] (-) TimerEvent: {}
+[185.125280] (-) TimerEvent: {}
+[185.225678] (-) TimerEvent: {}
+[185.326102] (-) TimerEvent: {}
+[185.426523] (-) TimerEvent: {}
+[185.526819] (-) TimerEvent: {}
+[185.627125] (-) TimerEvent: {}
+[185.727502] (-) TimerEvent: {}
+[185.827921] (-) TimerEvent: {}
+[185.928345] (-) TimerEvent: {}
+[186.028698] (-) TimerEvent: {}
+[186.128984] (-) TimerEvent: {}
+[186.229280] (-) TimerEvent: {}
+[186.329723] (-) TimerEvent: {}
+[186.430128] (-) TimerEvent: {}
+[186.534739] (-) TimerEvent: {}
+[186.638566] (-) TimerEvent: {}
+[186.742562] (-) TimerEvent: {}
+[186.846553] (-) TimerEvent: {}
+[186.950575] (-) TimerEvent: {}
+[187.054554] (-) TimerEvent: {}
+[187.154854] (-) TimerEvent: {}
+[187.255165] (-) TimerEvent: {}
+[187.355474] (-) TimerEvent: {}
+[187.455795] (-) TimerEvent: {}
+[187.556087] (-) TimerEvent: {}
+[187.656345] (-) TimerEvent: {}
+[187.756622] (-) TimerEvent: {}
+[187.856893] (-) TimerEvent: {}
+[187.957195] (-) TimerEvent: {}
+[188.057604] (-) TimerEvent: {}
+[188.157924] (-) TimerEvent: {}
+[188.258205] (-) TimerEvent: {}
+[188.358527] (-) TimerEvent: {}
+[188.458997] (-) TimerEvent: {}
+[188.559319] (-) TimerEvent: {}
+[188.659646] (-) TimerEvent: {}
+[188.759977] (-) TimerEvent: {}
+[188.860303] (-) TimerEvent: {}
+[188.960667] (-) TimerEvent: {}
+[189.061024] (-) TimerEvent: {}
+[189.144575] (gazebo_plugins) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_hand_of_god\x1b[0m\n'}
+[189.182538] (-) TimerEvent: {}
+[189.182729] (gazebo_plugins) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_force\x1b[0m\n'}
+[189.182894] (gazebo_plugins) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_elevator\x1b[0m\n'}
+[189.183014] (gazebo_plugins) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_harness\x1b[0m\n'}
+[189.282635] (-) TimerEvent: {}
+[189.382919] (-) TimerEvent: {}
+[189.483228] (-) TimerEvent: {}
+[189.583575] (-) TimerEvent: {}
+[189.683913] (-) TimerEvent: {}
+[189.784276] (-) TimerEvent: {}
+[189.884855] (-) TimerEvent: {}
+[189.985249] (-) TimerEvent: {}
+[190.085602] (-) TimerEvent: {}
+[190.185949] (-) TimerEvent: {}
+[190.286298] (-) TimerEvent: {}
+[190.386680] (-) TimerEvent: {}
+[190.487251] (-) TimerEvent: {}
+[190.587736] (-) TimerEvent: {}
+[190.688233] (-) TimerEvent: {}
+[190.788575] (-) TimerEvent: {}
+[190.888917] (-) TimerEvent: {}
+[190.989246] (-) TimerEvent: {}
+[191.089781] (-) TimerEvent: {}
+[191.190183] (-) TimerEvent: {}
+[191.290486] (-) TimerEvent: {}
+[191.390800] (-) TimerEvent: {}
+[191.491088] (-) TimerEvent: {}
+[191.591380] (-) TimerEvent: {}
+[191.691670] (-) TimerEvent: {}
+[191.791956] (-) TimerEvent: {}
+[191.892247] (-) TimerEvent: {}
+[191.992568] (-) TimerEvent: {}
+[192.092885] (-) TimerEvent: {}
+[192.193203] (-) TimerEvent: {}
+[192.293520] (-) TimerEvent: {}
+[192.393845] (-) TimerEvent: {}
+[192.494155] (-) TimerEvent: {}
+[192.595702] (-) TimerEvent: {}
+[192.696096] (-) TimerEvent: {}
+[192.796376] (-) TimerEvent: {}
+[192.896794] (-) TimerEvent: {}
+[192.997174] (-) TimerEvent: {}
+[193.097510] (-) TimerEvent: {}
+[193.197971] (-) TimerEvent: {}
+[193.298529] (-) TimerEvent: {}
+[193.399029] (-) TimerEvent: {}
+[193.499622] (-) TimerEvent: {}
+[193.600043] (-) TimerEvent: {}
+[193.700456] (-) TimerEvent: {}
+[193.800787] (-) TimerEvent: {}
+[193.901075] (-) TimerEvent: {}
+[194.001445] (-) TimerEvent: {}
+[194.101941] (-) TimerEvent: {}
+[194.202398] (-) TimerEvent: {}
+[194.302926] (-) TimerEvent: {}
+[194.403444] (-) TimerEvent: {}
+[194.503855] (-) TimerEvent: {}
+[194.604178] (-) TimerEvent: {}
+[194.635012] (gazebo_plugins) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_ft_sensor\x1b[0m\n'}
+[194.704283] (-) TimerEvent: {}
+[194.804587] (-) TimerEvent: {}
+[194.904983] (-) TimerEvent: {}
+[195.005333] (-) TimerEvent: {}
+[195.105722] (-) TimerEvent: {}
+[195.206042] (-) TimerEvent: {}
+[195.306334] (-) TimerEvent: {}
+[195.406703] (-) TimerEvent: {}
+[195.507047] (-) TimerEvent: {}
+[195.607442] (-) TimerEvent: {}
+[195.707862] (-) TimerEvent: {}
+[195.808268] (-) TimerEvent: {}
+[195.908691] (-) TimerEvent: {}
+[196.009488] (-) TimerEvent: {}
+[196.024842] (gazebo_plugins) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_diff_drive\x1b[0m\n'}
+[196.109598] (-) TimerEvent: {}
+[196.209951] (-) TimerEvent: {}
+[196.310360] (-) TimerEvent: {}
+[196.410712] (-) TimerEvent: {}
+[196.511027] (-) TimerEvent: {}
+[196.611303] (-) TimerEvent: {}
+[196.711539] (-) TimerEvent: {}
+[196.811811] (-) TimerEvent: {}
+[196.912222] (-) TimerEvent: {}
+[197.012665] (-) TimerEvent: {}
+[197.113139] (-) TimerEvent: {}
+[197.213593] (-) TimerEvent: {}
+[197.314046] (-) TimerEvent: {}
+[197.414406] (-) TimerEvent: {}
+[197.514790] (-) TimerEvent: {}
+[197.615126] (-) TimerEvent: {}
+[197.715448] (-) TimerEvent: {}
+[197.815757] (-) TimerEvent: {}
+[197.916081] (-) TimerEvent: {}
+[198.016346] (-) TimerEvent: {}
+[198.116611] (-) TimerEvent: {}
+[198.216893] (-) TimerEvent: {}
+[198.317164] (-) TimerEvent: {}
+[198.417451] (-) TimerEvent: {}
+[198.517720] (-) TimerEvent: {}
+[198.618015] (-) TimerEvent: {}
+[198.718244] (-) TimerEvent: {}
+[198.818473] (-) TimerEvent: {}
+[198.918788] (-) TimerEvent: {}
+[199.019119] (-) TimerEvent: {}
+[199.119487] (-) TimerEvent: {}
+[199.219870] (-) TimerEvent: {}
+[199.320164] (-) TimerEvent: {}
+[199.420430] (-) TimerEvent: {}
+[199.520720] (-) TimerEvent: {}
+[199.619870] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_imu_sensor\x1b[0m\n'}
+[199.620795] (-) TimerEvent: {}
+[199.721060] (-) TimerEvent: {}
+[199.821347] (-) TimerEvent: {}
+[199.921611] (-) TimerEvent: {}
+[200.021890] (-) TimerEvent: {}
+[200.122155] (-) TimerEvent: {}
+[200.222418] (-) TimerEvent: {}
+[200.322691] (-) TimerEvent: {}
+[200.422987] (-) TimerEvent: {}
+[200.523263] (-) TimerEvent: {}
+[200.623543] (-) TimerEvent: {}
+[200.723793] (-) TimerEvent: {}
+[200.824030] (-) TimerEvent: {}
+[200.924326] (-) TimerEvent: {}
+[201.024584] (-) TimerEvent: {}
+[201.124866] (-) TimerEvent: {}
+[201.225188] (-) TimerEvent: {}
+[201.325513] (-) TimerEvent: {}
+[201.425897] (-) TimerEvent: {}
+[201.526255] (-) TimerEvent: {}
+[201.626559] (-) TimerEvent: {}
+[201.691117] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_force\n'}
+[201.726666] (-) TimerEvent: {}
+[201.758388] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_harness\n'}
+[201.821016] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_hand_of_god\n'}
+[201.826774] (-) TimerEvent: {}
+[201.895691] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_elevator\n'}
+[201.926883] (-) TimerEvent: {}
+[202.009885] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_diff_drive\n'}
+[202.027002] (-) TimerEvent: {}
+[202.085375] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_ft_sensor\n'}
+[202.127107] (-) TimerEvent: {}
+[202.220075] (gazebo_plugins) StdoutLine: {'line': b'[ 80%] Built target test_gazebo_ros_imu_sensor\n'}
+[202.227195] (-) TimerEvent: {}
+[202.327550] (-) TimerEvent: {}
+[202.427826] (-) TimerEvent: {}
+[202.528082] (-) TimerEvent: {}
+[202.628333] (-) TimerEvent: {}
+[202.728588] (-) TimerEvent: {}
+[202.828837] (-) TimerEvent: {}
+[202.929087] (-) TimerEvent: {}
+[203.029353] (-) TimerEvent: {}
+[203.129627] (-) TimerEvent: {}
+[203.229933] (-) TimerEvent: {}
+[203.330209] (-) TimerEvent: {}
+[203.430501] (-) TimerEvent: {}
+[203.530783] (-) TimerEvent: {}
+[203.631075] (-) TimerEvent: {}
+[203.731343] (-) TimerEvent: {}
+[203.831595] (-) TimerEvent: {}
+[203.931843] (-) TimerEvent: {}
+[204.032110] (-) TimerEvent: {}
+[204.084119] (gazebo_plugins) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_gps_sensor\x1b[0m\n'}
+[204.132217] (-) TimerEvent: {}
+[204.232528] (-) TimerEvent: {}
+[204.332875] (-) TimerEvent: {}
+[204.433197] (-) TimerEvent: {}
+[204.533543] (-) TimerEvent: {}
+[204.633897] (-) TimerEvent: {}
+[204.734247] (-) TimerEvent: {}
+[204.834614] (-) TimerEvent: {}
+[204.934944] (-) TimerEvent: {}
+[205.035275] (-) TimerEvent: {}
+[205.135598] (-) TimerEvent: {}
+[205.235883] (-) TimerEvent: {}
+[205.336156] (-) TimerEvent: {}
+[205.436441] (-) TimerEvent: {}
+[205.536714] (-) TimerEvent: {}
+[205.637022] (-) TimerEvent: {}
+[205.737304] (-) TimerEvent: {}
+[205.837596] (-) TimerEvent: {}
+[205.937869] (-) TimerEvent: {}
+[206.038151] (-) TimerEvent: {}
+[206.071943] (gazebo_plugins) StdoutLine: {'line': b'[ 81%] Built target test_gazebo_ros_gps_sensor\n'}
+[206.138280] (-) TimerEvent: {}
+[206.177257] (gazebo_plugins) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_vacuum_gripper.dir/test_gazebo_ros_vacuum_gripper.cpp.o\x1b[0m\n'}
+[206.238394] (-) TimerEvent: {}
+[206.338661] (-) TimerEvent: {}
+[206.438926] (-) TimerEvent: {}
+[206.539176] (-) TimerEvent: {}
+[206.639435] (-) TimerEvent: {}
+[206.739707] (-) TimerEvent: {}
+[206.839973] (-) TimerEvent: {}
+[206.940262] (-) TimerEvent: {}
+[207.040519] (-) TimerEvent: {}
+[207.140797] (-) TimerEvent: {}
+[207.241072] (-) TimerEvent: {}
+[207.341321] (-) TimerEvent: {}
+[207.441582] (-) TimerEvent: {}
+[207.541823] (-) TimerEvent: {}
+[207.642113] (-) TimerEvent: {}
+[207.742386] (-) TimerEvent: {}
+[207.842648] (-) TimerEvent: {}
+[207.942896] (-) TimerEvent: {}
+[208.043162] (-) TimerEvent: {}
+[208.143402] (-) TimerEvent: {}
+[208.243683] (-) TimerEvent: {}
+[208.343934] (-) TimerEvent: {}
+[208.444186] (-) TimerEvent: {}
+[208.544423] (-) TimerEvent: {}
+[208.644688] (-) TimerEvent: {}
+[208.744920] (-) TimerEvent: {}
+[208.845178] (-) TimerEvent: {}
+[208.945440] (-) TimerEvent: {}
+[209.045704] (-) TimerEvent: {}
+[209.145965] (-) TimerEvent: {}
+[209.246232] (-) TimerEvent: {}
+[209.346474] (-) TimerEvent: {}
+[209.446760] (-) TimerEvent: {}
+[209.547005] (-) TimerEvent: {}
+[209.647315] (-) TimerEvent: {}
+[209.747603] (-) TimerEvent: {}
+[209.847864] (-) TimerEvent: {}
+[209.948129] (-) TimerEvent: {}
+[210.048393] (-) TimerEvent: {}
+[210.148664] (-) TimerEvent: {}
+[210.248902] (-) TimerEvent: {}
+[210.349135] (-) TimerEvent: {}
+[210.449410] (-) TimerEvent: {}
+[210.549674] (-) TimerEvent: {}
+[210.649949] (-) TimerEvent: {}
+[210.750190] (-) TimerEvent: {}
+[210.850424] (-) TimerEvent: {}
+[210.950719] (-) TimerEvent: {}
+[211.050965] (-) TimerEvent: {}
+[211.151216] (-) TimerEvent: {}
+[211.251469] (-) TimerEvent: {}
+[211.351726] (-) TimerEvent: {}
+[211.451985] (-) TimerEvent: {}
+[211.552234] (-) TimerEvent: {}
+[211.652493] (-) TimerEvent: {}
+[211.752750] (-) TimerEvent: {}
+[211.853025] (-) TimerEvent: {}
+[211.953341] (-) TimerEvent: {}
+[212.053599] (-) TimerEvent: {}
+[212.153850] (-) TimerEvent: {}
+[212.254120] (-) TimerEvent: {}
+[212.354376] (-) TimerEvent: {}
+[212.454615] (-) TimerEvent: {}
+[212.554871] (-) TimerEvent: {}
+[212.655121] (-) TimerEvent: {}
+[212.755356] (-) TimerEvent: {}
+[212.855618] (-) TimerEvent: {}
+[212.955894] (-) TimerEvent: {}
+[213.056122] (-) TimerEvent: {}
+[213.156385] (-) TimerEvent: {}
+[213.256743] (-) TimerEvent: {}
+[213.357021] (-) TimerEvent: {}
+[213.457284] (-) TimerEvent: {}
+[213.557578] (-) TimerEvent: {}
+[213.657887] (-) TimerEvent: {}
+[213.758127] (-) TimerEvent: {}
+[213.858399] (-) TimerEvent: {}
+[213.958708] (-) TimerEvent: {}
+[214.058971] (-) TimerEvent: {}
+[214.159231] (-) TimerEvent: {}
+[214.259482] (-) TimerEvent: {}
+[214.359747] (-) TimerEvent: {}
+[214.460012] (-) TimerEvent: {}
+[214.560261] (-) TimerEvent: {}
+[214.660522] (-) TimerEvent: {}
+[214.760803] (-) TimerEvent: {}
+[214.861053] (-) TimerEvent: {}
+[214.961316] (-) TimerEvent: {}
+[215.061576] (-) TimerEvent: {}
+[215.161836] (-) TimerEvent: {}
+[215.262089] (-) TimerEvent: {}
+[215.362342] (-) TimerEvent: {}
+[215.462601] (-) TimerEvent: {}
+[215.562867] (-) TimerEvent: {}
+[215.663123] (-) TimerEvent: {}
+[215.763433] (-) TimerEvent: {}
+[215.863670] (-) TimerEvent: {}
+[215.964017] (-) TimerEvent: {}
+[216.064286] (-) TimerEvent: {}
+[216.164545] (-) TimerEvent: {}
+[216.264794] (-) TimerEvent: {}
+[216.365062] (-) TimerEvent: {}
+[216.465314] (-) TimerEvent: {}
+[216.565572] (-) TimerEvent: {}
+[216.665827] (-) TimerEvent: {}
+[216.766078] (-) TimerEvent: {}
+[216.866316] (-) TimerEvent: {}
+[216.966610] (-) TimerEvent: {}
+[217.066858] (-) TimerEvent: {}
+[217.167116] (-) TimerEvent: {}
+[217.267370] (-) TimerEvent: {}
+[217.367627] (-) TimerEvent: {}
+[217.467885] (-) TimerEvent: {}
+[217.568215] (-) TimerEvent: {}
+[217.668516] (-) TimerEvent: {}
+[217.768772] (-) TimerEvent: {}
+[217.869038] (-) TimerEvent: {}
+[217.969280] (-) TimerEvent: {}
+[218.069542] (-) TimerEvent: {}
+[218.169794] (-) TimerEvent: {}
+[218.270051] (-) TimerEvent: {}
+[218.370306] (-) TimerEvent: {}
+[218.470577] (-) TimerEvent: {}
+[218.570827] (-) TimerEvent: {}
+[218.671069] (-) TimerEvent: {}
+[218.771328] (-) TimerEvent: {}
+[218.871575] (-) TimerEvent: {}
+[218.971874] (-) TimerEvent: {}
+[219.072134] (-) TimerEvent: {}
+[219.172389] (-) TimerEvent: {}
+[219.272645] (-) TimerEvent: {}
+[219.372902] (-) TimerEvent: {}
+[219.473152] (-) TimerEvent: {}
+[219.573454] (-) TimerEvent: {}
+[219.673788] (-) TimerEvent: {}
+[219.774170] (-) TimerEvent: {}
+[219.874414] (-) TimerEvent: {}
+[219.974757] (-) TimerEvent: {}
+[220.075045] (-) TimerEvent: {}
+[220.175367] (-) TimerEvent: {}
+[220.275703] (-) TimerEvent: {}
+[220.375985] (-) TimerEvent: {}
+[220.476286] (-) TimerEvent: {}
+[220.576538] (-) TimerEvent: {}
+[220.676795] (-) TimerEvent: {}
+[220.777056] (-) TimerEvent: {}
+[220.877309] (-) TimerEvent: {}
+[220.977559] (-) TimerEvent: {}
+[221.077794] (-) TimerEvent: {}
+[221.178041] (-) TimerEvent: {}
+[221.278297] (-) TimerEvent: {}
+[221.378588] (-) TimerEvent: {}
+[221.478840] (-) TimerEvent: {}
+[221.579099] (-) TimerEvent: {}
+[221.679349] (-) TimerEvent: {}
+[221.779607] (-) TimerEvent: {}
+[221.879866] (-) TimerEvent: {}
+[221.980124] (-) TimerEvent: {}
+[222.080375] (-) TimerEvent: {}
+[222.180610] (-) TimerEvent: {}
+[222.280870] (-) TimerEvent: {}
+[222.381124] (-) TimerEvent: {}
+[222.481381] (-) TimerEvent: {}
+[222.581621] (-) TimerEvent: {}
+[222.681877] (-) TimerEvent: {}
+[222.782133] (-) TimerEvent: {}
+[222.882385] (-) TimerEvent: {}
+[222.982626] (-) TimerEvent: {}
+[223.082877] (-) TimerEvent: {}
+[223.183116] (-) TimerEvent: {}
+[223.283398] (-) TimerEvent: {}
+[223.383692] (-) TimerEvent: {}
+[223.483952] (-) TimerEvent: {}
+[223.584209] (-) TimerEvent: {}
+[223.684459] (-) TimerEvent: {}
+[223.784723] (-) TimerEvent: {}
+[223.884985] (-) TimerEvent: {}
+[223.985214] (-) TimerEvent: {}
+[224.085473] (-) TimerEvent: {}
+[224.185707] (-) TimerEvent: {}
+[224.285971] (-) TimerEvent: {}
+[224.386229] (-) TimerEvent: {}
+[224.486489] (-) TimerEvent: {}
+[224.586762] (-) TimerEvent: {}
+[224.687019] (-) TimerEvent: {}
+[224.787287] (-) TimerEvent: {}
+[224.887556] (-) TimerEvent: {}
+[224.987812] (-) TimerEvent: {}
+[225.088070] (-) TimerEvent: {}
+[225.188319] (-) TimerEvent: {}
+[225.288569] (-) TimerEvent: {}
+[225.388849] (-) TimerEvent: {}
+[225.489107] (-) TimerEvent: {}
+[225.589363] (-) TimerEvent: {}
+[225.689625] (-) TimerEvent: {}
+[225.789879] (-) TimerEvent: {}
+[225.890138] (-) TimerEvent: {}
+[225.990400] (-) TimerEvent: {}
+[226.090653] (-) TimerEvent: {}
+[226.190870] (-) TimerEvent: {}
+[226.291119] (-) TimerEvent: {}
+[226.391376] (-) TimerEvent: {}
+[226.491633] (-) TimerEvent: {}
+[226.591894] (-) TimerEvent: {}
+[226.692153] (-) TimerEvent: {}
+[226.792413] (-) TimerEvent: {}
+[226.892678] (-) TimerEvent: {}
+[226.992938] (-) TimerEvent: {}
+[227.093197] (-) TimerEvent: {}
+[227.193452] (-) TimerEvent: {}
+[227.293703] (-) TimerEvent: {}
+[227.393953] (-) TimerEvent: {}
+[227.494216] (-) TimerEvent: {}
+[227.594503] (-) TimerEvent: {}
+[227.694777] (-) TimerEvent: {}
+[227.795029] (-) TimerEvent: {}
+[227.895288] (-) TimerEvent: {}
+[227.995553] (-) TimerEvent: {}
+[228.095932] (-) TimerEvent: {}
+[228.196266] (-) TimerEvent: {}
+[228.296542] (-) TimerEvent: {}
+[228.396875] (-) TimerEvent: {}
+[228.497167] (-) TimerEvent: {}
+[228.597469] (-) TimerEvent: {}
+[228.697790] (-) TimerEvent: {}
+[228.798093] (-) TimerEvent: {}
+[228.898394] (-) TimerEvent: {}
+[228.998732] (-) TimerEvent: {}
+[229.099047] (-) TimerEvent: {}
+[229.199360] (-) TimerEvent: {}
+[229.299728] (-) TimerEvent: {}
+[229.400095] (-) TimerEvent: {}
+[229.500430] (-) TimerEvent: {}
+[229.600799] (-) TimerEvent: {}
+[229.701139] (-) TimerEvent: {}
+[229.801465] (-) TimerEvent: {}
+[229.901798] (-) TimerEvent: {}
+[230.002132] (-) TimerEvent: {}
+[230.102455] (-) TimerEvent: {}
+[230.202796] (-) TimerEvent: {}
+[230.303121] (-) TimerEvent: {}
+[230.403454] (-) TimerEvent: {}
+[230.503812] (-) TimerEvent: {}
+[230.604142] (-) TimerEvent: {}
+[230.704505] (-) TimerEvent: {}
+[230.804845] (-) TimerEvent: {}
+[230.905192] (-) TimerEvent: {}
+[231.005548] (-) TimerEvent: {}
+[231.105892] (-) TimerEvent: {}
+[231.206229] (-) TimerEvent: {}
+[231.306595] (-) TimerEvent: {}
+[231.406902] (-) TimerEvent: {}
+[231.507162] (-) TimerEvent: {}
+[231.607417] (-) TimerEvent: {}
+[231.707662] (-) TimerEvent: {}
+[231.807931] (-) TimerEvent: {}
+[231.908186] (-) TimerEvent: {}
+[232.008447] (-) TimerEvent: {}
+[232.108706] (-) TimerEvent: {}
+[232.208966] (-) TimerEvent: {}
+[232.309230] (-) TimerEvent: {}
+[232.409491] (-) TimerEvent: {}
+[232.509749] (-) TimerEvent: {}
+[232.609981] (-) TimerEvent: {}
+[232.710229] (-) TimerEvent: {}
+[232.810502] (-) TimerEvent: {}
+[232.910735] (-) TimerEvent: {}
+[233.010964] (-) TimerEvent: {}
+[233.111199] (-) TimerEvent: {}
+[233.211469] (-) TimerEvent: {}
+[233.311740] (-) TimerEvent: {}
+[233.411990] (-) TimerEvent: {}
+[233.512245] (-) TimerEvent: {}
+[233.612538] (-) TimerEvent: {}
+[233.712817] (-) TimerEvent: {}
+[233.813114] (-) TimerEvent: {}
+[233.913408] (-) TimerEvent: {}
+[234.013711] (-) TimerEvent: {}
+[234.114010] (-) TimerEvent: {}
+[234.214299] (-) TimerEvent: {}
+[234.314598] (-) TimerEvent: {}
+[234.414901] (-) TimerEvent: {}
+[234.515140] (-) TimerEvent: {}
+[234.615432] (-) TimerEvent: {}
+[234.715721] (-) TimerEvent: {}
+[234.816037] (-) TimerEvent: {}
+[234.916320] (-) TimerEvent: {}
+[235.016637] (-) TimerEvent: {}
+[235.116901] (-) TimerEvent: {}
+[235.164017] (gazebo_plugins) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_vacuum_gripper\x1b[0m\n'}
+[235.217011] (-) TimerEvent: {}
+[235.317275] (-) TimerEvent: {}
+[235.417584] (-) TimerEvent: {}
+[235.517851] (-) TimerEvent: {}
+[235.618098] (-) TimerEvent: {}
+[235.718386] (-) TimerEvent: {}
+[235.818728] (-) TimerEvent: {}
+[235.918995] (-) TimerEvent: {}
+[236.019250] (-) TimerEvent: {}
+[236.119509] (-) TimerEvent: {}
+[236.219772] (-) TimerEvent: {}
+[236.320033] (-) TimerEvent: {}
+[236.420305] (-) TimerEvent: {}
+[236.520572] (-) TimerEvent: {}
+[236.532991] (gazebo_plugins) StdoutLine: {'line': b'[ 83%] Built target test_gazebo_ros_vacuum_gripper\n'}
+[236.579053] (gazebo_plugins) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_state_publisher.dir/test_gazebo_ros_joint_state_publisher.cpp.o\x1b[0m\n'}
+[236.579357] (gazebo_plugins) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_pose_trajectory.dir/test_gazebo_ros_joint_pose_trajectory.cpp.o\x1b[0m\n'}
+[236.579576] (gazebo_plugins) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_wheelslip.dir/test_gazebo_ros_wheelslip.cpp.o\x1b[0m\n'}
+[236.579748] (gazebo_plugins) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ray_sensor.dir/test_gazebo_ros_ray_sensor.cpp.o\x1b[0m\n'}
+[236.579934] (gazebo_plugins) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_tricycle_drive.dir/test_gazebo_ros_tricycle_drive.cpp.o\x1b[0m\n'}
+[236.581524] (gazebo_plugins) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_planar_move.dir/test_gazebo_ros_planar_move.cpp.o\x1b[0m\n'}
+[236.586855] (gazebo_plugins) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_p3d.dir/test_gazebo_ros_p3d.cpp.o\x1b[0m\n'}
+[236.620679] (-) TimerEvent: {}
+[236.721074] (-) TimerEvent: {}
+[236.821466] (-) TimerEvent: {}
+[236.921886] (-) TimerEvent: {}
+[237.022296] (-) TimerEvent: {}
+[237.122698] (-) TimerEvent: {}
+[237.223076] (-) TimerEvent: {}
+[237.323459] (-) TimerEvent: {}
+[237.423882] (-) TimerEvent: {}
+[237.524305] (-) TimerEvent: {}
+[237.624740] (-) TimerEvent: {}
+[237.725119] (-) TimerEvent: {}
+[237.825544] (-) TimerEvent: {}
+[237.925846] (-) TimerEvent: {}
+[238.026190] (-) TimerEvent: {}
+[238.126544] (-) TimerEvent: {}
+[238.226851] (-) TimerEvent: {}
+[238.327136] (-) TimerEvent: {}
+[238.427471] (-) TimerEvent: {}
+[238.527791] (-) TimerEvent: {}
+[238.628084] (-) TimerEvent: {}
+[238.728383] (-) TimerEvent: {}
+[238.828696] (-) TimerEvent: {}
+[238.929015] (-) TimerEvent: {}
+[239.029348] (-) TimerEvent: {}
+[239.129666] (-) TimerEvent: {}
+[239.230011] (-) TimerEvent: {}
+[239.330330] (-) TimerEvent: {}
+[239.430665] (-) TimerEvent: {}
+[239.531006] (-) TimerEvent: {}
+[239.631332] (-) TimerEvent: {}
+[239.731663] (-) TimerEvent: {}
+[239.843594] (-) TimerEvent: {}
+[239.943928] (-) TimerEvent: {}
+[240.044285] (-) TimerEvent: {}
+[240.144634] (-) TimerEvent: {}
+[240.244983] (-) TimerEvent: {}
+[240.345325] (-) TimerEvent: {}
+[240.445729] (-) TimerEvent: {}
+[240.546153] (-) TimerEvent: {}
+[240.646753] (-) TimerEvent: {}
+[240.747203] (-) TimerEvent: {}
+[240.847621] (-) TimerEvent: {}
+[240.948026] (-) TimerEvent: {}
+[241.048567] (-) TimerEvent: {}
+[241.149047] (-) TimerEvent: {}
+[241.249482] (-) TimerEvent: {}
+[241.349963] (-) TimerEvent: {}
+[241.450392] (-) TimerEvent: {}
+[241.550839] (-) TimerEvent: {}
+[241.651161] (-) TimerEvent: {}
+[241.751451] (-) TimerEvent: {}
+[241.851741] (-) TimerEvent: {}
+[241.952077] (-) TimerEvent: {}
+[242.052390] (-) TimerEvent: {}
+[242.152818] (-) TimerEvent: {}
+[242.253237] (-) TimerEvent: {}
+[242.353712] (-) TimerEvent: {}
+[242.454068] (-) TimerEvent: {}
+[242.554440] (-) TimerEvent: {}
+[242.654825] (-) TimerEvent: {}
+[242.755162] (-) TimerEvent: {}
+[242.855465] (-) TimerEvent: {}
+[242.955785] (-) TimerEvent: {}
+[243.056161] (-) TimerEvent: {}
+[243.156724] (-) TimerEvent: {}
+[243.257142] (-) TimerEvent: {}
+[243.357547] (-) TimerEvent: {}
+[243.457966] (-) TimerEvent: {}
+[243.558397] (-) TimerEvent: {}
+[243.658796] (-) TimerEvent: {}
+[243.759190] (-) TimerEvent: {}
+[243.859621] (-) TimerEvent: {}
+[243.960066] (-) TimerEvent: {}
+[244.060484] (-) TimerEvent: {}
+[244.160788] (-) TimerEvent: {}
+[244.261212] (-) TimerEvent: {}
+[244.361632] (-) TimerEvent: {}
+[244.462037] (-) TimerEvent: {}
+[244.562448] (-) TimerEvent: {}
+[244.662873] (-) TimerEvent: {}
+[244.763274] (-) TimerEvent: {}
+[244.863577] (-) TimerEvent: {}
+[244.963880] (-) TimerEvent: {}
+[245.064184] (-) TimerEvent: {}
+[245.164478] (-) TimerEvent: {}
+[245.264806] (-) TimerEvent: {}
+[245.365135] (-) TimerEvent: {}
+[245.465458] (-) TimerEvent: {}
+[245.565779] (-) TimerEvent: {}
+[245.666113] (-) TimerEvent: {}
+[245.766436] (-) TimerEvent: {}
+[245.866759] (-) TimerEvent: {}
+[245.967089] (-) TimerEvent: {}
+[246.067418] (-) TimerEvent: {}
+[246.167751] (-) TimerEvent: {}
+[246.268094] (-) TimerEvent: {}
+[246.368426] (-) TimerEvent: {}
+[246.468834] (-) TimerEvent: {}
+[246.569150] (-) TimerEvent: {}
+[246.669477] (-) TimerEvent: {}
+[246.769800] (-) TimerEvent: {}
+[246.870121] (-) TimerEvent: {}
+[246.970950] (-) TimerEvent: {}
+[247.071272] (-) TimerEvent: {}
+[247.171591] (-) TimerEvent: {}
+[247.271891] (-) TimerEvent: {}
+[247.372261] (-) TimerEvent: {}
+[247.472577] (-) TimerEvent: {}
+[247.572879] (-) TimerEvent: {}
+[247.673180] (-) TimerEvent: {}
+[247.773506] (-) TimerEvent: {}
+[247.873837] (-) TimerEvent: {}
+[247.974154] (-) TimerEvent: {}
+[248.074469] (-) TimerEvent: {}
+[248.174790] (-) TimerEvent: {}
+[248.275122] (-) TimerEvent: {}
+[248.375446] (-) TimerEvent: {}
+[248.475755] (-) TimerEvent: {}
+[248.576067] (-) TimerEvent: {}
+[248.676389] (-) TimerEvent: {}
+[248.776708] (-) TimerEvent: {}
+[248.877027] (-) TimerEvent: {}
+[248.977347] (-) TimerEvent: {}
+[249.077691] (-) TimerEvent: {}
+[249.178020] (-) TimerEvent: {}
+[249.278357] (-) TimerEvent: {}
+[249.378693] (-) TimerEvent: {}
+[249.479016] (-) TimerEvent: {}
+[249.579338] (-) TimerEvent: {}
+[249.679672] (-) TimerEvent: {}
+[249.780003] (-) TimerEvent: {}
+[249.880336] (-) TimerEvent: {}
+[249.980689] (-) TimerEvent: {}
+[250.081040] (-) TimerEvent: {}
+[250.181383] (-) TimerEvent: {}
+[250.281712] (-) TimerEvent: {}
+[250.382044] (-) TimerEvent: {}
+[250.482379] (-) TimerEvent: {}
+[250.582705] (-) TimerEvent: {}
+[250.683024] (-) TimerEvent: {}
+[250.783348] (-) TimerEvent: {}
+[250.883697] (-) TimerEvent: {}
+[250.984003] (-) TimerEvent: {}
+[251.084306] (-) TimerEvent: {}
+[251.184602] (-) TimerEvent: {}
+[251.284914] (-) TimerEvent: {}
+[251.385220] (-) TimerEvent: {}
+[251.485533] (-) TimerEvent: {}
+[251.585857] (-) TimerEvent: {}
+[251.686151] (-) TimerEvent: {}
+[251.786462] (-) TimerEvent: {}
+[251.886769] (-) TimerEvent: {}
+[251.987633] (-) TimerEvent: {}
+[252.087960] (-) TimerEvent: {}
+[252.188293] (-) TimerEvent: {}
+[252.288631] (-) TimerEvent: {}
+[252.388992] (-) TimerEvent: {}
+[252.489326] (-) TimerEvent: {}
+[252.589647] (-) TimerEvent: {}
+[252.689954] (-) TimerEvent: {}
+[252.790269] (-) TimerEvent: {}
+[252.890568] (-) TimerEvent: {}
+[252.990875] (-) TimerEvent: {}
+[253.091194] (-) TimerEvent: {}
+[253.191503] (-) TimerEvent: {}
+[253.291826] (-) TimerEvent: {}
+[253.392142] (-) TimerEvent: {}
+[253.492426] (-) TimerEvent: {}
+[253.592756] (-) TimerEvent: {}
+[253.693094] (-) TimerEvent: {}
+[253.793439] (-) TimerEvent: {}
+[253.893782] (-) TimerEvent: {}
+[253.994112] (-) TimerEvent: {}
+[254.094440] (-) TimerEvent: {}
+[254.194769] (-) TimerEvent: {}
+[254.295104] (-) TimerEvent: {}
+[254.395425] (-) TimerEvent: {}
+[254.495756] (-) TimerEvent: {}
+[254.596124] (-) TimerEvent: {}
+[254.696451] (-) TimerEvent: {}
+[254.796793] (-) TimerEvent: {}
+[254.897122] (-) TimerEvent: {}
+[254.997443] (-) TimerEvent: {}
+[255.097780] (-) TimerEvent: {}
+[255.198111] (-) TimerEvent: {}
+[255.298434] (-) TimerEvent: {}
+[255.398795] (-) TimerEvent: {}
+[255.499098] (-) TimerEvent: {}
+[255.599406] (-) TimerEvent: {}
+[255.699715] (-) TimerEvent: {}
+[255.800022] (-) TimerEvent: {}
+[255.900355] (-) TimerEvent: {}
+[256.000677] (-) TimerEvent: {}
+[256.100984] (-) TimerEvent: {}
+[256.201302] (-) TimerEvent: {}
+[256.301631] (-) TimerEvent: {}
+[256.401933] (-) TimerEvent: {}
+[256.502260] (-) TimerEvent: {}
+[256.602573] (-) TimerEvent: {}
+[256.702878] (-) TimerEvent: {}
+[256.803186] (-) TimerEvent: {}
+[256.903487] (-) TimerEvent: {}
+[257.004262] (-) TimerEvent: {}
+[257.104559] (-) TimerEvent: {}
+[257.204878] (-) TimerEvent: {}
+[257.305185] (-) TimerEvent: {}
+[257.405532] (-) TimerEvent: {}
+[257.505838] (-) TimerEvent: {}
+[257.606175] (-) TimerEvent: {}
+[257.706510] (-) TimerEvent: {}
+[257.806836] (-) TimerEvent: {}
+[257.907164] (-) TimerEvent: {}
+[258.007497] (-) TimerEvent: {}
+[258.107821] (-) TimerEvent: {}
+[258.208148] (-) TimerEvent: {}
+[258.308474] (-) TimerEvent: {}
+[258.408781] (-) TimerEvent: {}
+[258.509080] (-) TimerEvent: {}
+[258.609390] (-) TimerEvent: {}
+[258.709718] (-) TimerEvent: {}
+[258.810095] (-) TimerEvent: {}
+[258.910425] (-) TimerEvent: {}
+[259.010779] (-) TimerEvent: {}
+[259.111102] (-) TimerEvent: {}
+[259.211430] (-) TimerEvent: {}
+[259.311763] (-) TimerEvent: {}
+[259.412101] (-) TimerEvent: {}
+[259.512417] (-) TimerEvent: {}
+[259.612779] (-) TimerEvent: {}
+[259.713118] (-) TimerEvent: {}
+[259.813537] (-) TimerEvent: {}
+[259.913855] (-) TimerEvent: {}
+[260.014160] (-) TimerEvent: {}
+[260.114483] (-) TimerEvent: {}
+[260.214836] (-) TimerEvent: {}
+[260.315138] (-) TimerEvent: {}
+[260.415439] (-) TimerEvent: {}
+[260.515741] (-) TimerEvent: {}
+[260.616061] (-) TimerEvent: {}
+[260.717446] (-) TimerEvent: {}
+[260.817762] (-) TimerEvent: {}
+[260.918067] (-) TimerEvent: {}
+[261.018378] (-) TimerEvent: {}
+[261.118691] (-) TimerEvent: {}
+[261.219000] (-) TimerEvent: {}
+[261.319289] (-) TimerEvent: {}
+[261.419598] (-) TimerEvent: {}
+[261.519902] (-) TimerEvent: {}
+[261.620211] (-) TimerEvent: {}
+[261.720537] (-) TimerEvent: {}
+[261.820846] (-) TimerEvent: {}
+[261.921175] (-) TimerEvent: {}
+[262.021521] (-) TimerEvent: {}
+[262.121886] (-) TimerEvent: {}
+[262.222206] (-) TimerEvent: {}
+[262.322625] (-) TimerEvent: {}
+[262.422948] (-) TimerEvent: {}
+[262.523263] (-) TimerEvent: {}
+[262.623564] (-) TimerEvent: {}
+[262.723902] (-) TimerEvent: {}
+[262.824252] (-) TimerEvent: {}
+[262.924731] (-) TimerEvent: {}
+[263.025083] (-) TimerEvent: {}
+[263.125428] (-) TimerEvent: {}
+[263.225760] (-) TimerEvent: {}
+[263.326072] (-) TimerEvent: {}
+[263.426409] (-) TimerEvent: {}
+[263.526754] (-) TimerEvent: {}
+[263.627066] (-) TimerEvent: {}
+[263.727397] (-) TimerEvent: {}
+[263.827725] (-) TimerEvent: {}
+[263.928033] (-) TimerEvent: {}
+[264.028361] (-) TimerEvent: {}
+[264.128691] (-) TimerEvent: {}
+[264.229030] (-) TimerEvent: {}
+[264.329484] (-) TimerEvent: {}
+[264.429794] (-) TimerEvent: {}
+[264.530096] (-) TimerEvent: {}
+[264.630424] (-) TimerEvent: {}
+[264.730740] (-) TimerEvent: {}
+[264.831080] (-) TimerEvent: {}
+[264.931548] (-) TimerEvent: {}
+[265.031878] (-) TimerEvent: {}
+[265.132212] (-) TimerEvent: {}
+[265.232528] (-) TimerEvent: {}
+[265.332850] (-) TimerEvent: {}
+[265.433194] (-) TimerEvent: {}
+[265.533517] (-) TimerEvent: {}
+[265.633828] (-) TimerEvent: {}
+[265.734144] (-) TimerEvent: {}
+[265.834472] (-) TimerEvent: {}
+[265.934862] (-) TimerEvent: {}
+[266.035192] (-) TimerEvent: {}
+[266.135512] (-) TimerEvent: {}
+[266.235824] (-) TimerEvent: {}
+[266.336226] (-) TimerEvent: {}
+[266.436546] (-) TimerEvent: {}
+[266.536851] (-) TimerEvent: {}
+[266.637161] (-) TimerEvent: {}
+[266.737444] (-) TimerEvent: {}
+[266.837764] (-) TimerEvent: {}
+[266.938984] (-) TimerEvent: {}
+[267.039311] (-) TimerEvent: {}
+[267.139618] (-) TimerEvent: {}
+[267.239931] (-) TimerEvent: {}
+[267.340248] (-) TimerEvent: {}
+[267.440585] (-) TimerEvent: {}
+[267.540896] (-) TimerEvent: {}
+[267.641228] (-) TimerEvent: {}
+[267.741552] (-) TimerEvent: {}
+[267.841948] (-) TimerEvent: {}
+[267.942284] (-) TimerEvent: {}
+[268.042865] (-) TimerEvent: {}
+[268.143171] (-) TimerEvent: {}
+[268.243484] (-) TimerEvent: {}
+[268.343793] (-) TimerEvent: {}
+[268.444150] (-) TimerEvent: {}
+[268.544452] (-) TimerEvent: {}
+[268.644762] (-) TimerEvent: {}
+[268.745062] (-) TimerEvent: {}
+[268.845356] (-) TimerEvent: {}
+[268.945665] (-) TimerEvent: {}
+[269.045944] (-) TimerEvent: {}
+[269.146259] (-) TimerEvent: {}
+[269.246602] (-) TimerEvent: {}
+[269.346907] (-) TimerEvent: {}
+[269.447204] (-) TimerEvent: {}
+[269.547501] (-) TimerEvent: {}
+[269.647807] (-) TimerEvent: {}
+[269.748107] (-) TimerEvent: {}
+[269.848421] (-) TimerEvent: {}
+[269.948739] (-) TimerEvent: {}
+[270.049050] (-) TimerEvent: {}
+[270.149468] (-) TimerEvent: {}
+[270.250394] (-) TimerEvent: {}
+[270.350732] (-) TimerEvent: {}
+[270.451031] (-) TimerEvent: {}
+[270.551340] (-) TimerEvent: {}
+[270.651640] (-) TimerEvent: {}
+[270.751959] (-) TimerEvent: {}
+[270.852336] (-) TimerEvent: {}
+[270.952659] (-) TimerEvent: {}
+[271.052958] (-) TimerEvent: {}
+[271.153254] (-) TimerEvent: {}
+[271.253683] (-) TimerEvent: {}
+[271.353981] (-) TimerEvent: {}
+[271.454280] (-) TimerEvent: {}
+[271.554838] (-) TimerEvent: {}
+[271.655147] (-) TimerEvent: {}
+[271.755474] (-) TimerEvent: {}
+[271.855775] (-) TimerEvent: {}
+[271.956113] (-) TimerEvent: {}
+[272.057009] (-) TimerEvent: {}
+[272.157347] (-) TimerEvent: {}
+[272.257667] (-) TimerEvent: {}
+[272.357985] (-) TimerEvent: {}
+[272.458300] (-) TimerEvent: {}
+[272.558620] (-) TimerEvent: {}
+[272.658930] (-) TimerEvent: {}
+[272.759258] (-) TimerEvent: {}
+[272.859617] (-) TimerEvent: {}
+[272.959948] (-) TimerEvent: {}
+[273.060280] (-) TimerEvent: {}
+[273.160618] (-) TimerEvent: {}
+[273.260951] (-) TimerEvent: {}
+[273.361281] (-) TimerEvent: {}
+[273.461635] (-) TimerEvent: {}
+[273.561955] (-) TimerEvent: {}
+[273.662283] (-) TimerEvent: {}
+[273.762634] (-) TimerEvent: {}
+[273.862952] (-) TimerEvent: {}
+[273.963262] (-) TimerEvent: {}
+[274.063587] (-) TimerEvent: {}
+[274.163913] (-) TimerEvent: {}
+[274.264238] (-) TimerEvent: {}
+[274.364566] (-) TimerEvent: {}
+[274.464906] (-) TimerEvent: {}
+[274.565248] (-) TimerEvent: {}
+[274.665593] (-) TimerEvent: {}
+[274.765894] (-) TimerEvent: {}
+[274.866204] (-) TimerEvent: {}
+[274.966535] (-) TimerEvent: {}
+[275.066826] (-) TimerEvent: {}
+[275.167120] (-) TimerEvent: {}
+[275.267490] (-) TimerEvent: {}
+[275.367826] (-) TimerEvent: {}
+[275.468168] (-) TimerEvent: {}
+[275.568486] (-) TimerEvent: {}
+[275.668836] (-) TimerEvent: {}
+[275.769169] (-) TimerEvent: {}
+[275.869506] (-) TimerEvent: {}
+[275.969820] (-) TimerEvent: {}
+[276.070152] (-) TimerEvent: {}
+[276.170478] (-) TimerEvent: {}
+[276.270790] (-) TimerEvent: {}
+[276.371130] (-) TimerEvent: {}
+[276.471459] (-) TimerEvent: {}
+[276.571777] (-) TimerEvent: {}
+[276.672083] (-) TimerEvent: {}
+[276.772383] (-) TimerEvent: {}
+[276.872686] (-) TimerEvent: {}
+[276.972988] (-) TimerEvent: {}
+[277.073302] (-) TimerEvent: {}
+[277.173613] (-) TimerEvent: {}
+[277.273924] (-) TimerEvent: {}
+[277.374311] (-) TimerEvent: {}
+[277.443074] (gazebo_plugins) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_joint_pose_trajectory\x1b[0m\n'}
+[277.474415] (-) TimerEvent: {}
+[277.574747] (-) TimerEvent: {}
+[277.675097] (-) TimerEvent: {}
+[277.775393] (-) TimerEvent: {}
+[277.875710] (-) TimerEvent: {}
+[277.976043] (-) TimerEvent: {}
+[278.076368] (-) TimerEvent: {}
+[278.176704] (-) TimerEvent: {}
+[278.277045] (-) TimerEvent: {}
+[278.377392] (-) TimerEvent: {}
+[278.477745] (-) TimerEvent: {}
+[278.578089] (-) TimerEvent: {}
+[278.678407] (-) TimerEvent: {}
+[278.778743] (-) TimerEvent: {}
+[278.879069] (-) TimerEvent: {}
+[278.979369] (-) TimerEvent: {}
+[279.079675] (-) TimerEvent: {}
+[279.179983] (-) TimerEvent: {}
+[279.280285] (-) TimerEvent: {}
+[279.380590] (-) TimerEvent: {}
+[279.480894] (-) TimerEvent: {}
+[279.581207] (-) TimerEvent: {}
+[279.681520] (-) TimerEvent: {}
+[279.781858] (-) TimerEvent: {}
+[279.882183] (-) TimerEvent: {}
+[279.982511] (-) TimerEvent: {}
+[280.059260] (gazebo_plugins) StdoutLine: {'line': b'[ 93%] Built target test_gazebo_ros_joint_pose_trajectory\n'}
+[280.082600] (-) TimerEvent: {}
+[280.182886] (-) TimerEvent: {}
+[280.283172] (-) TimerEvent: {}
+[280.383456] (-) TimerEvent: {}
+[280.483749] (-) TimerEvent: {}
+[280.584041] (-) TimerEvent: {}
+[280.684330] (-) TimerEvent: {}
+[280.784618] (-) TimerEvent: {}
+[280.884904] (-) TimerEvent: {}
+[280.985187] (-) TimerEvent: {}
+[281.085473] (-) TimerEvent: {}
+[281.185767] (-) TimerEvent: {}
+[281.286053] (-) TimerEvent: {}
+[281.386340] (-) TimerEvent: {}
+[281.486621] (-) TimerEvent: {}
+[281.586909] (-) TimerEvent: {}
+[281.687200] (-) TimerEvent: {}
+[281.787477] (-) TimerEvent: {}
+[281.887859] (-) TimerEvent: {}
+[281.988258] (-) TimerEvent: {}
+[282.088542] (-) TimerEvent: {}
+[282.188833] (-) TimerEvent: {}
+[282.289239] (-) TimerEvent: {}
+[282.295165] (gazebo_plugins) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_p3d\x1b[0m\n'}
+[282.389347] (-) TimerEvent: {}
+[282.489761] (-) TimerEvent: {}
+[282.590219] (-) TimerEvent: {}
+[282.690579] (-) TimerEvent: {}
+[282.791027] (-) TimerEvent: {}
+[282.891377] (-) TimerEvent: {}
+[282.991782] (-) TimerEvent: {}
+[283.092152] (-) TimerEvent: {}
+[283.192499] (-) TimerEvent: {}
+[283.253712] (gazebo_plugins) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_wheelslip\x1b[0m\n'}
+[283.292617] (-) TimerEvent: {}
+[283.392983] (-) TimerEvent: {}
+[283.493297] (-) TimerEvent: {}
+[283.593838] (-) TimerEvent: {}
+[283.694358] (-) TimerEvent: {}
+[283.794835] (-) TimerEvent: {}
+[283.895272] (-) TimerEvent: {}
+[283.995760] (-) TimerEvent: {}
+[284.096212] (-) TimerEvent: {}
+[284.196662] (-) TimerEvent: {}
+[284.297185] (-) TimerEvent: {}
+[284.332703] (gazebo_plugins) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_tricycle_drive\x1b[0m\n'}
+[284.397313] (-) TimerEvent: {}
+[284.497827] (-) TimerEvent: {}
+[284.598372] (-) TimerEvent: {}
+[284.629250] (gazebo_plugins) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_planar_move\x1b[0m\n'}
+[284.698567] (-) TimerEvent: {}
+[284.799042] (-) TimerEvent: {}
+[284.899507] (-) TimerEvent: {}
+[284.971497] (gazebo_plugins) StdoutLine: {'line': b'[ 97%] Built target test_gazebo_ros_p3d\n'}
+[284.999642] (-) TimerEvent: {}
+[285.099998] (-) TimerEvent: {}
+[285.200388] (-) TimerEvent: {}
+[285.300764] (-) TimerEvent: {}
+[285.401098] (-) TimerEvent: {}
+[285.502787] (-) TimerEvent: {}
+[285.603237] (-) TimerEvent: {}
+[285.703600] (-) TimerEvent: {}
+[285.804019] (-) TimerEvent: {}
+[285.904396] (-) TimerEvent: {}
+[286.004747] (-) TimerEvent: {}
+[286.105100] (-) TimerEvent: {}
+[286.205501] (-) TimerEvent: {}
+[286.305832] (-) TimerEvent: {}
+[286.406183] (-) TimerEvent: {}
+[286.506522] (-) TimerEvent: {}
+[286.606876] (-) TimerEvent: {}
+[286.707189] (-) TimerEvent: {}
+[286.807508] (-) TimerEvent: {}
+[286.907814] (-) TimerEvent: {}
+[287.008130] (-) TimerEvent: {}
+[287.059992] (gazebo_plugins) StdoutLine: {'line': b'[ 97%] Built target test_gazebo_ros_wheelslip\n'}
+[287.108231] (-) TimerEvent: {}
+[287.208546] (-) TimerEvent: {}
+[287.308860] (-) TimerEvent: {}
+[287.409181] (-) TimerEvent: {}
+[287.495309] (gazebo_plugins) StdoutLine: {'line': b'[ 97%] Built target test_gazebo_ros_planar_move\n'}
+[287.509283] (-) TimerEvent: {}
+[287.609591] (-) TimerEvent: {}
+[287.704426] (gazebo_plugins) StdoutLine: {'line': b'[ 97%] Built target test_gazebo_ros_tricycle_drive\n'}
+[287.709680] (-) TimerEvent: {}
+[287.809964] (-) TimerEvent: {}
+[287.910255] (-) TimerEvent: {}
+[288.010558] (-) TimerEvent: {}
+[288.110837] (-) TimerEvent: {}
+[288.211111] (-) TimerEvent: {}
+[288.311396] (-) TimerEvent: {}
+[288.411686] (-) TimerEvent: {}
+[288.511977] (-) TimerEvent: {}
+[288.612257] (-) TimerEvent: {}
+[288.712546] (-) TimerEvent: {}
+[288.812826] (-) TimerEvent: {}
+[288.913105] (-) TimerEvent: {}
+[289.013385] (-) TimerEvent: {}
+[289.113661] (-) TimerEvent: {}
+[289.213939] (-) TimerEvent: {}
+[289.314214] (-) TimerEvent: {}
+[289.414520] (-) TimerEvent: {}
+[289.514810] (-) TimerEvent: {}
+[289.615114] (-) TimerEvent: {}
+[289.715410] (-) TimerEvent: {}
+[289.815691] (-) TimerEvent: {}
+[289.915966] (-) TimerEvent: {}
+[290.016239] (-) TimerEvent: {}
+[290.116515] (-) TimerEvent: {}
+[290.216795] (-) TimerEvent: {}
+[290.317072] (-) TimerEvent: {}
+[290.417351] (-) TimerEvent: {}
+[290.517652] (-) TimerEvent: {}
+[290.617928] (-) TimerEvent: {}
+[290.718196] (-) TimerEvent: {}
+[290.818486] (-) TimerEvent: {}
+[290.918810] (-) TimerEvent: {}
+[291.019046] (-) TimerEvent: {}
+[291.119274] (-) TimerEvent: {}
+[291.219587] (-) TimerEvent: {}
+[291.319932] (-) TimerEvent: {}
+[291.420252] (-) TimerEvent: {}
+[291.520561] (-) TimerEvent: {}
+[291.620840] (-) TimerEvent: {}
+[291.721128] (-) TimerEvent: {}
+[291.821367] (-) TimerEvent: {}
+[291.921668] (-) TimerEvent: {}
+[292.021910] (-) TimerEvent: {}
+[292.122150] (-) TimerEvent: {}
+[292.222389] (-) TimerEvent: {}
+[292.322637] (-) TimerEvent: {}
+[292.422925] (-) TimerEvent: {}
+[292.523249] (-) TimerEvent: {}
+[292.549630] (gazebo_plugins) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_joint_state_publisher\x1b[0m\n'}
+[292.623331] (-) TimerEvent: {}
+[292.723659] (-) TimerEvent: {}
+[292.823908] (-) TimerEvent: {}
+[292.924182] (-) TimerEvent: {}
+[293.024442] (-) TimerEvent: {}
+[293.124710] (-) TimerEvent: {}
+[293.224977] (-) TimerEvent: {}
+[293.325250] (-) TimerEvent: {}
+[293.425550] (-) TimerEvent: {}
+[293.525823] (-) TimerEvent: {}
+[293.626071] (-) TimerEvent: {}
+[293.726372] (-) TimerEvent: {}
+[293.826632] (-) TimerEvent: {}
+[293.926941] (-) TimerEvent: {}
+[294.027227] (-) TimerEvent: {}
+[294.127496] (-) TimerEvent: {}
+[294.227801] (-) TimerEvent: {}
+[294.328131] (-) TimerEvent: {}
+[294.428467] (-) TimerEvent: {}
+[294.452835] (gazebo_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_gazebo_ros_ray_sensor\x1b[0m\n'}
+[294.528576] (-) TimerEvent: {}
+[294.628802] (-) TimerEvent: {}
+[294.633795] (gazebo_plugins) StdoutLine: {'line': b'[100%] Built target test_gazebo_ros_joint_state_publisher\n'}
+[294.728957] (-) TimerEvent: {}
+[294.829416] (-) TimerEvent: {}
+[294.929855] (-) TimerEvent: {}
+[295.030334] (-) TimerEvent: {}
+[295.130771] (-) TimerEvent: {}
+[295.231190] (-) TimerEvent: {}
+[295.331591] (-) TimerEvent: {}
+[295.431998] (-) TimerEvent: {}
+[295.532437] (-) TimerEvent: {}
+[295.632724] (-) TimerEvent: {}
+[295.732994] (-) TimerEvent: {}
+[295.833330] (-) TimerEvent: {}
+[295.933591] (-) TimerEvent: {}
+[296.033853] (-) TimerEvent: {}
+[296.134110] (-) TimerEvent: {}
+[296.234361] (-) TimerEvent: {}
+[296.334614] (-) TimerEvent: {}
+[296.434893] (-) TimerEvent: {}
+[296.535149] (-) TimerEvent: {}
+[296.635405] (-) TimerEvent: {}
+[296.735688] (-) TimerEvent: {}
+[296.836021] (-) TimerEvent: {}
+[296.936292] (-) TimerEvent: {}
+[297.036556] (-) TimerEvent: {}
+[297.048876] (gazebo_plugins) StdoutLine: {'line': b'[100%] Built target test_gazebo_ros_ray_sensor\n'}
+[297.099678] (gazebo_plugins) CommandEnded: {'returncode': 0}
+[297.144435] (-) TimerEvent: {}
+[297.241308] (gazebo_plugins) JobProgress: {'identifier': 'gazebo_plugins', 'progress': 'install'}
+[297.244519] (-) TimerEvent: {}
+[297.250298] (gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/marceloqm/gzros_simulation/build/gazebo_plugins'], 'cwd': '/home/marceloqm/gzros_simulation/build/gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'marceloqm'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/marceloqm'), ('OLDPWD', '/home/marceloqm'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '25031'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/marceloqm/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/marceloqm/gzros_sim/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'marceloqm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'marceloqm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/blacksabath:@/tmp/.ICE-unix/25012,unix/blacksabath:/tmp/.ICE-unix/25012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82c93e92_bb7a_4a46_963d_383a9405c9ef'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.252'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/opencv_tests:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1003/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/marceloqm/gzros_simulation/build/gazebo_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/marceloqm/gzros_sim/build/opencv_tests:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/marceloqm/gzros_simulation/install/gazebo_dev:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble')]), 'shell': False}
+[297.272149] (gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[297.274068] (gazebo_plugins) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[297.287988] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.sh\n'}
+[297.296234] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.dsv\n'}
+[297.304247] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.sh\n'}
+[297.312571] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.dsv\n'}
+[297.321494] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_plugins\n'}
+[297.330338] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_plugins\n'}
+[297.344648] (-) TimerEvent: {}
+[297.352443] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.sh\n'}
+[297.360637] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.dsv\n'}
+[297.368823] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/path.sh\n'}
+[297.377732] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/environment/path.dsv\n'}
+[297.386041] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/local_setup.bash\n'}
+[297.394236] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/local_setup.sh\n'}
+[297.402400] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/local_setup.zsh\n'}
+[297.410533] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/local_setup.dsv\n'}
+[297.418391] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/package.dsv\n'}
+[297.426599] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/ament_index/resource_index/packages/gazebo_plugins\n'}
+[297.434759] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[297.442572] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[297.444712] (-) TimerEvent: {}
+[297.450573] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[297.458725] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig.cmake\n'}
+[297.466553] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig-version.cmake\n'}
+[297.475370] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins/package.xml\n'}
+[297.499509] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ackermann_drive.hpp\n'}
+[297.507735] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_bumper.hpp\n'}
+[297.515885] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera.hpp\n'}
+[297.523722] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_diff_drive.hpp\n'}
+[297.531391] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.hpp\n'}
+[297.539386] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_force.hpp\n'}
+[297.544812] (-) TimerEvent: {}
+[297.547249] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.hpp\n'}
+[297.555225] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gps_sensor.hpp\n'}
+[297.563184] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_hand_of_god.hpp\n'}
+[297.570942] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_harness.hpp\n'}
+[297.579658] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_imu_sensor.hpp\n'}
+[297.588928] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp\n'}
+[297.596936] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_state_publisher.hpp\n'}
+[297.604975] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_p3d.hpp\n'}
+[297.613060] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.hpp\n'}
+[297.621048] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_projector.hpp\n'}
+[297.629184] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ray_sensor.hpp\n'}
+[297.637040] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.hpp\n'}
+[297.644789] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_tricycle_drive.hpp\n'}
+[297.644910] (-) TimerEvent: {}
+[297.652740] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.hpp\n'}
+[297.660779] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.hpp\n'}
+[297.668868] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_wheel_slip.hpp\n'}
+[297.677583] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/include/gazebo_plugins/multi_camera_plugin.hpp\n'}
+[297.686500] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_ackermann_drive.so\n'}
+[297.695641] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_bumper.so\n'}
+[297.703708] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_camera.so\n'}
+[297.711719] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_diff_drive.so\n'}
+[297.719682] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_elevator.so\n'}
+[297.727723] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_force.so\n'}
+[297.735723] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_ft_sensor.so\n'}
+[297.743767] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_hand_of_god.so\n'}
+[297.745004] (-) TimerEvent: {}
+[297.751820] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_harness.so\n'}
+[297.759928] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_imu_sensor.so\n'}
+[297.767655] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_gps_sensor.so\n'}
+[297.776458] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_joint_pose_trajectory.so\n'}
+[297.784739] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_joint_state_publisher.so\n'}
+[297.793333] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_planar_move.so\n'}
+[297.801686] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_projector.so\n'}
+[297.809868] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_ray_sensor.so\n'}
+[297.817869] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_p3d.so\n'}
+[297.825833] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_template.so\n'}
+[297.833642] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_tricycle_drive.so\n'}
+[297.841534] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_vacuum_gripper.so\n'}
+[297.845099] (-) TimerEvent: {}
+[297.849610] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_video.so\n'}
+[297.857667] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libmulti_camera_plugin.so\n'}
+[297.865998] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/libgazebo_ros_wheel_slip.so\n'}
+[297.874949] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/lib/gazebo_plugins//wheel_slip_drawbar_pull_publisher.py\n'}
+[297.884221] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ackermann_drive_demo.world\n'}
+[297.892480] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_bumper_demo.world\n'}
+[297.900462] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_demo.world\n'}
+[297.908789] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_barrel_demo.world\n'}
+[297.917195] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_pincushion_demo.world\n'}
+[297.926516] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_triggered_demo.world\n'}
+[297.935757] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_depth_camera_demo.world\n'}
+[297.943971] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_diff_drive_demo.world\n'}
+[297.945167] (-) TimerEvent: {}
+[297.952592] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_elevator_demo.world\n'}
+[297.960922] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_force_demo.world\n'}
+[297.968830] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ft_sensor_demo.world\n'}
+[297.978098] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_gps_sensor_demo.world\n'}
+[297.986651] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_hand_of_god_demo.world\n'}
+[297.994473] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_harness_demo.world\n'}
+[298.002719] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_pose_trajectory_demo.world\n'}
+[298.011495] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_state_publisher_demo.world\n'}
+[298.019795] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multi_camera_demo.world\n'}
+[298.028318] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multicamera_demo.world\n'}
+[298.036702] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_p3d_demo.world\n'}
+[298.044650] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_planar_move_demo.world\n'}
+[298.045262] (-) TimerEvent: {}
+[298.052709] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_projector_demo.world\n'}
+[298.060517] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ray_sensor_demo.world\n'}
+[298.068414] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_skid_steer_drive_demo.world\n'}
+[298.077147] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_template_demo.world\n'}
+[298.085473] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_tricycle_drive_demo.world\n'}
+[298.093811] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_vacuum_gripper_demo.world\n'}
+[298.102208] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_video_demo.world\n'}
+[298.110218] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_wheel_slip_demo.world\n'}
+[298.118218] (gazebo_plugins) StdoutLine: {'line': b'-- Symlinking: /home/marceloqm/gzros_simulation/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_wheel_slip_drawbar_pull_demo.world\n'}
+[298.139693] (gazebo_plugins) CommandEnded: {'returncode': 0}
+[298.145353] (-) TimerEvent: {}
+[298.245558] (-) TimerEvent: {}
+[298.345794] (-) TimerEvent: {}
+[298.445994] (-) TimerEvent: {}
+[298.546205] (-) TimerEvent: {}
+[298.591361] (gazebo_plugins) JobEnded: {'identifier': 'gazebo_plugins', 'rc': 0}
+[298.592000] (-) EventReactorShutdown: {}

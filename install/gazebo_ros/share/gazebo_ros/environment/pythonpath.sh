@@ -1,0 +1,1 @@
+/home/marceloqm/gzros_simulation/build/gazebo_ros/ament_cmake_environment_hooks/pythonpath.sh

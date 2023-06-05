@@ -1,0 +1,21 @@
+[1.722s] Invoking command in '/home/marceloqm/gzros_simulation/build/opencv_tests': AMENT_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data
+[2.402s] running develop
+[2.828s] running egg_info
+[2.829s] creating opencv_tests.egg-info
+[2.829s] writing opencv_tests.egg-info/PKG-INFO
+[2.829s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[2.829s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[2.829s] writing requirements to opencv_tests.egg-info/requires.txt
+[2.830s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[2.830s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.833s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.834s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[2.837s] running build_ext
+[2.838s] Creating /home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[2.839s] Installing broadcast script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[2.839s] Installing rosfacedetect script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[2.840s] Installing source script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[2.840s] 
+[2.840s] Installed /home/marceloqm/gzros_simulation/build/opencv_tests
+[2.840s] running install_data
+[2.913s] Invoked command in '/home/marceloqm/gzros_simulation/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data

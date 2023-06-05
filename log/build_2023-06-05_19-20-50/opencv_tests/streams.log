@@ -1,0 +1,19 @@
+[0.818s] Invoking command in '/home/marceloqm/gzros_simulation/build/opencv_tests': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data
+[1.126s] running develop
+[1.319s] running egg_info
+[1.320s] writing opencv_tests.egg-info/PKG-INFO
+[1.320s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[1.320s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[1.320s] writing requirements to opencv_tests.egg-info/requires.txt
+[1.321s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.322s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.323s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.325s] running build_ext
+[1.325s] Creating /home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.326s] Installing broadcast script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.326s] Installing rosfacedetect script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.326s] Installing source script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.326s] 
+[1.326s] Installed /home/marceloqm/gzros_simulation/build/opencv_tests
+[1.326s] running install_data
+[1.358s] Invoked command in '/home/marceloqm/gzros_simulation/build/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/marceloqm/gzros_simulation/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data

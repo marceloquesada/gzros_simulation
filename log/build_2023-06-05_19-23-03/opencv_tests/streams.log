@@ -1,0 +1,24 @@
+[0.781s] Invoking command in '/home/marceloqm/gzros_simulation/build/opencv_tests': PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data
+[1.145s] running develop
+[1.355s] running egg_info
+[1.355s] writing opencv_tests.egg-info/PKG-INFO
+[1.355s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[1.355s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[1.355s] writing requirements to opencv_tests.egg-info/requires.txt
+[1.355s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.358s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.359s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.360s] running build_ext
+[1.361s] Creating /home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.361s] Installing broadcast script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.362s] Installing rosfacedetect script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.362s] Installing source script to /home/marceloqm/gzros_simulation/install/opencv_tests/lib/opencv_tests
+[1.362s] 
+[1.362s] Installed /home/marceloqm/gzros_simulation/build/opencv_tests
+[1.363s] running install_data
+[1.363s] creating /home/marceloqm/gzros_simulation/install/opencv_tests/share/ament_index
+[1.363s] creating /home/marceloqm/gzros_simulation/install/opencv_tests/share/ament_index/resource_index
+[1.363s] creating /home/marceloqm/gzros_simulation/install/opencv_tests/share/ament_index/resource_index/packages
+[1.363s] copying resource/opencv_tests -> /home/marceloqm/gzros_simulation/install/opencv_tests/share/ament_index/resource_index/packages
+[1.363s] copying package.xml -> /home/marceloqm/gzros_simulation/install/opencv_tests/share/opencv_tests
+[1.396s] Invoked command in '/home/marceloqm/gzros_simulation/build/opencv_tests' returned '0': PYTHONPATH=/home/marceloqm/gzros_simulation/build/opencv_tests/prefix_override:/home/marceloqm/gzros_simulation/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_simulation/build/opencv_tests/build --no-deps install_data

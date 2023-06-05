@@ -1,0 +1,282 @@
+[7.025s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '2', '--packages-select', 'gazebo_plugins']
+[7.025s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gazebo_plugins'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9027a60580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9027a33fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9027a33fd0>>)
+[7.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.389s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/marceloqm/gzros_sim'
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.494s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.518s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[7.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[7.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[7.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[7.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[7.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[7.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[7.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[7.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[7.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[7.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[7.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[7.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[7.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[7.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[7.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[7.534s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[7.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[7.536s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[7.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[7.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[7.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[7.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[7.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[7.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[7.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[7.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[7.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[7.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[7.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[7.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[7.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[7.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[7.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[7.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[7.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[7.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[7.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[7.553s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[7.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[7.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[7.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[7.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[7.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[7.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[7.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[7.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[7.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[7.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[7.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[7.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[7.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[7.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[7.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[7.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[7.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[7.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[7.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.874s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[7.874s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[7.875s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cv_bridge' in 'src/vision_opencv/cv_bridge'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_dev' in 'src/gazebo_ros_pkgs/gazebo_dev'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_msgs' in 'src/gazebo_ros_pkgs/gazebo_msgs'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in 'src/vision_opencv/image_geometry'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_ros' in 'src/gazebo_ros_pkgs/gazebo_ros'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_tests' in 'src/vision_opencv/opencv_tests'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in 'src/vision_opencv/vision_opencv'
+[7.893s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gazebo_ros_pkgs' in 'src/gazebo_ros_pkgs/gazebo_ros_pkgs'
+[7.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.898s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/marceloqm/gzros_sim/install
+[7.900s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[7.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[8.116s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[8.117s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[8.117s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[8.117s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.117s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_plugins', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[8.117s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.120s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins' with build type 'ament_cmake'
+[8.120s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins'
+[8.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_plugins': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_plugins -- -j8 -l8
+[260.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_plugins -- -j8 -l8
+[262.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_plugins': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_plugins
+[264.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_plugins
+[264.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[265.752s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins' for CMake module files
+[265.807s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins' for CMake config files
+[265.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[265.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[266.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[266.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[266.184s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib'
+[266.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[266.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[266.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[266.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[266.218s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/bin'
+[266.229s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[266.307s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib/python3.10/site-packages'
+[266.307s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/bin'
+[266.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[266.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[266.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[266.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[266.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[266.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[266.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[266.811s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins' for CMake module files
+[266.811s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins' for CMake config files
+[266.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[266.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[266.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[266.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[266.817s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib'
+[266.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[266.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[266.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[266.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[266.819s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/bin'
+[266.819s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[266.820s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/lib/python3.10/site-packages'
+[266.820s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_plugins/bin'
+[266.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[266.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[266.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[266.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[266.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[266.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[266.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[266.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[266.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[266.898s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[267.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[267.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[267.981s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[269.030s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[269.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marceloqm/gzros_sim/install/local_setup.ps1'
+[269.287s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marceloqm/gzros_sim/install/_local_setup_util_ps1.py'
+[269.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marceloqm/gzros_sim/install/setup.ps1'
+[269.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marceloqm/gzros_sim/install/local_setup.sh'
+[269.566s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/marceloqm/gzros_sim/install/_local_setup_util_sh.py'
+[269.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marceloqm/gzros_sim/install/setup.sh'
+[269.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marceloqm/gzros_sim/install/local_setup.bash'
+[269.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marceloqm/gzros_sim/install/setup.bash'
+[269.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/marceloqm/gzros_sim/install/local_setup.zsh'
+[269.615s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/marceloqm/gzros_sim/install/setup.zsh'

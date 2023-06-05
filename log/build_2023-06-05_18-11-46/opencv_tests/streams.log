@@ -1,0 +1,19 @@
+[1.164s] Invoking command in '/home/marceloqm/gzros_sim/build/opencv_tests': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data
+[1.456s] running develop
+[1.661s] running egg_info
+[1.661s] writing opencv_tests.egg-info/PKG-INFO
+[1.662s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[1.662s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[1.662s] writing requirements to opencv_tests.egg-info/requires.txt
+[1.662s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.664s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.665s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.667s] running build_ext
+[1.667s] Creating /home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[1.668s] Installing broadcast script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[1.668s] Installing rosfacedetect script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[1.668s] Installing source script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[1.669s] 
+[1.669s] Installed /home/marceloqm/gzros_sim/build/opencv_tests
+[1.669s] running install_data
+[1.705s] Invoked command in '/home/marceloqm/gzros_sim/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data

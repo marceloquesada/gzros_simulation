@@ -1,0 +1,34 @@
+[0.067s] Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_plugins -- -j8 -l8
+[0.426s] [  2%] Built target multi_camera_plugin
+[0.426s] [  4%] Built target gazebo_ros_template
+[0.432s] [  6%] Built target gazebo_ros_joint_state_publisher
+[0.460s] [  9%] Built target gazebo_ros_force
+[0.462s] [ 11%] Built target gazebo_ros_gps_sensor
+[0.463s] [ 13%] Built target gazebo_ros_imu_sensor
+[0.507s] [ 16%] Built target gazebo_ros_ray_sensor
+[0.555s] [ 18%] Built target gazebo_ros_ft_sensor
+[0.555s] [ 20%] Built target gazebo_ros_bumper
+[0.582s] [ 23%] Built target gazebo_ros_harness
+[0.596s] [ 25%] Built target gazebo_ros_video
+[0.633s] [ 27%] Built target gazebo_ros_elevator
+[0.639s] [ 30%] Built target gazebo_ros_vacuum_gripper
+[0.735s] [ 32%] Built target gazebo_ros_projector
+[0.738s] [ 34%] Built target gazebo_ros_joint_pose_trajectory
+[0.806s] [ 39%] Built target gazebo_ros_diff_drive
+[0.807s] [ 41%] Built target gazebo_ros_planar_move
+[0.808s] [ 39%] Built target gazebo_ros_tricycle_drive
+[0.808s] [ 44%] Built target gazebo_ros_hand_of_god
+[0.808s] [ 46%] Built target gazebo_ros_p3d
+[0.818s] [ 48%] Built target gazebo_ros_ackermann_drive
+[0.822s] [ 51%] Built target gtest_main
+[0.829s] [ 53%] Built target gazebo_ros_wheel_slip
+[0.854s] [ 55%] Built target gtest
+[0.901s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_diff_drive.dir/test_gazebo_ros_diff_drive.cpp.o[0m
+[0.902s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_elevator.dir/test_gazebo_ros_elevator.cpp.o[0m
+[0.903s] [ 59%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ackermann_drive.dir/test_gazebo_ros_ackermann_drive.cpp.o[0m
+[0.929s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_bumper.dir/test_gazebo_ros_bumper.cpp.o[0m
+[0.935s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_force.dir/test_gazebo_ros_force.cpp.o[0m
+[0.943s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_hand_of_god.dir/test_gazebo_ros_hand_of_god.cpp.o[0m
+[0.943s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ft_sensor.dir/test_gazebo_ros_ft_sensor.cpp.o[0m
+[0.995s] [ 66%] Built target gazebo_ros_camera
+[1.023s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_harness.dir/test_gazebo_ros_harness.cpp.o[0m

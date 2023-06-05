@@ -1,0 +1,1 @@
+/home/marceloqm/gzros_simulation/src/gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py

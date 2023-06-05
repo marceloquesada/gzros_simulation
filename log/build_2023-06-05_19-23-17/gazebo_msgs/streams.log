@@ -1,0 +1,144 @@
+[0.048s] Invoking command in '/home/marceloqm/gzros_simulation/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_simulation/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_simulation/install/gazebo_msgs
+[0.117s] -- The C compiler identification is GNU 11.3.0
+[0.185s] -- The CXX compiler identification is GNU 11.3.0
+[0.195s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.339s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.339s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.440s] -- Detecting CXX compile features
+[0.441s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.640s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.747s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.788s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.805s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.996s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.046s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.275s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.140s] -- Found ament_cmake_cppcheck: 0.12.6 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.146s] -- Found ament_cmake_cpplint: 0.12.6 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.150s] -- Found ament_cmake_uncrustify: 0.12.6 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.188s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.144s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.227s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.227s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.227s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.259s] -- Found PythonExtra: .so  
+[3.376s] -- Found ament_cmake_flake8: 0.12.6 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.379s] -- Found ament_cmake_pep257: 0.12.6 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.520s] -- Configuring done
+[3.684s] -- Generating done
+[3.688s] -- Build files have been written to: /home/marceloqm/gzros_simulation/build/gazebo_msgs
+[3.703s] Invoked command in '/home/marceloqm/gzros_simulation/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/marceloqm/gzros_simulation/src/gazebo_ros_pkgs/gazebo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/marceloqm/gzros_simulation/install/gazebo_msgs
+[3.706s] Invoking command in '/home/marceloqm/gzros_simulation/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_simulation/build/gazebo_msgs -- -j8 -l8
+[3.780s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.791s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.804s] [  0%] Built target ament_cmake_python_symlink_gazebo_msgs
+[4.097s] running egg_info
+[4.098s] creating gazebo_msgs.egg-info
+[4.098s] writing gazebo_msgs.egg-info/PKG-INFO
+[4.098s] writing dependency_links to gazebo_msgs.egg-info/dependency_links.txt
+[4.098s] writing top-level names to gazebo_msgs.egg-info/top_level.txt
+[4.098s] writing manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+[4.101s] reading manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+[4.101s] writing manifest file 'gazebo_msgs.egg-info/SOURCES.txt'
+[4.127s] [  0%] Built target ament_cmake_python_build_gazebo_msgs_egg
+[5.397s] Traceback (most recent call last):
+[5.399s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[5.399s] gmake[2]: *** Deleting file 'rosidl_generator_c/gazebo_msgs/msg/contact_state.h'
+[5.401s]     sys.exit(main())
+[5.401s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[5.401s]     generate_cpp(args.generator_arguments_file)
+[5.401s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp
+[5.401s]     return generate_files(
+[5.401s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[5.402s]     idl_file = parse_idl_file(locator)
+[5.402s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[5.402s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/gazebo_msgs/msg/contact_state.hpp'
+[5.402s]     content = parse_idl_string(string, png_file=png_file)
+[5.402s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[5.402s]     tree = get_ast_from_idl_string(idl_string)
+[5.402s] Traceback (most recent call last):
+[5.402s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[5.403s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[5.403s]     return _parser.parse(idl_string)
+[5.403s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[5.403s]     sys.exit(main())
+[5.403s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[5.403s]     generate_c(args.generator_arguments_file)
+[5.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[5.404s]     return generate_files(
+[5.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[5.404s]     expand_template(
+[5.404s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[5.404s]     interpreter.string(template_content, template_path, locals=data)
+[5.404s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[5.407s]     return self.parser.parse(text, start=start, on_error=on_error)
+[5.407s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[5.407s]     return self.parser.parse(stream, chosen_start, **kw)
+[5.407s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[5.422s]     self.safe(scanner, True, locals)
+[5.423s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[5.423s]     self.parse(scanner, locals)
+[5.423s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[5.423s]     token.run(self, locals)
+[5.424s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[5.424s]     self.subrun(info[0][1], interpreter, locals)
+[5.424s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[5.424s]     token.run(interpreter, locals)
+[5.424s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[5.424s]     interpreter.execute(self.code, locals)
+[5.425s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[5.425s]     _exec(statements, self.globals, locals)
+[5.425s]   File "<string>", line 2, in <module>
+[5.425s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[5.425s]     interpreter.string(content, str(template_path), kwargs)
+[5.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[5.426s]     self.safe(scanner, True, locals)
+[5.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[5.426s]     self.parse(scanner, locals)
+[5.426s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[5.427s]     token = scanner.one()
+[5.427s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[5.427s]     token.scan(self)
+[5.428s]   File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+[5.428s]     i = scanner.complex('{', '}', 0)
+[5.428s]   File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+[5.428s]     newQuote = self.check(i, quote)
+[5.428s]   File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+[5.429s]     if self[i] in '\'\"':
+[5.429s]   File "/usr/lib/python3/dist-packages/em.py", line 1683, in __getitem__
+[5.429s]     if isinstance(index, slice):
+[5.429s] KeyboardInterrupt
+[5.447s] Exception ignored in: <function Interpreter.__del__ at 0x7f9da940e830>
+[5.447s] Traceback (most recent call last):
+[5.448s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[5.448s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[5.448s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[5.448s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[5.449s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[5.449s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[5.449s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[5.450s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[5.453s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 140, in predict_and_complete
+[5.453s]     new_item = Item(rule, 0, i)
+[5.453s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_common.py", line 22, in __init__
+[5.454s]     self.previous = rule.expansion[ptr - 1] if ptr > 0 and len(rule.expansion) else None
+[5.454s] KeyboardInterrupt
+[5.454s] gmake[2]: *** [CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/build.make:194: rosidl_generator_c/gazebo_msgs/msg/contact_state.h] Interrupt
+[5.454s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/gazebo_msgs__rosidl_generator_c.dir/all] Interrupt
+[5.461s] gmake[2]: *** [CMakeFiles/gazebo_msgs__cpp.dir/build.make:366: rosidl_generator_cpp/gazebo_msgs/msg/contact_state.hpp] Interrupt
+[5.462s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/gazebo_msgs__cpp.dir/all] Interrupt
+[5.462s] gmake: *** [Makefile:146: all] Interrupt

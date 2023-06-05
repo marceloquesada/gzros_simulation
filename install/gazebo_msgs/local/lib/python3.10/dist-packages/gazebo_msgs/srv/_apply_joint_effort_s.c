@@ -1,0 +1,1 @@
+/home/marceloqm/gzros_simulation/build/gazebo_msgs/rosidl_generator_py/gazebo_msgs/srv/_apply_joint_effort_s.c

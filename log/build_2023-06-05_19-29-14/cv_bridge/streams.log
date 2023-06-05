@@ -1,0 +1,72 @@
+[0.127s] Invoking command in '/home/marceloqm/gzros_simulation/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_simulation/build/cv_bridge -- -j8 -l8
+[0.481s] [  6%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[0.482s] [ 12%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[0.488s] [ 12%] Built target ament_cmake_python_symlink_cv_bridge
+[0.495s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.497s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.107s] running egg_info
+[1.108s] writing cv_bridge.egg-info/PKG-INFO
+[1.108s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.108s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.136s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.157s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.275s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.442s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.370s] [ 31%] Built target gtest_main
+[3.664s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.777s] [ 37%] Built target gtest
+[5.388s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[5.600s] [ 43%] Built target cv_bridge
+[5.624s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[5.624s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[5.629s] [ 62%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[5.631s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[5.631s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[5.636s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[5.637s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[8.721s] [ 93%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[9.876s] [ 93%] Built target cv_bridge-utest
+[13.581s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[13.799s] [100%] Built target cv_bridge_boost
+[13.814s] Invoked command in '/home/marceloqm/gzros_simulation/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_simulation/build/cv_bridge -- -j8 -l8
+[13.857s] Invoking command in '/home/marceloqm/gzros_simulation/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_simulation/build/cv_bridge
+[13.867s] -- Install configuration: ""
+[13.876s] -- Execute custom install script
+[13.876s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[13.888s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[13.900s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[13.911s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[13.923s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[13.934s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[13.947s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[13.959s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[13.971s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[14.012s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost//cv_bridge_boost.so
+[14.028s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[14.041s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[14.063s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/lib/libcv_bridge.so
+[14.077s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[14.092s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[14.105s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[14.117s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[14.129s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/path.sh
+[14.142s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[14.155s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/local_setup.bash
+[14.170s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/local_setup.sh
+[14.185s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[14.198s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[14.214s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/package.dsv
+[14.227s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[14.242s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[14.256s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.271s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[14.284s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[14.300s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[14.312s] -- Symlinking: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/package.xml
+[14.431s] Listing '/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[14.432s] Compiling '/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[14.432s] Listing '/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost'...
+[14.432s] Compiling '/home/marceloqm/gzros_simulation/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[14.440s] -- Installing: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[14.452s] -- Installing: /home/marceloqm/gzros_simulation/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[14.470s] Invoked command in '/home/marceloqm/gzros_simulation/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/marceloqm/gzros_sim/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_simulation/build/cv_bridge

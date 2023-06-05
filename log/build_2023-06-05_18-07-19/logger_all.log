@@ -1,0 +1,613 @@
+[1.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '2']
+[1.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffaa45cadd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffaa45ca860>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffaa45ca860>>)
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/marceloqm/gzros_sim'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[1.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[1.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[1.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[1.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[1.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[1.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[1.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[1.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[1.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[1.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[1.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[1.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[1.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[1.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[1.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[1.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[1.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.557s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[1.557s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[1.558s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.571s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.571s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/cv_bridge', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/vision_opencv/cv_bridge', 'symlink_install': True, 'test_result_base': None}
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.573s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_dev', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_dev', 'symlink_install': True, 'test_result_base': None}
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.576s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.577s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.577s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_msgs', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[1.581s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.581s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/image_geometry', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/vision_opencv/image_geometry', 'symlink_install': True, 'test_result_base': None}
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.583s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.583s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_ros', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_ros', 'symlink_install': True, 'test_result_base': None}
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to 'None'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[1.585s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.585s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/opencv_tests', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/vision_opencv/opencv_tests', 'symlink_install': True, 'test_result_base': None}
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[1.587s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.587s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/vision_opencv', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/vision_opencv/vision_opencv', 'symlink_install': True, 'test_result_base': None}
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.590s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_plugins', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.592s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/marceloqm/gzros_sim/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/marceloqm/gzros_sim/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_ros_pkgs', 'symlink_install': True, 'test_result_base': None}
+[1.593s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[1.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/vision_opencv/cv_bridge'
+[1.634s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_dev' with build type 'ament_cmake'
+[1.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_dev'
+[1.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+[3.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+[3.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev
+[3.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[3.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev' for CMake module files
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev' for CMake config files
+[4.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[4.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/bin'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/lib/python3.10/site-packages'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/bin'
+[4.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.sh'
+[4.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.bash'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[4.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[4.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev' for CMake module files
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev' for CMake config files
+[4.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[4.252s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/bin'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/lib/python3.10/site-packages'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_dev/bin'
+[4.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.sh'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.bash'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[4.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[4.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_msgs' with build type 'ament_cmake'
+[4.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_msgs'
+[4.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_msgs': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_msgs -- -j8 -l8
+[6.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/cv_bridge -- -j8 -l8
+[6.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/cv_bridge': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge
+[6.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_msgs' returned '0': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_msgs -- -j8 -l8
+[6.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[6.762s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge' for CMake module files
+[6.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/cv_bridge' returned '0': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/cv_bridge
+[6.763s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge' for CMake config files
+[6.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[6.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[6.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[6.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[6.766s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib'
+[6.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[6.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[6.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[6.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/bin'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib/python3.10/site-packages'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/bin'
+[6.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.ps1'
+[6.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.dsv'
+[6.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.sh'
+[6.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.bash'
+[6.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.zsh'
+[6.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[6.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[6.802s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge' for CMake module files
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge' for CMake config files
+[6.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[6.809s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib'
+[6.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[6.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[6.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[6.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[6.812s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/bin'
+[6.812s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[6.812s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/lib/python3.10/site-packages'
+[6.812s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/cv_bridge/bin'
+[6.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.ps1'
+[6.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.dsv'
+[6.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.sh'
+[6.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.bash'
+[6.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/cv_bridge/share/cv_bridge/package.zsh'
+[6.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[6.816s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[6.817s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/vision_opencv/image_geometry'
+[6.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/image_geometry': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/image_geometry -- -j8 -l8
+[7.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/image_geometry' returned '0': /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/image_geometry -- -j8 -l8
+[7.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/image_geometry': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/image_geometry
+[7.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_msgs': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_msgs
+[7.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[7.525s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry' for CMake module files
+[7.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/image_geometry' returned '0': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/image_geometry
+[7.526s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry' for CMake config files
+[7.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[7.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[7.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[7.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[7.529s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib'
+[7.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[7.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[7.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[7.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/bin'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib/python3.10/site-packages'
+[7.531s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/bin'
+[7.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.ps1'
+[7.533s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.dsv'
+[7.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.sh'
+[7.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.bash'
+[7.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.zsh'
+[7.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/image_geometry/share/colcon-core/packages/image_geometry)
+[7.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[7.571s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry' for CMake module files
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry' for CMake config files
+[7.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[7.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[7.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[7.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[7.581s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib'
+[7.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[7.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[7.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/bin'
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/lib/python3.10/site-packages'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/image_geometry/bin'
+[7.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.ps1'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.dsv'
+[7.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.sh'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.bash'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/image_geometry/share/image_geometry/package.zsh'
+[7.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/image_geometry/share/colcon-core/packages/image_geometry)
+[7.600s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/marceloqm/gzros_sim/src/vision_opencv/opencv_tests' with build type 'ament_python'
+[7.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'ament_prefix_path')
+[7.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.ps1'
+[7.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.dsv'
+[7.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.sh'
+[7.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.117s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/marceloqm/gzros_sim/src/vision_opencv/opencv_tests'
+[8.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.118s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[8.364s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs' for CMake module files
+[8.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_msgs' returned '0': /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_msgs
+[8.365s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs' for CMake config files
+[8.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[8.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[8.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[8.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[8.369s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib'
+[8.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[8.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[8.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[8.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/bin'
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib/python3.10/site-packages'
+[8.371s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/bin'
+[8.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[8.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[8.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[8.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[8.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[8.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[8.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/opencv_tests': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data
+[9.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[9.130s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs' for CMake module files
+[9.131s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs' for CMake config files
+[9.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[9.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[9.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[9.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib'
+[9.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[9.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[9.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[9.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[9.142s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/bin'
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/lib/python3.10/site-packages'
+[9.143s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_msgs/bin'
+[9.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[9.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[9.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[9.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[9.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[9.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[9.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_ros' with build type 'ament_cmake'
+[9.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_ros'
+[9.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_ros': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_ros -- -j8 -l8
+[9.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath_develop')
+[9.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.ps1'
+[9.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data
+[9.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.dsv'
+[9.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.sh'
+[9.336s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests' for CMake module files
+[9.337s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests' for CMake config files
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests/lib'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests/bin'
+[9.338s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests/lib/pkgconfig/opencv_tests.pc'
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages'
+[9.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath')
+[9.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/pythonpath.ps1'
+[9.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/pythonpath.dsv'
+[9.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/hook/pythonpath.sh'
+[9.344s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/opencv_tests/bin'
+[9.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tests)
+[9.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/package.ps1'
+[9.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/package.dsv'
+[9.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/package.sh'
+[9.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/package.bash'
+[9.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/opencv_tests/share/opencv_tests/package.zsh'
+[9.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/opencv_tests/share/colcon-core/packages/opencv_tests)
+[9.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[9.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/vision_opencv/vision_opencv'
+[9.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/vision_opencv': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/vision_opencv -- -j8 -l8
+[9.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/vision_opencv -- -j8 -l8
+[9.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/vision_opencv': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/vision_opencv
+[9.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[9.704s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv' for CMake module files
+[9.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/image_geometry/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/vision_opencv
+[9.705s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv' for CMake config files
+[9.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[9.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[9.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[9.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[9.735s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/bin'
+[9.735s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[9.735s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/lib/python3.10/site-packages'
+[9.735s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/bin'
+[9.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.ps1'
+[9.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.dsv'
+[9.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.sh'
+[9.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.bash'
+[9.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.zsh'
+[9.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[9.758s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[9.760s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv' for CMake module files
+[9.760s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv' for CMake config files
+[9.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[9.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[9.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[9.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[9.763s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/bin'
+[9.763s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[9.763s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/lib/python3.10/site-packages'
+[9.763s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/vision_opencv/bin'
+[9.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.ps1'
+[9.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.dsv'
+[9.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.sh'
+[9.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.bash'
+[9.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/vision_opencv/share/vision_opencv/package.zsh'
+[9.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[11.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_ros -- -j8 -l8
+[11.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_ros': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_ros
+[11.675s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[11.678s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros' for CMake module files
+[11.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_ros
+[11.679s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros' for CMake config files
+[11.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[11.682s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib'
+[11.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[11.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[11.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[11.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[11.684s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/bin'
+[11.684s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[11.684s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib/python3.10/site-packages'
+[11.685s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/bin'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.sh'
+[11.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.bash'
+[11.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[11.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[11.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros' for CMake module files
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros' for CMake config files
+[11.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[11.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[11.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[11.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[11.753s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib'
+[11.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[11.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[11.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[11.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[11.755s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/bin'
+[11.755s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[11.755s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/lib/python3.10/site-packages'
+[11.756s] Level 1:colcon.colcon_core.environment:checking '/home/marceloqm/gzros_sim/install/gazebo_ros/bin'
+[11.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[11.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[11.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.sh'
+[11.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.bash'
+[11.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/marceloqm/gzros_sim/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[11.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/marceloqm/gzros_sim/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[11.760s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins' with build type 'ament_cmake'
+[11.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/marceloqm/gzros_sim/src/gazebo_ros_pkgs/gazebo_plugins'
+[11.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev:/home/marceloqm/gzros_sim/install/cv_bridge LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/home/marceloqm/gzros_sim/install/cv_bridge/lib PYTHONPATH=/home/marceloqm/gzros_sim/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/gazebo_msgs/local/lib/python3.10/dist-packages:/home/marceloqm/gzros_sim/install/cv_bridge/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_plugins -- -j8 -l8

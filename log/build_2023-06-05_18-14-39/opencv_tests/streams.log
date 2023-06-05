@@ -1,0 +1,19 @@
+[2.807s] Invoking command in '/home/marceloqm/gzros_sim/build/opencv_tests': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data
+[3.097s] running develop
+[3.300s] running egg_info
+[3.300s] writing opencv_tests.egg-info/PKG-INFO
+[3.300s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[3.300s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[3.300s] writing requirements to opencv_tests.egg-info/requires.txt
+[3.300s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[3.302s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[3.303s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[3.304s] running build_ext
+[3.304s] Creating /home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages/opencv-tests.egg-link (link to .)
+[3.305s] Installing broadcast script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[3.305s] Installing rosfacedetect script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[3.305s] Installing source script to /home/marceloqm/gzros_sim/install/opencv_tests/lib/opencv_tests
+[3.306s] 
+[3.306s] Installed /home/marceloqm/gzros_sim/build/opencv_tests
+[3.306s] running install_data
+[3.341s] Invoked command in '/home/marceloqm/gzros_sim/build/opencv_tests' returned '0': CMAKE_PREFIX_PATH=/home/marceloqm/gzros_sim/install/cv_bridge:/home/marceloqm/gzros_sim/install/vision_opencv:/home/marceloqm/gzros_sim/install/image_geometry:/home/marceloqm/gzros_sim/install/gazebo_ros:/home/marceloqm/gzros_sim/install/gazebo_msgs:/home/marceloqm/gzros_sim/install/gazebo_dev LD_LIBRARY_PATH=/home/marceloqm/gzros_sim/install/cv_bridge/lib:/home/marceloqm/gzros_sim/install/image_geometry/lib:/home/marceloqm/gzros_sim/install/gazebo_ros/lib:/home/marceloqm/gzros_sim/install/gazebo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/marceloqm/gzros_sim/build/opencv_tests/prefix_override:/home/marceloqm/gzros_sim/install/opencv_tests/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/marceloqm/gzros_sim/build/opencv_tests/build --no-deps install_data

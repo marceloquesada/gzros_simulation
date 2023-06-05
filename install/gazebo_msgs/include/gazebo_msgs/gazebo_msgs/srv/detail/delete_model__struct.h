@@ -1,0 +1,1 @@
+/home/marceloqm/gzros_simulation/build/gazebo_msgs/rosidl_generator_c/gazebo_msgs/srv/detail/delete_model__struct.h

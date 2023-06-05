@@ -1,0 +1,22 @@
+[0.203s] Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+[1.882s] Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/marceloqm/gzros_sim/build/gazebo_dev -- -j8 -l8
+[1.911s] Invoking command in '/home/marceloqm/gzros_sim/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev
+[1.925s] -- Install configuration: ""
+[2.076s] -- Execute custom install script
+[2.313s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[2.314s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[2.336s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[2.336s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[2.337s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[2.342s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[2.343s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[2.451s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[2.452s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[2.453s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[2.453s] -- Symlinking: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.dsv
+[2.463s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[2.465s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[2.466s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[2.466s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[2.466s] -- Up-to-date symlink: /home/marceloqm/gzros_sim/install/gazebo_dev/share/gazebo_dev/package.xml
+[2.469s] Invoked command in '/home/marceloqm/gzros_sim/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/marceloqm/gzros_sim/build/gazebo_dev

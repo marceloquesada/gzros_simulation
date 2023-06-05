@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/marceloqm/gzros_simulation/build/gazebo_msgs/CMakeCache.txt is different than the directory /home/marceloqm/gzros_sim/build/gazebo_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
